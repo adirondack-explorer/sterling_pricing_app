@@ -1,73 +1,77 @@
-# React + TypeScript + Vite
+# Sterling Finned Tube Pricing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + TypeScript pricing tool for configuring and quoting Sterling finned tube radiation products. Built for TriState HVAC reps to build room-by-room job estimates with accurate zone-based pricing.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Job management** — Create and manage multiple pricing jobs from a central list
+- **Room-by-room configuration** — Build out jobs with individual rooms, each with its own product selections
+- **Element selection** — Choose from Sterling's full catalog of finned tube elements
+- **Enclosure configurator** — Select from multiple enclosure lines (Classic Standard, Classic J, Dura-Vane, Guardian, JVA, JVB, JVK, LCS10-LB2, X-Expanded)
+- **Modifications and accessories** — Add pipe enclosures, rough-in components, and product modifications
+- **Zone-based multipliers** — Automatic pricing adjustments based on Sterling zone locations
+- **Standard multiplier list** — Configurable discount multipliers per Sterling price sheet
+- **Job summary bar** — Running totals across all rooms in a job
+- **TriState branded** with Montserrat typography and Daikin group logo
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** with TypeScript
+- **Vite 7** for dev server and builds
+- **Tailwind CSS 4** for styling
+- **React Router 7** for job/room navigation
+- **ESLint** with TypeScript and React hooks plugins
 
-## Expanding the ESLint configuration
+## File Structure
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+src/
+├── App.tsx                  # Router setup — JobList and JobDetail pages
+├── components/
+│   ├── Layout.tsx           # App shell with header and navigation
+│   ├── JobSummaryBar.tsx    # Running totals across rooms
+│   ├── RoomBuilder.tsx      # Room configuration interface
+│   └── RoomCard.tsx         # Room summary cards on job detail
+├── context/
+│   └── JobContext.tsx        # Job state management
+├── data/
+│   ├── catalog-registry.ts  # Data loader for all product catalogs
+│   ├── elements.json        # Finned tube element catalog
+│   ├── enclosures/          # Per-enclosure-line pricing (9 JSON files)
+│   ├── modifications.json   # Product modifications
+│   ├── multipliers.json     # Standard multiplier list
+│   ├── pipe-enclosures.json # Pipe enclosure options
+│   ├── rough-in.json        # Rough-in components
+│   └── zones.json           # Zone-based pricing multipliers
+├── pages/
+│   ├── JobList.tsx           # Job management list
+│   └── JobDetail.tsx         # Room builder for a specific job
+├── pricing/
+│   └── engine.ts            # Pricing calculation engine
+└── types/
+    └── index.ts             # TypeScript type definitions
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Getting Started
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
 ```
+
+Opens the dev server at `http://localhost:5173`.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+Output goes to `dist/`.
+
+## Reference Documents
+
+- `1 - Sterling Standard Multiplier List (2).pdf` — Discount multiplier reference
+- `Sterling Commercial Finned Tube Price Sheet C35 08 01 22_4.xlsm` — Source price sheet
+- `Sterling Finned Tube C35R_1.pdf` — Product catalog
+- `Sterling Zone Locations_1.pdf` — Zone map for pricing multipliers
