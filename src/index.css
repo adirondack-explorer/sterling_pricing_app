@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* ── TriState brand design tokens ─────────────────────────────────────────── */
+@theme {
+  --color-ts-blue: #1a9ad7;
+  --color-ts-teal: #0a587e;
+  --color-ts-navy: #002247;
+  --color-ts-gray: #7e7e7c;
+  --font-sans: 'Montserrat', sans-serif;
+}
+
+/* ── Base ──────────────────────────────────────────────────────────────────── */
+:root {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  color: #000000;
+}
+
+h1, h2, h3 { font-weight: 700; }
+h4, h5, h6 { font-weight: 400; }

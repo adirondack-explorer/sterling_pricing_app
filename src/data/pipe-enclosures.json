@@ -1,0 +1,177 @@
+{
+  "_meta": {
+    "source": "Sterling Price Sheet C35R, Page 25",
+    "notes": [
+      "All PCH covers are 3-3/4\" deep",
+      "Horizontal (PCH) and vertical (PCHV) pipe enclosures supplied in 8' lengths",
+      "Baked powder and baked metallic are add-ons over prime (prime = base price)",
+      "Available in Stainless Steel and Aluminum — Consult Factory",
+      "B-610 mounting strip supplied in 8' lengths only",
+      "Roll pipe hangers (RPH-K) are separate from enclosure pricing",
+      "1x1 FA support angles: 2 per vertical pipe enclosure, supplied in 8' lengths"
+    ]
+  },
+
+  "pipe_cover_horizontal": {
+    "note": "All PCH covers are 3-3/4\" deep, 18 GA., supplied in 8' lengths",
+    "models": [
+      {
+        "id": "PCH-4",
+        "height_in": 4,
+        "gauge": "18GA",
+        "supplied_in": "8' lengths",
+        "list_price_per_ft": {
+          "prime": 16.60,
+          "add_baked_powder": 3.00,
+          "add_baked_metallic": 4.35
+        },
+        "weight_per_ft": { "prime": 1.8 }
+      },
+      {
+        "id": "PCH-5",
+        "height_in": 5,
+        "gauge": "18GA",
+        "supplied_in": "8' lengths",
+        "list_price_per_ft": {
+          "prime": 17.95,
+          "add_baked_powder": 3.15,
+          "add_baked_metallic": 4.65
+        },
+        "weight_per_ft": { "prime": 2.0 }
+      },
+      {
+        "id": "PCH-11",
+        "height_in": 11,
+        "gauge": "18GA",
+        "supplied_in": "8' lengths",
+        "list_price_per_ft": {
+          "prime": 21.95,
+          "add_baked_powder": 3.70,
+          "add_baked_metallic": 5.40
+        },
+        "weight_per_ft": { "prime": 3.0 }
+      },
+      {
+        "id": "PCH-17",
+        "height_in": 17,
+        "gauge": "18GA",
+        "supplied_in": "8' lengths",
+        "list_price_per_ft": {
+          "prime": 27.55,
+          "add_baked_powder": 4.30,
+          "add_baked_metallic": 6.30
+        },
+        "weight_per_ft": { "prime": 4.0 }
+      }
+    ],
+    "joiner_strips": [
+      { "id": "SCE-4-TS2", "description": "2-1/2\" Joiner Strip for 4\" assembly", "list_price": 37.35, "weight_lb": 0.3 },
+      { "id": "SCE-4-TS4", "description": "4\" Joiner Strip for 4\" assembly", "list_price": 39.10, "weight_lb": 0.4 },
+      { "id": "SCE-5-TS2", "description": "2-1/2\" Joiner Strip for 5\" assembly", "list_price": 37.65, "weight_lb": 0.5 },
+      { "id": "SCE-5-TS4", "description": "4\" Joiner Strip for 5\" assembly", "list_price": 40.05, "weight_lb": 0.5 },
+      { "id": "SCE-11-TS2", "description": "2-1/2\" Joiner Strip for 11\" assembly", "list_price": 40.05, "weight_lb": 1.0 },
+      { "id": "SCE-11-TS4", "description": "4\" Joiner Strip for 11\" assembly", "list_price": 41.90, "weight_lb": 1.0 },
+      { "id": "SCE-17-TS2", "description": "2-1/2\" Joiner Strip for 17\" assembly", "list_price": 41.90, "weight_lb": 1.5 },
+      { "id": "SCE-17-TS4", "description": "4\" Joiner Strip for 17\" assembly", "list_price": 43.90, "weight_lb": 1.5 }
+    ],
+    "accessories": {
+      "B_610_mounting_strip": {
+        "id": "B-610",
+        "description": "Mounting Strip — 8' lengths only",
+        "list_price_per_ft": 4.30,
+        "weight_per_ft": 0.4
+      },
+      "RPH_K_roll_pipe_hanger": {
+        "id": "RPH-K",
+        "description": "Roll Pipe Hanger",
+        "list_price": 7.45,
+        "weight_lb": 0.2
+      }
+    }
+  },
+
+  "pipe_cover_vertical": {
+    "note": "All PCHV covers are 18 GA., supplied in 8' lengths. 1x1 FA support angles (2 per enclosure) supplied in 8' lengths.",
+    "models": [
+      {
+        "id": "PCHV-52",
+        "description": "5 x 5 Two Side",
+        "gauge": "18GA",
+        "supplied_in": "8' lengths",
+        "list_price_per_ft": {
+          "prime": 15.40,
+          "add_baked_powder": 3.00,
+          "add_baked_metallic": 4.55
+        },
+        "weight_per_ft": { "prime": 1.6 },
+        "joiner_strip": { "id": "PCHV-52-TS2", "description": "2\" Joiner Strip", "list_price": 34.65, "weight_lb": 1.0 }
+      },
+      {
+        "id": "PCHV-82",
+        "description": "8 x 8 Two Side",
+        "gauge": "18GA",
+        "supplied_in": "8' lengths",
+        "list_price_per_ft": {
+          "prime": 19.05,
+          "add_baked_powder": 3.15,
+          "add_baked_metallic": 4.75
+        },
+        "weight_per_ft": { "prime": 2.6 },
+        "joiner_strip": { "id": "PCHV-82-TS2", "description": "2\" Joiner Strip", "list_price": 41.60, "weight_lb": 2.0 }
+      },
+      {
+        "id": "PCHV-53",
+        "description": "5 x 5 Three Side",
+        "gauge": "18GA",
+        "supplied_in": "8' lengths",
+        "list_price_per_ft": {
+          "prime": 21.60,
+          "add_baked_powder": 3.70,
+          "add_baked_metallic": 5.40
+        },
+        "weight_per_ft": { "prime": 2.5 },
+        "joiner_strip": { "id": "PCHV-53-TS2", "description": "2\" Joiner Strip", "list_price": 41.60, "weight_lb": 1.5 }
+      },
+      {
+        "id": "PCHV-83",
+        "description": "8 x 8 Three Side",
+        "gauge": "18GA",
+        "supplied_in": "8' lengths",
+        "list_price_per_ft": {
+          "prime": 28.55,
+          "add_baked_powder": 4.30,
+          "add_baked_metallic": 6.30
+        },
+        "weight_per_ft": { "prime": 4.0 },
+        "joiner_strip": { "id": "PCHV-83-TS2", "description": "2\" Joiner Strip", "list_price": 48.15, "weight_lb": 3.0 }
+      }
+    ],
+    "accessories": {
+      "support_angle_1x1FA": {
+        "id": "1x1 FA",
+        "description": "1 x 1 Side Support Angle — 2 per vertical pipe enclosure, 8' lengths",
+        "list_price_per_ft": {
+          "prime": 5.10,
+          "baked_powder": 7.90,
+          "baked_metallic": 11.80
+        }
+      },
+      "UCHAN_rubber_channel": {
+        "id": "UCHAN",
+        "description": "U Rubber Channel Trim",
+        "list_price_per_ft": 4.00,
+        "weight_per_ft": 0.1
+      }
+    }
+  },
+
+  "standard_column_enclosure_sets": {
+    "note": "Price includes: 2 corners, 1 — 2-1/2\" joiner strip, 1 — 4'0\" B-610 hanger strip, 1 — rubber U-channel. Roll pipe hangers are separate.",
+    "models": [
+      { "id": "SCE-4", "height_in": 4, "list_price": 195.20, "weight_lb": 4.0 },
+      { "id": "SCE-5", "height_in": 5, "list_price": 214.85, "weight_lb": 5.0 },
+      { "id": "SCE-11", "height_in": 11, "list_price": 245.85, "weight_lb": 11.0 },
+      { "id": "SCE-17", "height_in": 17, "list_price": 267.15, "weight_lb": 17.0 }
+    ]
+  }
+}

@@ -1,0 +1,1351 @@
+{
+  "_meta": {
+    "source": "Sterling Price Sheet C35R, Pages 6-10",
+    "family": "Versa-Line",
+    "depth_label": "B",
+    "depth_in": "5-5/16",
+    "depth_decimal_in": 5.3125,
+    "element_compatibility_note": "Use only with 4-1/4\" wide elements",
+    "required_element_fin_depth_in": 4.25,
+    "standard_lengths": "2' through 8' in 6\" increments",
+    "pricing_unit": "list_price_per_foot (enclosure); list_price_each (accessories)",
+    "notes": [
+      "Enclosure prices do not include brackets, hangers or backplate",
+      "Use only with 4-1/4\" wide elements (fin_depth_in = 4.25\")",
+      "All valve compartments require minimum one bracket",
+      "RD only available in 16GA",
+      "18GA not available for JVB-S30, JVB-S36, or any flat top models",
+      "Available in Stainless Steel and Aluminum — Consult Factory",
+      "For special colors consult factory"
+    ]
+  },
+
+  "models": [
+
+    {
+      "id": "JVB-S14",
+      "style": "slope_top",
+      "height_in": 14,
+      "available_gauges": ["18GA", "16GA", "14GA"],
+      "prices_per_ft": {
+        "18GA": 20.35,
+        "16GA": 22.55,
+        "14GA": 26.15
+      },
+      "weights_per_ft": {
+        "18GA": 3.6,
+        "16GA": 4.2,
+        "14GA": 5.0
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 5.15,
+        "baked_metallic": 7.75
+      },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 33.35, "weight_lb": 2.0 },
+          "8_3_8in_with_door": { "list_price": 64.70, "weight_lb": 3.2 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 23.85, "weight_lb": 1.5 },
+          "6in": { "list_price": 24.05, "weight_lb": 2.3 },
+          "8_3_8in": { "list_price": 27.10, "weight_lb": 3.0 },
+          "8_3_8in_with_door": { "list_price": 49.60, "weight_lb": 3.0 }
+        },
+        "wall_sleeve_support": { "list_price": 11.90, "weight_lb": 0.3 },
+        "corners": {
+          "inside_90": { "list_price": 80.00, "weight_lb": 6.5 },
+          "inside_135": { "list_price": 105.60, "weight_lb": 6.7 },
+          "outside_90": { "list_price": 100.45, "weight_lb": 7.0 },
+          "outside_135": { "list_price": 121.20, "weight_lb": 7.8 }
+        },
+        "valve_compartments": {
+          "12in_18GA": { "list_price": 79.15, "weight_lb": 4.2, "bracket_required": true },
+          "12in_16GA": { "list_price": 80.85, "weight_lb": 4.9, "bracket_required": true },
+          "12in_14GA": { "list_price": 86.25, "weight_lb": 5.6, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-S20",
+      "style": "slope_top",
+      "height_in": 20,
+      "available_gauges": ["18GA", "16GA", "14GA"],
+      "prices_per_ft": {
+        "18GA": 23.90,
+        "16GA": 26.80,
+        "14GA": 32.05
+      },
+      "weights_per_ft": {
+        "18GA": 4.3,
+        "16GA": 5.2,
+        "14GA": 5.4
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 5.35,
+        "baked_metallic": 7.95
+      },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 39.00, "weight_lb": 2.6 },
+          "8_3_8in_with_door": { "list_price": 74.10, "weight_lb": 4.3 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 28.30, "weight_lb": 1.9 },
+          "6in": { "list_price": 30.45, "weight_lb": 2.7 },
+          "8_3_8in": { "list_price": 33.25, "weight_lb": 3.3 },
+          "8_3_8in_with_door": { "list_price": 54.60, "weight_lb": 3.3 }
+        },
+        "wall_sleeve_support": { "list_price": 13.85, "weight_lb": 0.4 },
+        "corners": {
+          "inside_90": { "list_price": 94.10, "weight_lb": 7.4 },
+          "inside_135": { "list_price": 120.55, "weight_lb": 7.8 },
+          "outside_90": { "list_price": 123.80, "weight_lb": 8.0 },
+          "outside_135": { "list_price": 144.20, "weight_lb": 8.6 }
+        },
+        "valve_compartments": {
+          "12in_18GA": { "list_price": 93.45, "weight_lb": 5.5, "bracket_required": true },
+          "12in_16GA": { "list_price": 95.25, "weight_lb": 6.2, "bracket_required": true },
+          "12in_14GA": { "list_price": 98.00, "weight_lb": 6.5, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-S24",
+      "style": "slope_top",
+      "height_in": 24,
+      "available_gauges": ["18GA", "16GA", "14GA"],
+      "prices_per_ft": {
+        "18GA": 29.85,
+        "16GA": 34.50,
+        "14GA": 40.65
+      },
+      "weights_per_ft": {
+        "18GA": 5.6,
+        "16GA": 6.7,
+        "14GA": 8.0
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 5.55,
+        "baked_metallic": 8.10
+      },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 46.70, "weight_lb": 3.6 },
+          "8_3_8in_with_door": { "list_price": 85.15, "weight_lb": 5.5 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 33.25, "weight_lb": 2.0 },
+          "6in": { "list_price": 35.55, "weight_lb": 3.0 },
+          "8_3_8in": { "list_price": 38.70, "weight_lb": 4.2 },
+          "8_3_8in_with_door": { "list_price": 64.70, "weight_lb": 4.5 }
+        },
+        "wall_sleeve_support": { "list_price": 15.55, "weight_lb": 0.5 },
+        "corners": {
+          "inside_90": { "list_price": 126.85, "weight_lb": 8.0 },
+          "inside_135": { "list_price": 145.40, "weight_lb": 8.7 },
+          "outside_90": { "list_price": 149.35, "weight_lb": 9.3 },
+          "outside_135": { "list_price": 166.25, "weight_lb": 9.9 }
+        },
+        "valve_compartments": {
+          "12in_18GA": { "list_price": 100.70, "weight_lb": 6.2, "bracket_required": true },
+          "12in_16GA": { "list_price": 102.90, "weight_lb": 7.3, "bracket_required": true },
+          "12in_14GA": { "list_price": 109.30, "weight_lb": 8.6, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-S30",
+      "style": "slope_top",
+      "height_in": 30,
+      "available_gauges": ["16GA", "14GA"],
+      "notes": ["18GA not available for 30\" models"],
+      "prices_per_ft": {
+        "18GA": null,
+        "16GA": 61.20,
+        "14GA": 67.75
+      },
+      "weights_per_ft": {
+        "18GA": null,
+        "16GA": 7.4,
+        "14GA": 9.1
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 5.70,
+        "baked_metallic": 8.65
+      },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 50.25, "weight_lb": 4.5 },
+          "8_3_8in_with_door": { "list_price": 95.40, "weight_lb": 7.4 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 38.85, "weight_lb": 2.5 },
+          "6in": { "list_price": 42.60, "weight_lb": 3.6 },
+          "8_3_8in": { "list_price": 49.05, "weight_lb": 4.8 },
+          "8_3_8in_with_door": { "list_price": 75.35, "weight_lb": 4.8 }
+        },
+        "wall_sleeve_support": { "list_price": 25.85, "weight_lb": 0.7 },
+        "corners": {
+          "inside_90": { "list_price": 177.15, "weight_lb": 8.9 },
+          "inside_135": { "list_price": 165.65, "weight_lb": 9.8 },
+          "outside_90": { "list_price": 177.15, "weight_lb": 10.3 },
+          "outside_135": { "list_price": 165.65, "weight_lb": 10.7 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 129.40, "weight_lb": 7.8, "bracket_required": true },
+          "12in_14GA": { "list_price": 136.20, "weight_lb": 9.1, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-S36",
+      "style": "slope_top",
+      "height_in": 36,
+      "available_gauges": ["16GA", "14GA"],
+      "notes": ["18GA not available for 36\" models"],
+      "prices_per_ft": {
+        "18GA": null,
+        "16GA": 66.10,
+        "14GA": 73.65
+      },
+      "weights_per_ft": {
+        "18GA": null,
+        "16GA": 8.6,
+        "14GA": 10.4
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 6.15,
+        "baked_metallic": 9.10
+      },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 61.10, "weight_lb": 5.4 },
+          "8_3_8in_with_door": { "list_price": 99.95, "weight_lb": 8.8 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 40.10, "weight_lb": 2.8 },
+          "6in": { "list_price": 44.60, "weight_lb": 4.0 },
+          "8_3_8in": { "list_price": 52.10, "weight_lb": 5.5 },
+          "8_3_8in_with_door": { "list_price": 78.70, "weight_lb": 5.5 }
+        },
+        "wall_sleeve_support": { "list_price": 26.35, "weight_lb": 0.9 },
+        "corners": {
+          "inside_90": { "list_price": 191.00, "weight_lb": 9.8 },
+          "inside_135": { "list_price": 177.80, "weight_lb": 10.9 },
+          "outside_90": { "list_price": 191.00, "weight_lb": 11.3 },
+          "outside_135": { "list_price": 177.80, "weight_lb": 13.6 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 134.10, "weight_lb": 8.6, "bracket_required": true },
+          "12in_14GA": { "list_price": 142.00, "weight_lb": 10.4, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-F14",
+      "style": "flat_top_front",
+      "height_in": 14,
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 22.90, "14GA": 29.25 },
+      "weights_per_ft": { "18GA": null, "16GA": 5.0, "14GA": 6.5 },
+      "finish_adders_per_ft": { "baked_powder": 5.10, "baked_metallic": 7.70 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 32.05, "weight_lb": 2.3 },
+          "8_3_8in_with_door": { "list_price": 68.60, "weight_lb": 3.7 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 21.95, "weight_lb": 1.3 },
+          "6in": { "list_price": 24.10, "weight_lb": 2.1 },
+          "8_3_8in": { "list_price": 27.10, "weight_lb": 3.0 },
+          "8_3_8in_with_door": { "list_price": 51.35, "weight_lb": 3.0 }
+        },
+        "wall_sleeve_support": { "list_price": 12.55, "weight_lb": 0.5 },
+        "corners": {
+          "inside_90": { "list_price": 91.65, "weight_lb": 6.5 },
+          "inside_135": { "list_price": 107.95, "weight_lb": 6.8 },
+          "outside_90": { "list_price": 100.45, "weight_lb": 7.2 },
+          "outside_135": { "list_price": 121.20, "weight_lb": 8.0 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 96.45, "weight_lb": 5.7, "bracket_required": true },
+          "12in_14GA": { "list_price": 100.45, "weight_lb": 7.2, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-T14",
+      "style": "flat_top_top_outlet",
+      "height_in": 14,
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 22.90, "14GA": 29.25 },
+      "weights_per_ft": { "18GA": null, "16GA": 5.0, "14GA": 6.5 },
+      "finish_adders_per_ft": { "baked_powder": 5.10, "baked_metallic": 7.70 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 32.05, "weight_lb": 2.3 },
+          "8_3_8in_with_door": { "list_price": 68.60, "weight_lb": 3.7 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 21.95, "weight_lb": 1.3 },
+          "6in": { "list_price": 24.10, "weight_lb": 2.1 },
+          "8_3_8in": { "list_price": 27.10, "weight_lb": 3.0 },
+          "8_3_8in_with_door": { "list_price": 51.35, "weight_lb": 3.0 }
+        },
+        "wall_sleeve_support": { "list_price": 12.55, "weight_lb": 0.5 },
+        "corners": {
+          "inside_90": { "list_price": 91.65, "weight_lb": 6.5 },
+          "inside_135": { "list_price": 107.95, "weight_lb": 6.8 },
+          "outside_90": { "list_price": 100.45, "weight_lb": 7.2 },
+          "outside_135": { "list_price": 121.20, "weight_lb": 8.0 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 96.45, "weight_lb": 5.7, "bracket_required": true },
+          "12in_14GA": { "list_price": 100.45, "weight_lb": 7.2, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-FT14",
+      "style": "flat_top_front_and_top",
+      "height_in": 14,
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 22.90, "14GA": 29.25 },
+      "weights_per_ft": { "18GA": null, "16GA": 5.0, "14GA": 6.5 },
+      "finish_adders_per_ft": { "baked_powder": 5.10, "baked_metallic": 7.70 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 32.05, "weight_lb": 2.3 },
+          "8_3_8in_with_door": { "list_price": 68.60, "weight_lb": 3.7 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 21.95, "weight_lb": 1.3 },
+          "6in": { "list_price": 24.10, "weight_lb": 2.1 },
+          "8_3_8in": { "list_price": 27.10, "weight_lb": 3.0 },
+          "8_3_8in_with_door": { "list_price": 51.35, "weight_lb": 3.0 }
+        },
+        "wall_sleeve_support": { "list_price": 12.55, "weight_lb": 0.5 },
+        "corners": {
+          "inside_90": { "list_price": 91.65, "weight_lb": 6.5 },
+          "inside_135": { "list_price": 107.95, "weight_lb": 6.8 },
+          "outside_90": { "list_price": 100.45, "weight_lb": 7.2 },
+          "outside_135": { "list_price": 121.20, "weight_lb": 8.0 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 96.45, "weight_lb": 5.7, "bracket_required": true },
+          "12in_14GA": { "list_price": 100.45, "weight_lb": 7.2, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-RD14",
+      "style": "flat_top_round_damper",
+      "height_in": 14,
+      "available_gauges": ["16GA"],
+      "notes": ["RD only available in 16GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 22.90, "14GA": null },
+      "weights_per_ft": { "18GA": null, "16GA": 5.0, "14GA": null },
+      "finish_adders_per_ft": { "baked_powder": 5.10, "baked_metallic": 7.70 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 32.05, "weight_lb": 2.3 },
+          "8_3_8in_with_door": { "list_price": 68.60, "weight_lb": 3.7 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 21.95, "weight_lb": 1.3 },
+          "6in": { "list_price": 24.10, "weight_lb": 2.1 },
+          "8_3_8in": { "list_price": 27.10, "weight_lb": 3.0 },
+          "8_3_8in_with_door": { "list_price": 51.35, "weight_lb": 3.0 }
+        },
+        "wall_sleeve_support": { "list_price": 12.55, "weight_lb": 0.5 },
+        "corners": {
+          "inside_90": { "list_price": 91.65, "weight_lb": 6.5 },
+          "inside_135": { "list_price": 107.95, "weight_lb": 6.8 },
+          "outside_90": { "list_price": 100.45, "weight_lb": 7.2 },
+          "outside_135": { "list_price": 121.20, "weight_lb": 8.0 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 96.45, "weight_lb": 5.7, "bracket_required": true },
+          "12in_14GA": null
+        }
+      }
+    },
+
+    {
+      "id": "JVB-F20",
+      "style": "flat_top_front",
+      "height_in": 20,
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 27.10, "14GA": 35.20 },
+      "weights_per_ft": { "18GA": null, "16GA": 6.5, "14GA": 7.7 },
+      "finish_adders_per_ft": { "baked_powder": 5.20, "baked_metallic": 7.90 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 39.00, "weight_lb": 2.8 },
+          "8_3_8in_with_door": { "list_price": 77.05, "weight_lb": 4.7 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 26.95, "weight_lb": 1.8 },
+          "6in": { "list_price": 29.85, "weight_lb": 2.5 },
+          "8_3_8in": { "list_price": 34.60, "weight_lb": 3.5 },
+          "8_3_8in_with_door": { "list_price": 60.90, "weight_lb": 3.9 }
+        },
+        "wall_sleeve_support": { "list_price": 14.55, "weight_lb": 0.4 },
+        "corners": {
+          "inside_90": { "list_price": 103.90, "weight_lb": 7.0 },
+          "inside_135": { "list_price": 120.55, "weight_lb": 7.5 },
+          "outside_90": { "list_price": 123.80, "weight_lb": 8.0 },
+          "outside_135": { "list_price": 144.20, "weight_lb": 8.5 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 115.45, "weight_lb": 7.1, "bracket_required": true },
+          "12in_14GA": { "list_price": 121.60, "weight_lb": 8.3, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-T20",
+      "style": "flat_top_top_outlet",
+      "height_in": 20,
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 27.10, "14GA": 35.20 },
+      "weights_per_ft": { "18GA": null, "16GA": 6.5, "14GA": 7.7 },
+      "finish_adders_per_ft": { "baked_powder": 5.20, "baked_metallic": 7.90 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 39.00, "weight_lb": 2.8 },
+          "8_3_8in_with_door": { "list_price": 77.05, "weight_lb": 4.7 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 26.95, "weight_lb": 1.8 },
+          "6in": { "list_price": 29.85, "weight_lb": 2.5 },
+          "8_3_8in": { "list_price": 34.60, "weight_lb": 3.5 },
+          "8_3_8in_with_door": { "list_price": 60.90, "weight_lb": 3.9 }
+        },
+        "wall_sleeve_support": { "list_price": 14.55, "weight_lb": 0.4 },
+        "corners": {
+          "inside_90": { "list_price": 103.90, "weight_lb": 7.0 },
+          "inside_135": { "list_price": 120.55, "weight_lb": 7.5 },
+          "outside_90": { "list_price": 123.80, "weight_lb": 8.0 },
+          "outside_135": { "list_price": 144.20, "weight_lb": 8.5 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 115.45, "weight_lb": 7.1, "bracket_required": true },
+          "12in_14GA": { "list_price": 121.60, "weight_lb": 8.3, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-FT20",
+      "style": "flat_top_front_and_top",
+      "height_in": 20,
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 27.10, "14GA": 35.20 },
+      "weights_per_ft": { "18GA": null, "16GA": 6.5, "14GA": 7.7 },
+      "finish_adders_per_ft": { "baked_powder": 5.20, "baked_metallic": 7.90 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 39.00, "weight_lb": 2.8 },
+          "8_3_8in_with_door": { "list_price": 77.05, "weight_lb": 4.7 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 26.95, "weight_lb": 1.8 },
+          "6in": { "list_price": 29.85, "weight_lb": 2.5 },
+          "8_3_8in": { "list_price": 34.60, "weight_lb": 3.5 },
+          "8_3_8in_with_door": { "list_price": 60.90, "weight_lb": 3.9 }
+        },
+        "wall_sleeve_support": { "list_price": 14.55, "weight_lb": 0.4 },
+        "corners": {
+          "inside_90": { "list_price": 103.90, "weight_lb": 7.0 },
+          "inside_135": { "list_price": 120.55, "weight_lb": 7.5 },
+          "outside_90": { "list_price": 123.80, "weight_lb": 8.0 },
+          "outside_135": { "list_price": 144.20, "weight_lb": 8.5 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 115.45, "weight_lb": 7.1, "bracket_required": true },
+          "12in_14GA": { "list_price": 121.60, "weight_lb": 8.3, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-RD20",
+      "style": "flat_top_round_damper",
+      "height_in": 20,
+      "available_gauges": ["16GA"],
+      "notes": ["RD only available in 16GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 27.10, "14GA": null },
+      "weights_per_ft": { "18GA": null, "16GA": 6.5, "14GA": null },
+      "finish_adders_per_ft": { "baked_powder": 5.20, "baked_metallic": 7.90 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 39.00, "weight_lb": 2.8 },
+          "8_3_8in_with_door": { "list_price": 77.05, "weight_lb": 4.7 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 26.95, "weight_lb": 1.8 },
+          "6in": { "list_price": 29.85, "weight_lb": 2.5 },
+          "8_3_8in": { "list_price": 34.60, "weight_lb": 3.5 },
+          "8_3_8in_with_door": { "list_price": 60.90, "weight_lb": 3.9 }
+        },
+        "wall_sleeve_support": { "list_price": 14.55, "weight_lb": 0.4 },
+        "corners": {
+          "inside_90": { "list_price": 103.90, "weight_lb": 7.0 },
+          "inside_135": { "list_price": 120.55, "weight_lb": 7.5 },
+          "outside_90": { "list_price": 123.80, "weight_lb": 8.0 },
+          "outside_135": { "list_price": 144.20, "weight_lb": 8.5 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 115.45, "weight_lb": 7.1, "bracket_required": true },
+          "12in_14GA": null
+        }
+      }
+    },
+
+    {
+      "id": "JVB-F24",
+      "style": "flat_top_front",
+      "height_in": 24,
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 37.65, "14GA": 48.10 },
+      "weights_per_ft": { "18GA": null, "16GA": 7.4, "14GA": 9.1 },
+      "finish_adders_per_ft": { "baked_powder": 5.55, "baked_metallic": 8.35 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 46.70, "weight_lb": 3.6 },
+          "8_3_8in_with_door": { "list_price": 86.50, "weight_lb": 5.5 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 31.50, "weight_lb": 2.0 },
+          "6in": { "list_price": 34.80, "weight_lb": 3.0 },
+          "8_3_8in": { "list_price": 39.50, "weight_lb": 4.2 },
+          "8_3_8in_with_door": { "list_price": 67.85, "weight_lb": 4.5 }
+        },
+        "wall_sleeve_support": { "list_price": 17.35, "weight_lb": 0.5 },
+        "corners": {
+          "inside_90": { "list_price": 133.15, "weight_lb": 8.0 },
+          "inside_135": { "list_price": 145.40, "weight_lb": 8.7 },
+          "outside_90": { "list_price": 149.35, "weight_lb": 9.3 },
+          "outside_135": { "list_price": 166.25, "weight_lb": 9.9 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 125.30, "weight_lb": 7.9, "bracket_required": true },
+          "12in_14GA": { "list_price": 128.50, "weight_lb": 9.6, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-T24",
+      "style": "flat_top_top_outlet",
+      "height_in": 24,
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 37.65, "14GA": 48.10 },
+      "weights_per_ft": { "18GA": null, "16GA": 7.4, "14GA": 9.1 },
+      "finish_adders_per_ft": { "baked_powder": 5.55, "baked_metallic": 8.35 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 46.70, "weight_lb": 3.6 },
+          "8_3_8in_with_door": { "list_price": 86.50, "weight_lb": 5.5 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 31.50, "weight_lb": 2.0 },
+          "6in": { "list_price": 34.80, "weight_lb": 3.0 },
+          "8_3_8in": { "list_price": 39.50, "weight_lb": 4.2 },
+          "8_3_8in_with_door": { "list_price": 67.85, "weight_lb": 4.5 }
+        },
+        "wall_sleeve_support": { "list_price": 17.35, "weight_lb": 0.5 },
+        "corners": {
+          "inside_90": { "list_price": 133.15, "weight_lb": 8.0 },
+          "inside_135": { "list_price": 145.40, "weight_lb": 8.7 },
+          "outside_90": { "list_price": 149.35, "weight_lb": 9.3 },
+          "outside_135": { "list_price": 166.25, "weight_lb": 9.9 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 125.30, "weight_lb": 7.9, "bracket_required": true },
+          "12in_14GA": { "list_price": 128.50, "weight_lb": 9.6, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-FT24",
+      "style": "flat_top_front_and_top",
+      "height_in": 24,
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 37.65, "14GA": 48.10 },
+      "weights_per_ft": { "18GA": null, "16GA": 7.4, "14GA": 9.1 },
+      "finish_adders_per_ft": { "baked_powder": 5.55, "baked_metallic": 8.35 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 46.70, "weight_lb": 3.6 },
+          "8_3_8in_with_door": { "list_price": 86.50, "weight_lb": 5.5 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 31.50, "weight_lb": 2.0 },
+          "6in": { "list_price": 34.80, "weight_lb": 3.0 },
+          "8_3_8in": { "list_price": 39.50, "weight_lb": 4.2 },
+          "8_3_8in_with_door": { "list_price": 67.85, "weight_lb": 4.5 }
+        },
+        "wall_sleeve_support": { "list_price": 17.35, "weight_lb": 0.5 },
+        "corners": {
+          "inside_90": { "list_price": 133.15, "weight_lb": 8.0 },
+          "inside_135": { "list_price": 145.40, "weight_lb": 8.7 },
+          "outside_90": { "list_price": 149.35, "weight_lb": 9.3 },
+          "outside_135": { "list_price": 166.25, "weight_lb": 9.9 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 125.30, "weight_lb": 7.9, "bracket_required": true },
+          "12in_14GA": { "list_price": 128.50, "weight_lb": 9.6, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-RD24",
+      "style": "flat_top_round_damper",
+      "height_in": 24,
+      "available_gauges": ["16GA"],
+      "notes": ["RD only available in 16GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 37.65, "14GA": null },
+      "weights_per_ft": { "18GA": null, "16GA": 7.4, "14GA": null },
+      "finish_adders_per_ft": { "baked_powder": 5.55, "baked_metallic": 8.35 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 46.70, "weight_lb": 3.6 },
+          "8_3_8in_with_door": { "list_price": 86.50, "weight_lb": 5.5 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 31.50, "weight_lb": 2.0 },
+          "6in": { "list_price": 34.80, "weight_lb": 3.0 },
+          "8_3_8in": { "list_price": 39.50, "weight_lb": 4.2 },
+          "8_3_8in_with_door": { "list_price": 67.85, "weight_lb": 4.5 }
+        },
+        "wall_sleeve_support": { "list_price": 17.35, "weight_lb": 0.5 },
+        "corners": {
+          "inside_90": { "list_price": 133.15, "weight_lb": 8.0 },
+          "inside_135": { "list_price": 145.40, "weight_lb": 8.7 },
+          "outside_90": { "list_price": 149.35, "weight_lb": 9.3 },
+          "outside_135": { "list_price": 166.25, "weight_lb": 9.9 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 125.30, "weight_lb": 7.9, "bracket_required": true },
+          "12in_14GA": null
+        }
+      }
+    },
+
+    {
+      "id": "JVB-F30",
+      "style": "flat_top_front",
+      "height_in": 30,
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 61.80, "14GA": 68.70 },
+      "weights_per_ft": { "18GA": null, "16GA": 8.0, "14GA": 10.6 },
+      "finish_adders_per_ft": { "baked_powder": 5.80, "baked_metallic": 8.65 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 50.60, "weight_lb": 4.8 },
+          "8_3_8in_with_door": { "list_price": 87.55, "weight_lb": 7.9 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 36.65, "weight_lb": 2.3 },
+          "6in": { "list_price": 40.70, "weight_lb": 3.5 },
+          "8_3_8in": { "list_price": 46.75, "weight_lb": 4.9 },
+          "8_3_8in_with_door": { "list_price": 72.75, "weight_lb": 4.9 }
+        },
+        "wall_sleeve_support": { "list_price": 25.00, "weight_lb": 0.8 },
+        "corners": {
+          "inside_90": { "list_price": 169.55, "weight_lb": 16.0 },
+          "inside_135": { "list_price": 157.30, "weight_lb": 12.3 },
+          "outside_90": { "list_price": 144.35, "weight_lb": 15.9 },
+          "outside_135": { "list_price": 132.45, "weight_lb": 12.3 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 126.35, "weight_lb": 7.6, "bracket_required": true },
+          "12in_14GA": { "list_price": 134.75, "weight_lb": 9.6, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-FT30",
+      "style": "flat_top_front_and_top",
+      "height_in": 30,
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 61.80, "14GA": 68.70 },
+      "weights_per_ft": { "18GA": null, "16GA": 8.0, "14GA": 10.6 },
+      "finish_adders_per_ft": { "baked_powder": 5.80, "baked_metallic": 8.65 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 50.60, "weight_lb": 4.8 },
+          "8_3_8in_with_door": { "list_price": 87.55, "weight_lb": 7.9 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 36.65, "weight_lb": 2.3 },
+          "6in": { "list_price": 40.70, "weight_lb": 3.5 },
+          "8_3_8in": { "list_price": 46.75, "weight_lb": 4.9 },
+          "8_3_8in_with_door": { "list_price": 72.75, "weight_lb": 4.9 }
+        },
+        "wall_sleeve_support": { "list_price": 25.00, "weight_lb": 0.8 },
+        "corners": {
+          "inside_90": { "list_price": 169.55, "weight_lb": 16.0 },
+          "inside_135": { "list_price": 157.30, "weight_lb": 12.3 },
+          "outside_90": { "list_price": 144.35, "weight_lb": 15.9 },
+          "outside_135": { "list_price": 132.45, "weight_lb": 12.3 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 126.35, "weight_lb": 7.6, "bracket_required": true },
+          "12in_14GA": { "list_price": 134.75, "weight_lb": 9.6, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-RD30",
+      "style": "flat_top_round_damper",
+      "height_in": 30,
+      "available_gauges": ["16GA"],
+      "notes": ["RD only available in 16GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 61.80, "14GA": null },
+      "weights_per_ft": { "18GA": null, "16GA": 8.0, "14GA": null },
+      "finish_adders_per_ft": { "baked_powder": 5.80, "baked_metallic": 8.65 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 50.60, "weight_lb": 4.8 },
+          "8_3_8in_with_door": { "list_price": 87.55, "weight_lb": 7.9 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 36.65, "weight_lb": 2.3 },
+          "6in": { "list_price": 40.70, "weight_lb": 3.5 },
+          "8_3_8in": { "list_price": 46.75, "weight_lb": 4.9 },
+          "8_3_8in_with_door": { "list_price": 72.75, "weight_lb": 4.9 }
+        },
+        "wall_sleeve_support": { "list_price": 25.00, "weight_lb": 0.8 },
+        "corners": {
+          "inside_90": { "list_price": 169.55, "weight_lb": 16.0 },
+          "inside_135": { "list_price": 157.30, "weight_lb": 12.3 },
+          "outside_90": { "list_price": 144.35, "weight_lb": 15.9 },
+          "outside_135": { "list_price": 132.45, "weight_lb": 12.3 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 126.35, "weight_lb": 7.6, "bracket_required": true },
+          "12in_14GA": null
+        }
+      }
+    },
+
+    {
+      "id": "JVB-F36",
+      "style": "flat_top_front",
+      "height_in": 36,
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 66.95, "14GA": 74.80 },
+      "weights_per_ft": { "18GA": null, "16GA": 10.0, "14GA": 11.9 },
+      "finish_adders_per_ft": { "baked_powder": 6.15, "baked_metallic": 9.10 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 53.05, "weight_lb": 5.4 },
+          "8_3_8in_with_door": { "list_price": 91.45, "weight_lb": 9.0 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 37.65, "weight_lb": 2.7 },
+          "6in": { "list_price": 42.20, "weight_lb": 4.0 },
+          "8_3_8in": { "list_price": 49.45, "weight_lb": 5.6 },
+          "8_3_8in_with_door": { "list_price": 75.60, "weight_lb": 5.6 }
+        },
+        "wall_sleeve_support": { "list_price": 28.85, "weight_lb": 1.0 },
+        "corners": {
+          "inside_90": { "list_price": 182.90, "weight_lb": 18.2 },
+          "inside_135": { "list_price": 168.85, "weight_lb": 14.1 },
+          "outside_90": { "list_price": 157.95, "weight_lb": 18.2 },
+          "outside_135": { "list_price": 144.40, "weight_lb": 14.1 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 130.75, "weight_lb": 8.8, "bracket_required": true },
+          "12in_14GA": { "list_price": 139.90, "weight_lb": 11.0, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-FT36",
+      "style": "flat_top_front_and_top",
+      "height_in": 36,
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 66.95, "14GA": 74.80 },
+      "weights_per_ft": { "18GA": null, "16GA": 10.0, "14GA": 11.9 },
+      "finish_adders_per_ft": { "baked_powder": 6.15, "baked_metallic": 9.10 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 53.05, "weight_lb": 5.4 },
+          "8_3_8in_with_door": { "list_price": 91.45, "weight_lb": 9.0 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 37.65, "weight_lb": 2.7 },
+          "6in": { "list_price": 42.20, "weight_lb": 4.0 },
+          "8_3_8in": { "list_price": 49.45, "weight_lb": 5.6 },
+          "8_3_8in_with_door": { "list_price": 75.60, "weight_lb": 5.6 }
+        },
+        "wall_sleeve_support": { "list_price": 28.85, "weight_lb": 1.0 },
+        "corners": {
+          "inside_90": { "list_price": 182.90, "weight_lb": 18.2 },
+          "inside_135": { "list_price": 168.85, "weight_lb": 14.1 },
+          "outside_90": { "list_price": 157.95, "weight_lb": 18.2 },
+          "outside_135": { "list_price": 144.40, "weight_lb": 14.1 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 130.75, "weight_lb": 8.8, "bracket_required": true },
+          "12in_14GA": { "list_price": 139.90, "weight_lb": 11.0, "bracket_required": true }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-RD36",
+      "style": "flat_top_round_damper",
+      "height_in": 36,
+      "available_gauges": ["16GA"],
+      "notes": ["RD only available in 16GA"],
+      "prices_per_ft": { "18GA": null, "16GA": 66.95, "14GA": null },
+      "weights_per_ft": { "18GA": null, "16GA": 10.0, "14GA": null },
+      "finish_adders_per_ft": { "baked_powder": 6.15, "baked_metallic": 9.10 },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in": { "list_price": 53.05, "weight_lb": 5.4 },
+          "8_3_8in_with_door": { "list_price": 91.45, "weight_lb": 9.0 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 37.65, "weight_lb": 2.7 },
+          "6in": { "list_price": 42.20, "weight_lb": 4.0 },
+          "8_3_8in": { "list_price": 49.45, "weight_lb": 5.6 },
+          "8_3_8in_with_door": { "list_price": 75.60, "weight_lb": 5.6 }
+        },
+        "wall_sleeve_support": { "list_price": 28.85, "weight_lb": 1.0 },
+        "corners": {
+          "inside_90": { "list_price": 182.90, "weight_lb": 18.2 },
+          "inside_135": { "list_price": 168.85, "weight_lb": 14.1 },
+          "outside_90": { "list_price": 157.95, "weight_lb": 18.2 },
+          "outside_135": { "list_price": 144.40, "weight_lb": 14.1 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 130.75, "weight_lb": 8.8, "bracket_required": true },
+          "12in_14GA": null
+        }
+      }
+    },
+
+    {
+      "id": "JVB-PM",
+      "style": "pedestal_mount",
+      "description": "1 Row Free Standing Enclosure",
+      "height_in": "6-3/4",
+      "depth_override_in": "6-1/16",
+      "depth_override_label": "B-PM",
+      "available_gauges": ["16GA", "14GA"],
+      "bracket_quantity_rules": {
+        "2ft_to_4ft": 2,
+        "4ft6in_to_8ft": 3
+      },
+      "notes": [
+        "PM enclosure prices do not include brackets",
+        "Recommended bracket quantity: 2' thru 4' = 2 Brackets; 4'6\" thru 8' = 3 Brackets",
+        "Uses Support Bracket Assembly (max 3' on center) — not standard water or steam brackets",
+        "Available in Stainless Steel and Aluminum — Consult Factory"
+      ],
+      "prices_per_ft": {
+        "18GA": null,
+        "16GA": 25.00,
+        "14GA": 31.05
+      },
+      "weights_per_ft": {
+        "18GA": null,
+        "16GA": 3.9,
+        "14GA": 4.9
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 3.95,
+        "baked_metallic": 5.95
+      },
+      "accessories": {
+        "support_bracket_assembly": { "list_price": 39.80, "weight_lb": 2.0, "max_spacing_ft": 3 },
+        "cradles": {
+          "CR6A": { "list_price": 3.80, "weight_lb": 0.1 },
+          "CR10": { "list_price": 3.80, "weight_lb": 0.1 }
+        },
+        "end_caps": {
+          "3in_flush_mount_LH_or_RH": { "list_price": 40.35, "weight_lb": 2.0 },
+          "3in_overlap": { "list_price": 40.35, "weight_lb": 2.0 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 17.50, "weight_lb": 2.0 },
+          "6in": { "list_price": 19.75, "weight_lb": 2.5 },
+          "8_3_8in": { "list_price": 22.45, "weight_lb": 3.5 },
+          "8_3_8in_with_door": { "list_price": 47.05, "weight_lb": 3.5 }
+        },
+        "wall_sleeve_support": { "list_price": 19.75, "weight_lb": 0.8 },
+        "corners": {
+          "inside_or_outside_90": { "list_price": 94.60, "weight_lb": 7.5 },
+          "inside_or_outside_135": { "list_price": 120.55, "weight_lb": 7.8 }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-2PM",
+      "style": "pedestal_mount_2row",
+      "description": "2 Row Free Standing Enclosure",
+      "height_in": "6-3/4",
+      "depth_override_in": "10-5/16",
+      "depth_override_label": "B-2PM",
+      "available_gauges": ["16GA", "14GA"],
+      "bracket_quantity_rules": {
+        "2ft_to_4ft": 2,
+        "4ft6in_to_8ft": 3
+      },
+      "notes": [
+        "PM enclosure prices do not include brackets",
+        "Recommended bracket quantity: 2' thru 4' = 2 Brackets; 4'6\" thru 8' = 3 Brackets",
+        "Uses Support Bracket Assembly (max 3' on center) — not standard water or steam brackets",
+        "Available in Stainless Steel and Aluminum — Consult Factory"
+      ],
+      "prices_per_ft": {
+        "18GA": null,
+        "16GA": 34.60,
+        "14GA": 40.95
+      },
+      "weights_per_ft": {
+        "18GA": null,
+        "16GA": 5.0,
+        "14GA": 6.2
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 4.60,
+        "baked_metallic": 6.75
+      },
+      "accessories": {
+        "support_bracket_assembly": { "list_price": 60.50, "weight_lb": 2.4, "max_spacing_ft": 3 },
+        "cradles": {
+          "CR6A": { "list_price": 8.00, "weight_lb": 0.2 },
+          "CR10": { "list_price": 8.00, "weight_lb": 0.2 }
+        },
+        "end_caps": {
+          "3in_flush_mount_LH_or_RH": { "list_price": 45.15, "weight_lb": 2.8 },
+          "3in_overlap": { "list_price": 45.15, "weight_lb": 2.4 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 19.80, "weight_lb": 2.5 },
+          "6in": { "list_price": 22.65, "weight_lb": 3.0 },
+          "8_3_8in": { "list_price": 25.65, "weight_lb": 3.8 },
+          "8_3_8in_with_door": { "list_price": 51.00, "weight_lb": 3.8 }
+        },
+        "wall_sleeve_support": { "list_price": 22.55, "weight_lb": 1.4 },
+        "corners": {
+          "inside_or_outside_90": { "list_price": 116.65, "weight_lb": 11.5 },
+          "inside_or_outside_135": { "list_price": 137.75, "weight_lb": 11.8 }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-SS19",
+      "style": "double_slope_top",
+      "height_in": "19-1/2",
+      "height_nominal": 19,
+      "depth_label": "B",
+      "notes": [
+        "SS double slope top — has own integral backplate (not standard rough-in page backplate)",
+        "Uses Vertical Wall Brackets and Bracket Mounted Ball Bearing Hangers (model-specific)",
+        "No valve compartments listed for SS models",
+        "Available in Stainless Steel and Aluminum — Consult Factory"
+      ],
+      "available_gauges": ["18GA", "16GA", "14GA"],
+      "prices_per_ft": {
+        "18GA": 42.10,
+        "16GA": 45.95,
+        "14GA": 49.95
+      },
+      "weights_per_ft": {
+        "18GA": 4.3,
+        "16GA": 5.6,
+        "14GA": 7.0
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 5.20,
+        "baked_metallic": 8.50
+      },
+      "backplate": {
+        "20GA_galvannealed_unpainted_per_ft": { "list_price": 15.40, "weight_per_ft": 2.7 },
+        "20GA_CRS_baked_powder_per_ft": { "list_price": 18.30, "weight_per_ft": 2.7 }
+      },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "vertical_wall_bracket": { "list_price": 7.15, "weight_lb": 0.5 },
+        "bracket_mounted_bb_hanger": { "list_price": 7.25, "weight_lb": 0.5 },
+        "end_caps": {
+          "3in": { "list_price": 51.80, "weight_lb": 3.0 },
+          "9in_with_door": { "list_price": 89.50, "weight_lb": 5.6 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 31.20, "weight_lb": 1.4 },
+          "9in": { "list_price": 39.15, "weight_lb": 3.0 },
+          "9in_with_door": { "list_price": 62.85, "weight_lb": 4.3 }
+        },
+        "wall_sleeve_support": { "list_price": 22.45, "weight_lb": 1.5 },
+        "corners": {
+          "inside_90": { "list_price": 115.85, "weight_lb": 6.8 },
+          "inside_135": { "list_price": 139.45, "weight_lb": 7.0 },
+          "outside_90": { "list_price": 130.15, "weight_lb": 8.8 },
+          "outside_135": { "list_price": 153.65, "weight_lb": 9.0 }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-SS25",
+      "style": "double_slope_top",
+      "height_in": "25-1/2",
+      "height_nominal": 25,
+      "depth_label": "B",
+      "notes": [
+        "SS double slope top — has own integral backplate (not standard rough-in page backplate)",
+        "Uses Vertical Wall Brackets and Bracket Mounted Ball Bearing Hangers (model-specific)",
+        "No valve compartments listed for SS models",
+        "Available in Stainless Steel and Aluminum — Consult Factory"
+      ],
+      "available_gauges": ["18GA", "16GA", "14GA"],
+      "prices_per_ft": {
+        "18GA": 52.60,
+        "16GA": 55.55,
+        "14GA": 60.90
+      },
+      "weights_per_ft": {
+        "18GA": 5.3,
+        "16GA": 6.3,
+        "14GA": 7.9
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 5.35,
+        "baked_metallic": 8.95
+      },
+      "backplate": {
+        "20GA_galvannealed_unpainted_per_ft": { "list_price": 19.05, "weight_per_ft": 3.4 },
+        "20GA_CRS_baked_powder_per_ft": { "list_price": 22.65, "weight_per_ft": 3.4 }
+      },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "vertical_wall_bracket": { "list_price": 7.55, "weight_lb": 0.6 },
+        "bracket_mounted_bb_hanger": { "list_price": 7.25, "weight_lb": 0.5 },
+        "end_caps": {
+          "3in": { "list_price": 60.05, "weight_lb": 3.7 },
+          "9in_with_door": { "list_price": 99.00, "weight_lb": 6.6 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 36.95, "weight_lb": 1.8 },
+          "9in": { "list_price": 45.15, "weight_lb": 3.6 },
+          "9in_with_door": { "list_price": 73.00, "weight_lb": 4.9 }
+        },
+        "wall_sleeve_support": { "list_price": 24.70, "weight_lb": 1.9 },
+        "corners": {
+          "inside_90": { "list_price": 134.00, "weight_lb": 8.0 },
+          "inside_135": { "list_price": 158.10, "weight_lb": 8.2 },
+          "outside_90": { "list_price": 164.85, "weight_lb": 11.2 },
+          "outside_135": { "list_price": 188.30, "weight_lb": 11.4 }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-SS29",
+      "style": "double_slope_top",
+      "height_in": "29-1/2",
+      "height_nominal": 29,
+      "depth_label": "B",
+      "notes": [
+        "SS double slope top — has own integral backplate (not standard rough-in page backplate)",
+        "Uses Vertical Wall Brackets and Bracket Mounted Ball Bearing Hangers (model-specific)",
+        "No valve compartments listed for SS models",
+        "Available in Stainless Steel and Aluminum — Consult Factory"
+      ],
+      "available_gauges": ["18GA", "16GA", "14GA"],
+      "prices_per_ft": {
+        "18GA": 58.60,
+        "16GA": 62.80,
+        "14GA": 68.85
+      },
+      "weights_per_ft": {
+        "18GA": 5.9,
+        "16GA": 7.7,
+        "14GA": 9.6
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 6.75,
+        "baked_metallic": 9.15
+      },
+      "backplate": {
+        "20GA_galvannealed_unpainted_per_ft": { "list_price": 22.45, "weight_per_ft": 3.9 },
+        "20GA_CRS_baked_powder_per_ft": { "list_price": 26.85, "weight_per_ft": 3.9 }
+      },
+      "accessories": {
+        "dampers": {
+          "knob_damper": { "list_price": 9.10, "weight_lb": 0.4 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.4 }
+        },
+        "vertical_wall_bracket": { "list_price": 8.25, "weight_lb": 0.7 },
+        "bracket_mounted_bb_hanger": { "list_price": 7.25, "weight_lb": 0.5 },
+        "end_caps": {
+          "3in": { "list_price": 65.20, "weight_lb": 4.2 },
+          "9in_with_door": { "list_price": 106.60, "weight_lb": 7.3 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 41.85, "weight_lb": 2.0 },
+          "9in": { "list_price": 49.50, "weight_lb": 4.2 },
+          "9in_with_door": { "list_price": 76.40, "weight_lb": 5.5 }
+        },
+        "wall_sleeve_support": { "list_price": 26.90, "weight_lb": 2.3 },
+        "corners": {
+          "inside_90": { "list_price": 156.65, "weight_lb": 8.8 },
+          "inside_135": { "list_price": 181.95, "weight_lb": 10.0 },
+          "outside_90": { "list_price": 178.70, "weight_lb": 12.8 },
+          "outside_135": { "list_price": 203.00, "weight_lb": 13.0 }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-E6",
+      "style": "flat_top_e_series",
+      "height_in": 6,
+      "available_gauges": ["18GA", "16GA", "14GA"],
+      "prices_per_ft": {
+        "18GA": 17.35,
+        "16GA": 18.75,
+        "14GA": 23.00
+      },
+      "weights_per_ft": {
+        "18GA": 2.5,
+        "16GA": 2.8,
+        "14GA": 3.2
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 3.40,
+        "baked_metallic": 5.00
+      },
+      "notes": [
+        "E-series uses model-specific water bracket pricing — not standard WTRBRKT",
+        "Partial backplate (PBP) required — 8' lengths, cut to fit on site",
+        "No standard damper option for E-series"
+      ],
+      "accessories": {
+        "dampers": null,
+        "end_caps": {
+          "3in": { "list_price": 23.00, "weight_lb": 1.0 }
+        },
+        "wall_sleeves": {
+          "8_3_8in": { "list_price": 17.55, "weight_lb": 1.2 }
+        },
+        "wall_sleeve_support": { "list_price": 10.25, "weight_lb": 0.2 },
+        "partial_backplate": {
+          "catalog_number": "PBP",
+          "list_price_per_ft": 4.00,
+          "weight_per_ft": 0.4,
+          "supplied_in": "8' lengths only"
+        },
+        "water_brackets": {
+          "list_price": 7.80,
+          "weight_lb": 0.3,
+          "note": "E-series specific bracket price — differs from standard WTRBRKT pricing"
+        },
+        "corners": {
+          "inside_90": { "list_price": 53.95, "weight_lb": 3.4 },
+          "inside_135": { "list_price": 84.65, "weight_lb": 3.7 },
+          "outside_90": { "list_price": 51.30, "weight_lb": 3.7 },
+          "outside_135": { "list_price": 78.50, "weight_lb": 4.0 }
+        }
+      }
+    },
+
+    {
+      "id": "JVB-E12",
+      "style": "flat_top_e_series",
+      "height_in": 12,
+      "available_gauges": ["18GA", "16GA", "14GA"],
+      "prices_per_ft": {
+        "18GA": 22.85,
+        "16GA": 24.30,
+        "14GA": 29.80
+      },
+      "weights_per_ft": {
+        "18GA": 3.7,
+        "16GA": 4.0,
+        "14GA": 4.4
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 4.65,
+        "baked_metallic": 6.80
+      },
+      "notes": [
+        "E-series uses model-specific water bracket pricing — not standard WTRBRKT",
+        "Partial backplate (PBP) required — 8' lengths, cut to fit on site",
+        "No standard damper option for E-series"
+      ],
+      "accessories": {
+        "dampers": null,
+        "end_caps": {
+          "3in": { "list_price": 26.25, "weight_lb": 1.5 }
+        },
+        "wall_sleeves": {
+          "8_3_8in": { "list_price": 20.35, "weight_lb": 1.7 }
+        },
+        "wall_sleeve_support": { "list_price": 11.70, "weight_lb": 0.3 },
+        "partial_backplate": {
+          "catalog_number": "PBP",
+          "list_price_per_ft": 4.00,
+          "weight_per_ft": 0.4,
+          "supplied_in": "8' lengths only"
+        },
+        "water_brackets": {
+          "list_price": 7.80,
+          "weight_lb": 0.3,
+          "note": "E-series specific bracket price — differs from standard WTRBRKT pricing"
+        },
+        "corners": {
+          "inside_90": { "list_price": 64.30, "weight_lb": 5.0 },
+          "inside_135": { "list_price": 96.75, "weight_lb": 6.4 },
+          "outside_90": { "list_price": 58.00, "weight_lb": 6.4 },
+          "outside_135": { "list_price": 91.35, "weight_lb": 6.9 }
+        }
+      }
+    }
+
+  ]
+}

@@ -1,0 +1,684 @@
+{
+  "_meta": {
+    "source": "Sterling Price Sheet C35R, Pages 13, 15, 19",
+    "family": "Standard Classic",
+    "style_code": "V",
+    "style_description": "Wiped Edge (underlapping accessories)",
+    "standard_lengths": "2' through 8' in 6\" increments",
+    "notes": [
+      "All accessories underlap the enclosures",
+      "Standard product: clear anodized grille with enclosure fronts baked powder in standard Mestek colors",
+      "Grille and enclosure painted same color at no extra charge",
+      "No deduction allowed for prime coat",
+      "Baked powder is standard (no adder); only baked_metallic has a per-foot adder",
+      "Two-tone effect (extruded aluminum grille in baked powder): add $3.80 list per ft",
+      "Available in Aluminum only — Consult Factory (no Stainless Steel)",
+      "RWLI and RWDB modifications do NOT apply to Standard Classic with underlapping accessories",
+      "Enclosure prices do not include brackets, hangers, or backplate"
+    ],
+    "depth_codes": {
+      "K": "3-9/16\"",
+      "A": "4-3/8\"",
+      "B": "5-5/16\""
+    }
+  },
+
+  "ar_wiped_models": {
+    "_meta": {
+      "source_page": 13,
+      "title": "Standard Classic AR Enclosures and Accessories",
+      "notes": [
+        "VK-AR11 uses 3\" End Cap; all other AR models use 4\" End Cap",
+        "VA-AR7 and VB-AR7 have no dampers (Dial or Tamper Resistant)",
+        "Slide Damper available on B-offset models only",
+        "No wall sleeve support listed on this product page",
+        "Available in Aluminum — Consult Factory"
+      ]
+    },
+    "models": [
+      {
+        "id": "VK-AR11",
+        "depth_label": "K",
+        "depth_in": "3-9/16",
+        "height_in": 11,
+        "style": "wiped_edge",
+        "available_gauges": ["16GA", "14GA"],
+        "prices_per_ft": {
+          "16GA": 43.25,
+          "14GA": 48.15
+        },
+        "weights_per_ft": {
+          "16GA": 3.5,
+          "14GA": 4.8
+        },
+        "finish_adders_per_ft": {
+          "baked_metallic": 1.90
+        },
+        "two_tone_adder_per_ft": 3.80,
+        "accessories": {
+          "dampers": {
+            "dial_damper": { "list_price": 9.85, "weight_lb": 0.5 },
+            "tamper_resistant_damper": { "list_price": 13.65, "weight_lb": 0.5 },
+            "slide_damper": null
+          },
+          "end_caps": {
+            "3in": { "list_price": 24.70, "weight_lb": 1.5, "note": "VK uses 3\" end cap" },
+            "8_3_8in_with_door": { "list_price": 61.10, "weight_lb": 3.4 }
+          },
+          "wall_sleeves": {
+            "2in": { "list_price": 22.25, "weight_lb": 1.0 },
+            "4in": { "list_price": 23.70, "weight_lb": 1.5 },
+            "6in": { "list_price": 26.25, "weight_lb": 1.8 },
+            "8_3_8in": { "list_price": 29.65, "weight_lb": 2.4 },
+            "8_3_8in_with_door": { "list_price": 56.25, "weight_lb": 2.5 }
+          },
+          "corners": {
+            "inside_90": { "list_price": 76.35, "weight_lb": 4.9 },
+            "inside_135": { "list_price": 94.50, "weight_lb": 5.5 },
+            "outside_90": { "list_price": 73.00, "weight_lb": 5.5 },
+            "outside_135": { "list_price": 95.85, "weight_lb": 6.0 }
+          },
+          "valve_compartments": {
+            "12in_16GA": { "list_price": 88.35, "weight_lb": 4.2, "bracket_required": true },
+            "12in_14GA": { "list_price": 95.00, "weight_lb": 5.4, "bracket_required": true },
+            "18in_16GA": { "list_price": 134.35, "weight_lb": 6.0, "bracket_required": true },
+            "18in_14GA": { "list_price": 141.95, "weight_lb": 6.6, "bracket_required": true }
+          }
+        }
+      },
+      {
+        "id": "VA-AR7",
+        "depth_label": "A",
+        "depth_in": "4-3/8",
+        "height_in": 7,
+        "style": "wiped_edge",
+        "available_gauges": ["16GA", "14GA"],
+        "prices_per_ft": {
+          "16GA": 42.10,
+          "14GA": 46.40
+        },
+        "weights_per_ft": {
+          "16GA": 3.0,
+          "14GA": 3.7
+        },
+        "finish_adders_per_ft": {
+          "baked_metallic": 1.75
+        },
+        "two_tone_adder_per_ft": 3.80,
+        "accessories": {
+          "dampers": null,
+          "end_caps": {
+            "4in": { "list_price": 30.35, "weight_lb": 1.7 },
+            "8_3_8in_with_door": { "list_price": 62.55, "weight_lb": 2.9 }
+          },
+          "wall_sleeves": {
+            "2in": { "list_price": 19.55, "weight_lb": 0.3 },
+            "4in": { "list_price": 21.80, "weight_lb": 1.2 },
+            "6in": { "list_price": 25.75, "weight_lb": 1.8 },
+            "8_3_8in": { "list_price": 27.05, "weight_lb": 2.2 },
+            "8_3_8in_with_door": { "list_price": 53.25, "weight_lb": 2.8 }
+          },
+          "corners": {
+            "inside_90": { "list_price": 73.15, "weight_lb": 4.0 },
+            "inside_135": { "list_price": 100.40, "weight_lb": 4.4 },
+            "outside_90": { "list_price": 66.60, "weight_lb": 5.0 },
+            "outside_135": { "list_price": 93.35, "weight_lb": 5.4 }
+          },
+          "valve_compartments": {
+            "12in_16GA": { "list_price": 81.55, "weight_lb": 3.0, "bracket_required": true },
+            "12in_14GA": { "list_price": 85.20, "weight_lb": 3.7, "bracket_required": true },
+            "18in_16GA": { "list_price": 86.50, "weight_lb": 4.5, "bracket_required": true },
+            "18in_14GA": { "list_price": 92.00, "weight_lb": 6.4, "bracket_required": true }
+          }
+        }
+      },
+      {
+        "id": "VA-AR14",
+        "depth_label": "A",
+        "depth_in": "4-3/8",
+        "height_in": 14,
+        "style": "wiped_edge",
+        "available_gauges": ["16GA", "14GA"],
+        "prices_per_ft": {
+          "16GA": 49.20,
+          "14GA": 54.20
+        },
+        "weights_per_ft": {
+          "16GA": 4.5,
+          "14GA": 5.9
+        },
+        "finish_adders_per_ft": {
+          "baked_metallic": 2.55
+        },
+        "two_tone_adder_per_ft": 3.80,
+        "accessories": {
+          "dampers": {
+            "dial_damper": { "list_price": 9.85, "weight_lb": 0.5 },
+            "tamper_resistant_damper": { "list_price": 13.65, "weight_lb": 0.5 },
+            "slide_damper": null
+          },
+          "end_caps": {
+            "4in": { "list_price": 32.20, "weight_lb": 2.8 },
+            "8_3_8in_with_door": { "list_price": 73.00, "weight_lb": 4.0 }
+          },
+          "wall_sleeves": {
+            "2in": { "list_price": 24.50, "weight_lb": 1.5 },
+            "4in": { "list_price": 26.25, "weight_lb": 2.0 },
+            "6in": { "list_price": 30.95, "weight_lb": 2.3 },
+            "8_3_8in": { "list_price": 32.05, "weight_lb": 2.9 },
+            "8_3_8in_with_door": { "list_price": 67.80, "weight_lb": 3.0 }
+          },
+          "corners": {
+            "inside_90": { "list_price": 87.50, "weight_lb": 6.5 },
+            "inside_135": { "list_price": 106.60, "weight_lb": 7.0 },
+            "outside_90": { "list_price": 82.35, "weight_lb": 7.0 },
+            "outside_135": { "list_price": 103.00, "weight_lb": 7.5 }
+          },
+          "valve_compartments": {
+            "12in_16GA": { "list_price": 83.15, "weight_lb": 4.5, "bracket_required": true },
+            "12in_14GA": { "list_price": 86.75, "weight_lb": 5.9, "bracket_required": true },
+            "18in_16GA": { "list_price": 140.85, "weight_lb": 7.3, "bracket_required": true },
+            "18in_14GA": { "list_price": 148.75, "weight_lb": 8.9, "bracket_required": true }
+          }
+        }
+      },
+      {
+        "id": "VB-AR7",
+        "depth_label": "B",
+        "depth_in": "5-5/16",
+        "height_in": 7,
+        "style": "wiped_edge",
+        "available_gauges": ["16GA", "14GA"],
+        "prices_per_ft": {
+          "16GA": 44.00,
+          "14GA": 48.25
+        },
+        "weights_per_ft": {
+          "16GA": 3.1,
+          "14GA": 3.8
+        },
+        "finish_adders_per_ft": {
+          "baked_metallic": 1.75
+        },
+        "two_tone_adder_per_ft": 3.80,
+        "accessories": {
+          "dampers": {
+            "dial_damper": null,
+            "tamper_resistant_damper": null,
+            "slide_damper": { "list_price": 16.15, "weight_lb": 0.4, "note": "B offset only" }
+          },
+          "end_caps": {
+            "4in": { "list_price": 31.70, "weight_lb": 1.8 },
+            "8_3_8in_with_door": { "list_price": 64.90, "weight_lb": 3.0 }
+          },
+          "wall_sleeves": {
+            "2in": { "list_price": 19.95, "weight_lb": 0.7 },
+            "4in": { "list_price": 22.65, "weight_lb": 1.3 },
+            "6in": { "list_price": 27.05, "weight_lb": 1.9 },
+            "8_3_8in": { "list_price": 29.05, "weight_lb": 2.3 },
+            "8_3_8in_with_door": { "list_price": 55.15, "weight_lb": 2.9 }
+          },
+          "corners": {
+            "inside_90": { "list_price": 75.05, "weight_lb": 4.1 },
+            "inside_135": { "list_price": 103.30, "weight_lb": 4.5 },
+            "outside_90": { "list_price": 68.50, "weight_lb": 5.1 },
+            "outside_135": { "list_price": 96.90, "weight_lb": 5.5 }
+          },
+          "valve_compartments": {
+            "12in_16GA": { "list_price": 85.60, "weight_lb": 3.1, "bracket_required": true },
+            "12in_14GA": { "list_price": 91.05, "weight_lb": 3.8, "bracket_required": true },
+            "18in_16GA": { "list_price": 90.25, "weight_lb": 4.6, "bracket_required": true },
+            "18in_14GA": { "list_price": 95.70, "weight_lb": 5.0, "bracket_required": true }
+          }
+        }
+      },
+      {
+        "id": "VB-AR14",
+        "depth_label": "B",
+        "depth_in": "5-5/16",
+        "height_in": 14,
+        "style": "wiped_edge",
+        "available_gauges": ["16GA", "14GA"],
+        "prices_per_ft": {
+          "16GA": 50.35,
+          "14GA": 56.05
+        },
+        "weights_per_ft": {
+          "16GA": 4.5,
+          "14GA": 5.9
+        },
+        "finish_adders_per_ft": {
+          "baked_metallic": 2.55
+        },
+        "two_tone_adder_per_ft": 3.80,
+        "accessories": {
+          "dampers": {
+            "dial_damper": { "list_price": 9.85, "weight_lb": 0.5 },
+            "tamper_resistant_damper": { "list_price": 13.65, "weight_lb": 0.5 },
+            "slide_damper": { "list_price": 16.15, "weight_lb": 0.4, "note": "B offset only" }
+          },
+          "end_caps": {
+            "4in": { "list_price": 34.80, "weight_lb": 2.8 },
+            "8_3_8in_with_door": { "list_price": 75.05, "weight_lb": 4.0 }
+          },
+          "wall_sleeves": {
+            "2in": { "list_price": 25.85, "weight_lb": 1.6 },
+            "4in": { "list_price": 26.90, "weight_lb": 2.0 },
+            "6in": { "list_price": 31.20, "weight_lb": 2.3 },
+            "8_3_8in": { "list_price": 32.90, "weight_lb": 2.9 },
+            "8_3_8in_with_door": { "list_price": 69.15, "weight_lb": 3.0 }
+          },
+          "corners": {
+            "inside_90": { "list_price": 91.60, "weight_lb": 6.5 },
+            "inside_135": { "list_price": 109.65, "weight_lb": 7.0 },
+            "outside_90": { "list_price": 84.75, "weight_lb": 7.0 },
+            "outside_135": { "list_price": 106.20, "weight_lb": 7.5 }
+          },
+          "valve_compartments": {
+            "12in_16GA": { "list_price": 86.80, "weight_lb": 4.5, "bracket_required": true },
+            "12in_14GA": { "list_price": 88.85, "weight_lb": 5.9, "bracket_required": true },
+            "18in_16GA": { "list_price": 144.90, "weight_lb": 7.3, "bracket_required": true },
+            "18in_14GA": { "list_price": 153.20, "weight_lb": 8.9, "bracket_required": true }
+          }
+        }
+      },
+      {
+        "id": "VB-AR20",
+        "depth_label": "B",
+        "depth_in": "5-5/16",
+        "height_in": 20,
+        "style": "wiped_edge",
+        "available_gauges": ["16GA", "14GA"],
+        "prices_per_ft": {
+          "16GA": 53.35,
+          "14GA": 59.30
+        },
+        "weights_per_ft": {
+          "16GA": 6.1,
+          "14GA": 7.5
+        },
+        "finish_adders_per_ft": {
+          "baked_metallic": 2.70
+        },
+        "two_tone_adder_per_ft": 3.80,
+        "accessories": {
+          "dampers": {
+            "dial_damper": { "list_price": 9.85, "weight_lb": 0.5 },
+            "tamper_resistant_damper": { "list_price": 13.65, "weight_lb": 0.5 },
+            "slide_damper": { "list_price": 16.15, "weight_lb": 0.4, "note": "B offset only" }
+          },
+          "end_caps": {
+            "4in": { "list_price": 39.75, "weight_lb": 3.9 },
+            "8_3_8in_with_door": { "list_price": 81.90, "weight_lb": 5.1 }
+          },
+          "wall_sleeves": {
+            "2in": { "list_price": 27.10, "weight_lb": 1.9 },
+            "4in": { "list_price": 29.80, "weight_lb": 2.3 },
+            "6in": { "list_price": 33.60, "weight_lb": 2.9 },
+            "8_3_8in": { "list_price": 36.50, "weight_lb": 3.5 },
+            "8_3_8in_with_door": { "list_price": 75.05, "weight_lb": 3.6 }
+          },
+          "corners": {
+            "inside_90": { "list_price": 106.60, "weight_lb": 6.9 },
+            "inside_135": { "list_price": 127.75, "weight_lb": 7.5 },
+            "outside_90": { "list_price": 96.10, "weight_lb": 7.5 },
+            "outside_135": { "list_price": 124.35, "weight_lb": 8.0 }
+          },
+          "valve_compartments": {
+            "12in_16GA": { "list_price": 102.35, "weight_lb": 6.1, "bracket_required": true },
+            "12in_14GA": { "list_price": 110.10, "weight_lb": 7.5, "bracket_required": true },
+            "18in_16GA": { "list_price": 163.45, "weight_lb": 9.0, "bracket_required": true },
+            "18in_14GA": { "list_price": 171.95, "weight_lb": 10.5, "bracket_required": true }
+          }
+        }
+      },
+      {
+        "id": "VB-AR24",
+        "depth_label": "B",
+        "depth_in": "5-5/16",
+        "height_in": 24,
+        "style": "wiped_edge",
+        "available_gauges": ["16GA", "14GA"],
+        "prices_per_ft": {
+          "16GA": 60.60,
+          "14GA": 67.30
+        },
+        "weights_per_ft": {
+          "16GA": 7.5,
+          "14GA": 8.6
+        },
+        "finish_adders_per_ft": {
+          "baked_metallic": 3.15
+        },
+        "two_tone_adder_per_ft": 3.80,
+        "accessories": {
+          "dampers": {
+            "dial_damper": { "list_price": 9.85, "weight_lb": 0.5 },
+            "tamper_resistant_damper": { "list_price": 13.65, "weight_lb": 0.5 },
+            "slide_damper": { "list_price": 16.15, "weight_lb": 0.4, "note": "B offset only" }
+          },
+          "end_caps": {
+            "4in": { "list_price": 43.55, "weight_lb": 4.5 },
+            "8_3_8in_with_door": { "list_price": 88.35, "weight_lb": 5.7 }
+          },
+          "wall_sleeves": {
+            "2in": { "list_price": 30.20, "weight_lb": 2.1 },
+            "4in": { "list_price": 33.85, "weight_lb": 2.9 },
+            "6in": { "list_price": 36.15, "weight_lb": 3.4 },
+            "8_3_8in": { "list_price": 41.60, "weight_lb": 4.0 },
+            "8_3_8in_with_door": { "list_price": 82.35, "weight_lb": 4.1 }
+          },
+          "corners": {
+            "inside_90": { "list_price": 126.85, "weight_lb": 8.4 },
+            "inside_135": { "list_price": 149.60, "weight_lb": 9.0 },
+            "outside_90": { "list_price": 116.00, "weight_lb": 9.3 },
+            "outside_135": { "list_price": 150.60, "weight_lb": 9.5 }
+          },
+          "valve_compartments": {
+            "12in_16GA": { "list_price": 113.40, "weight_lb": 7.5, "bracket_required": true },
+            "12in_14GA": { "list_price": 120.25, "weight_lb": 8.6, "bracket_required": true },
+            "18in_16GA": { "list_price": 181.80, "weight_lb": 11.0, "bracket_required": true },
+            "18in_14GA": { "list_price": 191.60, "weight_lb": 12.5, "bracket_required": true }
+          }
+        }
+      }
+    ]
+  },
+
+  "arli_models": {
+    "_meta": {
+      "source_page": 15,
+      "title": "Standard Classic Louvered Inlet to the Floor",
+      "notes": [
+        "Accessories underlap the enclosure",
+        "Enclosure prices do not include brackets, hangers, backplate, or floor angle",
+        "Requires FBP-10 (10\" full backplate) — priced on product page",
+        "Requires EAFA (extruded aluminum floor angle) — priced on product page",
+        "Available in Aluminum — Consult Factory",
+        "No wall sleeve support listed for this product page"
+      ]
+    },
+    "models": [
+      {
+        "id": "VA-AR10LI",
+        "depth_label": "A",
+        "depth_in": "4-3/8",
+        "style": "louvered_inlet_to_floor",
+        "available_gauges": ["16GA", "14GA"],
+        "prices_per_ft": {
+          "16GA": 47.65,
+          "14GA": 52.30
+        },
+        "weights_per_ft": {
+          "16GA": 3.5,
+          "14GA": 4.3
+        },
+        "finish_adders_per_ft": {
+          "baked_metallic": 2.10
+        },
+        "two_tone_adder_per_ft": 3.80,
+        "accessories": {
+          "dampers": {
+            "slide_damper": null
+          },
+          "end_caps": {
+            "4in": { "list_price": 32.15, "weight_lb": 2.2 },
+            "8_3_8in_with_door": { "list_price": 63.80, "weight_lb": 3.3 }
+          },
+          "wall_sleeves": {
+            "4in": { "list_price": 23.70, "weight_lb": 1.6 },
+            "6in": { "list_price": 24.70, "weight_lb": 2.2 },
+            "8_3_8in": { "list_price": 29.95, "weight_lb": 2.6 },
+            "8_3_8in_with_door": { "list_price": 56.40, "weight_lb": 2.8 }
+          },
+          "corners": {
+            "inside_90": { "list_price": 77.25, "weight_lb": 4.4 },
+            "inside_135": { "list_price": 98.10, "weight_lb": 4.8 },
+            "outside_90": { "list_price": 77.25, "weight_lb": 5.4 },
+            "outside_135": { "list_price": 98.10, "weight_lb": 5.8 }
+          },
+          "valve_compartments": {
+            "18in_16GA": { "list_price": 91.55, "weight_lb": 5.0, "bracket_required": true },
+            "18in_14GA": { "list_price": 94.85, "weight_lb": 5.3, "bracket_required": true }
+          }
+        },
+        "backplate_and_floor_angle": {
+          "FBP_10_unpainted_galv": {
+            "catalog_number": "FBP-10",
+            "description": "10\" Full Backplate - Unpainted Galv",
+            "list_price_per_ft": 11.50,
+            "weight_per_ft": 1.2
+          },
+          "FBP_10_painted_CRS": {
+            "catalog_number": "FBP-10",
+            "description": "10\" Full Backplate - Painted CRS",
+            "list_price_per_ft": 13.20,
+            "weight_per_ft": 1.2
+          },
+          "EAFA_unpainted": {
+            "catalog_number": "EAFA",
+            "description": "Extruded Aluminum Floor Angle - 8' lengths - Unpainted",
+            "list_price_per_ft": 8.85,
+            "weight_per_ft": 0.3,
+            "supplied_in": "8' lengths only"
+          },
+          "EAFA_baked_powder": {
+            "catalog_number": "EAFA",
+            "description": "Extruded Aluminum Floor Angle - 8' lengths - Baked Powder",
+            "list_price_per_ft": 11.55,
+            "weight_per_ft": 0.3,
+            "supplied_in": "8' lengths only"
+          },
+          "EAFA_baked_metallic": {
+            "catalog_number": "EAFA",
+            "description": "Extruded Aluminum Floor Angle - 8' lengths - Baked Metallic",
+            "list_price_per_ft": 15.45,
+            "weight_per_ft": 0.3,
+            "supplied_in": "8' lengths only"
+          }
+        }
+      },
+      {
+        "id": "VB-AR10LI",
+        "depth_label": "B",
+        "depth_in": "5-5/16",
+        "style": "louvered_inlet_to_floor",
+        "available_gauges": ["16GA", "14GA"],
+        "prices_per_ft": {
+          "16GA": 49.20,
+          "14GA": 53.90
+        },
+        "weights_per_ft": {
+          "16GA": 3.7,
+          "14GA": 4.5
+        },
+        "finish_adders_per_ft": {
+          "baked_metallic": 2.10
+        },
+        "two_tone_adder_per_ft": 3.80,
+        "accessories": {
+          "dampers": {
+            "slide_damper": { "list_price": 16.15, "weight_lb": 0.4, "note": "B offset only" }
+          },
+          "end_caps": {
+            "4in": { "list_price": 33.40, "weight_lb": 2.2 },
+            "8_3_8in_with_door": { "list_price": 65.85, "weight_lb": 3.5 }
+          },
+          "wall_sleeves": {
+            "4in": { "list_price": 24.70, "weight_lb": 1.8 },
+            "6in": { "list_price": 27.95, "weight_lb": 2.4 },
+            "8_3_8in": { "list_price": 30.95, "weight_lb": 2.8 },
+            "8_3_8in_with_door": { "list_price": 58.50, "weight_lb": 3.0 }
+          },
+          "corners": {
+            "inside_90": { "list_price": 80.45, "weight_lb": 4.5 },
+            "inside_135": { "list_price": 102.25, "weight_lb": 5.0 },
+            "outside_90": { "list_price": 78.30, "weight_lb": 5.5 },
+            "outside_135": { "list_price": 100.20, "weight_lb": 6.0 }
+          },
+          "valve_compartments": {
+            "18in_16GA": { "list_price": 93.40, "weight_lb": 5.2, "bracket_required": true },
+            "18in_14GA": { "list_price": 101.75, "weight_lb": 5.5, "bracket_required": true }
+          }
+        },
+        "backplate_and_floor_angle": {
+          "FBP_10_unpainted_galv": {
+            "catalog_number": "FBP-10",
+            "description": "10\" Full Backplate - Unpainted Galv",
+            "list_price_per_ft": 11.50,
+            "weight_per_ft": 1.2
+          },
+          "FBP_10_painted_CRS": {
+            "catalog_number": "FBP-10",
+            "description": "10\" Full Backplate - Painted CRS",
+            "list_price_per_ft": 13.20,
+            "weight_per_ft": 1.2
+          },
+          "EAFA_unpainted": {
+            "catalog_number": "EAFA",
+            "description": "Extruded Aluminum Floor Angle - 8' lengths - Unpainted",
+            "list_price_per_ft": 8.85,
+            "weight_per_ft": 0.3,
+            "supplied_in": "8' lengths only"
+          },
+          "EAFA_baked_powder": {
+            "catalog_number": "EAFA",
+            "description": "Extruded Aluminum Floor Angle - 8' lengths - Baked Powder",
+            "list_price_per_ft": 11.55,
+            "weight_per_ft": 0.3,
+            "supplied_in": "8' lengths only"
+          },
+          "EAFA_baked_metallic": {
+            "catalog_number": "EAFA",
+            "description": "Extruded Aluminum Floor Angle - 8' lengths - Baked Metallic",
+            "list_price_per_ft": 15.45,
+            "weight_per_ft": 0.3,
+            "supplied_in": "8' lengths only"
+          }
+        }
+      }
+    ]
+  },
+
+  "arpm_models": {
+    "_meta": {
+      "source_page": 19,
+      "title": "Classic ARPM Pedestal Mount Enclosures and Accessories",
+      "notes": [
+        "ARPM = 1 Row Free Standing Enclosure 6-3/4\" High",
+        "AR2PM = 2 Row Free Standing Enclosure 6-3/4\" High",
+        "B-ARPM depth = 6-1/16\"; B-AR2PM depth = 10-5/16\"",
+        "Accessories underlap the enclosures",
+        "Support Bracket Assembly maximum 3' on center",
+        "Bracket quantity rule: 2 for 2'-4'; 3 for 4'6\"-8'",
+        "VB-AR2PM slide damper: Consult Factory",
+        "VB-AR2PM 8-3/8\" wall sleeve with door: not available",
+        "Available in Aluminum — Consult Factory"
+      ]
+    },
+    "models": [
+      {
+        "id": "VB-ARPM",
+        "depth_label": "B-ARPM",
+        "depth_in": "6-1/16",
+        "height_in": "6-3/4",
+        "rows": 1,
+        "style": "pedestal_mount",
+        "available_gauges": ["16GA", "14GA"],
+        "prices_per_ft": {
+          "16GA": 54.25,
+          "14GA": 71.35
+        },
+        "weights_per_ft": {
+          "16GA": 5.0,
+          "14GA": 6.3
+        },
+        "finish_adders_per_ft": {
+          "baked_metallic": 2.20
+        },
+        "two_tone_adder_per_ft": 3.80,
+        "accessories": {
+          "dampers": {
+            "slide_damper": { "list_price": 16.15, "weight_lb": 0.4, "note": "B offset only" }
+          },
+          "support_bracket_assembly": {
+            "description": "Support Bracket Assembly (Maximum 3' on center)",
+            "list_price": 37.65,
+            "weight_lb": 2.0,
+            "bracket_quantity_rules": { "2ft_to_4ft": 2, "4ft6in_to_8ft": 3 }
+          },
+          "cradle_6A": {
+            "description": "Cradle #6A (For Use With Return Pipe)",
+            "list_price": 3.80,
+            "weight_lb": 0.1
+          },
+          "end_caps": {
+            "3in": { "list_price": 47.85, "weight_lb": 2.0 }
+          },
+          "wall_sleeves": {
+            "4in": { "list_price": 26.95, "weight_lb": 1.9 },
+            "6in": { "list_price": 28.25, "weight_lb": 2.5 },
+            "8_3_8in": { "list_price": 29.85, "weight_lb": 3.0 },
+            "8_3_8in_with_door": { "list_price": 89.50, "weight_lb": 3.3 }
+          },
+          "wall_sleeve_support": { "list_price": 19.75, "weight_lb": 0.8 },
+          "corners": {
+            "inside_or_outside_90": { "list_price": 181.00, "weight_lb": 8.0 },
+            "inside_or_outside_135": { "list_price": 212.25, "weight_lb": 9.3 }
+          }
+        }
+      },
+      {
+        "id": "VB-AR2PM",
+        "depth_label": "B-AR2PM",
+        "depth_in": "10-5/16",
+        "height_in": "6-3/4",
+        "rows": 2,
+        "style": "pedestal_mount",
+        "available_gauges": ["16GA", "14GA"],
+        "prices_per_ft": {
+          "16GA": 75.70,
+          "14GA": 80.10
+        },
+        "weights_per_ft": {
+          "16GA": 6.0,
+          "14GA": 7.3
+        },
+        "finish_adders_per_ft": {
+          "baked_metallic": 2.45
+        },
+        "two_tone_adder_per_ft": 3.80,
+        "accessories": {
+          "dampers": {
+            "slide_damper": { "list_price": null, "weight_lb": null, "note": "Consult Factory for VB-AR2PM slide damper" }
+          },
+          "support_bracket_assembly": {
+            "description": "Support Bracket Assembly (Maximum 3' on center)",
+            "list_price": 60.50,
+            "weight_lb": 2.4,
+            "bracket_quantity_rules": { "2ft_to_4ft": 2, "4ft6in_to_8ft": 3 }
+          },
+          "cradle_6A": {
+            "description": "Cradle #6A (For Use With Return Pipe)",
+            "list_price": 7.60,
+            "weight_lb": 0.2
+          },
+          "end_caps": {
+            "3in": { "list_price": 118.40, "weight_lb": 3.0 }
+          },
+          "wall_sleeves": {
+            "4in": { "list_price": 66.30, "weight_lb": 2.8 },
+            "6in": { "list_price": 72.15, "weight_lb": 3.0 },
+            "8_3_8in": { "list_price": 75.90, "weight_lb": 3.5 },
+            "8_3_8in_with_door": null
+          },
+          "wall_sleeve_support": { "list_price": 22.65, "weight_lb": 1.4 },
+          "corners": {
+            "inside_or_outside_90": { "list_price": 260.20, "weight_lb": 12.0 },
+            "inside_or_outside_135": { "list_price": 313.35, "weight_lb": 13.0 }
+          }
+        }
+      }
+    ]
+  }
+}

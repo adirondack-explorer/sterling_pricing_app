@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "source": "Sterling Standard Multiplier List",
+    "effective_date": "2025-12-01",
+    "notes": [
+      "Discounts shown are representative's net cost",
+      "For larger quantity orders / special quotations - Consult Factory",
+      "Freight terms are per standard representative multiplier sheet"
+    ]
+  },
+  "finned_tube_radiation": {
+    "basis": "total_trade_list_price",
+    "tiers": [
+      { "min": 1,    "max": 2999,  "multiplier": 0.70,   "label": "$1 – $2,999" },
+      { "min": 3000, "max": 4499,  "multiplier": 0.67,   "label": "$3,000 – $4,499" },
+      { "min": 4500, "max": 5999,  "multiplier": 0.608,  "label": "$4,500 – $5,999" },
+      { "min": 6000, "max": null,  "multiplier": 0.5776, "label": "$6,000+" }
+    ],
+    "freight": {
+      "min_weight_lbs_for_ffa": 2000,
+      "ffa_note": "Full Freight Allowed + applicable zone surcharge on shipments 2,000 lbs or more",
+      "no_ffa_note": "No freight allowance on shipments under 2,000 lbs — buyer arranges freight",
+      "zone_surcharges": {
+        "1": { "pct": 3, "basis": "total_list_price" },
+        "2": { "pct": 4, "basis": "total_list_price" },
+        "3": { "pct": 5, "basis": "total_list_price" }
+      }
+    }
+  },
+  "tagging_adder": {
+    "pct": 12,
+    "basis": "total_list_price_of_tagged_materials",
+    "description": "Add 12% of total list price for factory tagging of individual cartons with room numbers, floor, building, etc."
+  },
+  "other_charges": {
+    "order_change_fee_net": 25.00,
+    "order_change_fee_description": "Any changes to a released order — $25.00 net charge per change",
+    "cancellation_description": "Minimum 10% and maximum of all time and material, depending on work completed",
+    "minimum_order": 25.00,
+    "minimum_order_description": "Orders with an invoice of less than $25.00 will be invoiced at $25.00"
+  }
+}

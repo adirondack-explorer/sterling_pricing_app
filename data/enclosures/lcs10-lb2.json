@@ -1,0 +1,194 @@
+{
+  "_meta": {
+    "source": "Sterling Price Sheet C35R, Page 11",
+    "notes": [
+      "Both LCS-10 and LB-2 use R-series elements only",
+      "Available in Stainless Steel and Aluminum — Consult Factory",
+      "Backplate and bracket pricing is on the product page (not shared rough-in page)"
+    ]
+  },
+
+  "lcs_10": {
+    "_meta": {
+      "title": "LCS-10 Enclosures and Accessories",
+      "standard_lengths": "2' through 8' in 6\" increments",
+      "element_compatibility": "R-series elements only",
+      "notes": [
+        "LCS-10 enclosures and backplates available in lengths 2' thru 8' in 6\" increments",
+        "B-610 Mounting Strip supplied in 8' lengths — see rough-in page for pricing",
+        "Slide Shoe restricted to R01, R02, R03 elements only",
+        "Enclosure prices do not include backplate or hangers"
+      ]
+    },
+    "enclosure": {
+      "available_gauges": ["18GA", "16GA"],
+      "prices_per_ft": {
+        "18GA": 14.35,
+        "16GA": 16.60,
+        "14GA": null
+      },
+      "weights_per_ft": {
+        "18GA": 2.1,
+        "16GA": 2.4,
+        "14GA": null
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 2.80,
+        "baked_metallic": 4.05
+      }
+    },
+    "rough_in": {
+      "mounting_strip_B610": {
+        "catalog_number": "B-610",
+        "description": "Mounting Strip — 8' Lengths Only",
+        "list_price_per_ft": 4.30,
+        "weight_per_ft": 1.5,
+        "supplied_in": "8' lengths only"
+      },
+      "full_backplate": {
+        "list_price_per_ft": 10.60,
+        "weight_per_ft": 1.4
+      },
+      "bracket": {
+        "list_price": 8.40,
+        "weight_lb": 0.4
+      },
+      "adjustable_rod_hanger_upper": {
+        "description": "Adjustable Rod Hanger Upper with Clutch Nut",
+        "list_price": 7.25,
+        "weight_lb": 0.1
+      },
+      "adjustable_rod_hanger_lower": {
+        "description": "Adjustable Rod Hanger Lower with Clutch Nut",
+        "list_price": 7.25,
+        "weight_lb": 0.1
+      },
+      "slide_shoe": {
+        "description": "Slide Shoe",
+        "list_price": 2.45,
+        "weight_lb": 0.1,
+        "restricted_to_elements": ["R01", "R02", "R03"],
+        "notes": [{ "type": "warning", "text": "Slide Shoe is only available for R01, R02, and R03 elements.", "trigger": "always" }]
+      },
+      "wall_sleeve_8in_with_door_return_to_wall": {
+        "description": "8\" Wall Sleeve w/Access Door, Return to Wall",
+        "list_price": 27.90,
+        "weight_lb": 1.0
+      }
+    },
+    "accessories": {
+      "end_caps": {
+        "3in": { "list_price": 16.15, "weight_lb": 0.7 },
+        "6in": { "list_price": 20.25, "weight_lb": 0.8 },
+        "6in_with_door": { "list_price": 25.65, "weight_lb": 0.8 }
+      },
+      "splice_piece": {
+        "2in": { "list_price": 9.55, "weight_lb": 0.2 }
+      },
+      "wall_sleeves": {
+        "3in": { "list_price": 11.75, "weight_lb": 0.3 },
+        "6in": { "list_price": 12.75, "weight_lb": 0.6 }
+      },
+      "fill_in_section": {
+        "14in": { "list_price": 22.55, "weight_lb": 1.2 }
+      },
+      "corners": {
+        "inside_90": { "list_price": 14.90, "weight_lb": 0.3 },
+        "inside_135": { "list_price": 64.70, "weight_lb": 0.3 },
+        "outside_90": { "list_price": 29.65, "weight_lb": 0.9 },
+        "outside_135": { "list_price": 75.30, "weight_lb": 0.9 }
+      },
+      "valve_compartments": {
+        "8in_overlapping": { "list_price": 27.75, "weight_lb": 1.0, "bracket_required": true }
+      }
+    }
+  },
+
+  "lb_2": {
+    "_meta": {
+      "title": "LB-2 Enclosures and Accessories",
+      "standard_lengths": "2' through 8' in 6\" increments",
+      "element_compatibility": "R-series elements only",
+      "notes": [
+        "LB-2 enclosures and backplates available in lengths 2' thru 8' in 6\" increments",
+        "Enclosure prices do not include backplate or hangers",
+        "Available in Stainless Steel and Aluminum — Consult Factory"
+      ]
+    },
+    "enclosure": {
+      "available_gauges": ["18GA", "16GA", "14GA"],
+      "prices_per_ft": {
+        "18GA": 14.55,
+        "16GA": 15.75,
+        "14GA": 18.50
+      },
+      "weights_per_ft": {
+        "18GA": 2.0,
+        "16GA": 2.5,
+        "14GA": 3.0
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 4.30,
+        "baked_metallic": 5.55
+      },
+      "damper_adders": {
+        "standard_modulating_damper": { "list_price_add": 6.80, "weight_lb": 0.3 },
+        "tamper_resistant_modulating_damper": { "list_price_add": 8.90, "weight_lb": 0.3 }
+      }
+    },
+    "rough_in": {
+      "full_backplate_20GA": {
+        "list_price_per_ft": 10.25,
+        "weight_per_ft": 1.4
+      },
+      "partial_backplate": {
+        "catalog_number": "PBP",
+        "list_price_per_ft": 4.00,
+        "weight_per_ft": 1.5,
+        "supplied_in": "8' lengths only"
+      },
+      "adjustable_hanger_with_clutch_nut": {
+        "description": "Adjustable Hanger w/Clutch Nut (for Element or Return Pipe)",
+        "list_price": 7.25,
+        "weight_lb": 0.1
+      },
+      "standard_rod_hanger": {
+        "list_price": 4.60,
+        "weight_lb": 0.1
+      },
+      "intermediate_bottom_support_with_ball_bearings": {
+        "list_price": 7.55,
+        "weight_lb": 0.2
+      },
+      "intermediate_bottom_support": {
+        "list_price": 3.65,
+        "weight_lb": 0.2
+      },
+      "optional_gauging_tool": {
+        "description": "Optional Gauging Tool (for Locating Bottom Support)",
+        "list_price": 4.35,
+        "weight_lb": 0.3
+      }
+    },
+    "accessories": {
+      "end_caps": {
+        "2in": { "list_price": 20.25, "weight_lb": 0.6 },
+        "6in_to_floor": { "list_price": 22.65, "weight_lb": 1.2 },
+        "6in_to_floor_with_door": { "list_price": 29.85, "weight_lb": 1.2 }
+      },
+      "wall_sleeves": {
+        "4in": { "list_price": 11.80, "weight_lb": 0.9 },
+        "6in": { "list_price": 13.10, "weight_lb": 1.1 },
+        "8_3_8in": { "list_price": 15.00, "weight_lb": 1.3 },
+        "8_3_8in_with_door": { "list_price": 21.60, "weight_lb": 1.3 }
+      },
+      "wall_sleeve_support": { "list_price": 10.20, "weight_lb": 0.4 },
+      "corners": {
+        "inside_90": { "list_price": 29.15, "weight_lb": 0.9 },
+        "inside_135": { "list_price": 75.10, "weight_lb": 1.3 },
+        "outside_90": { "list_price": 31.05, "weight_lb": 1.3 },
+        "outside_135": { "list_price": 76.00, "weight_lb": 1.7 }
+      }
+    }
+  }
+}

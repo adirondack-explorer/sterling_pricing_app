@@ -1,0 +1,545 @@
+{
+  "_meta": {
+    "source": "Sterling Price Sheet C35R, Pages 21-22",
+    "family": "Dura-Vane II",
+    "style_code": "J",
+    "style_description": "Slip Jointed (overlapping accessories)",
+    "standard_lengths": "2' through 8' in 6\" increments",
+    "notes": [
+      "All accessories overlap the enclosures",
+      "Baked powder is standard (no adder); only baked_metallic has a per-foot adder",
+      "No two-tone finish adder for Dura-Vane II",
+      "No dampers available on any Dura-Vane II model",
+      "Available in Stainless Steel and Aluminum — Consult Factory",
+      "RWLI and RWDB modifications do NOT apply to Dura-Vane II (see page 24)",
+      "Enclosure prices do not include brackets, hangers, or backplate",
+      "JDVP A1 and JDVP A2 pedestal models — Consult Factory for pricing",
+      "ARLI louvered inlet models use slightly deeper enclosure: A=4-5/8\", B=5-9/16\""
+    ],
+    "depth_codes": {
+      "A": "4-3/8\"",
+      "B": "5-5/16\"",
+      "A_LI": "4-5/8\" (louvered inlet to floor models)",
+      "B_LI": "5-9/16\" (louvered inlet to floor models)",
+      "PB1": "5-1/2\" (pedestal B1)",
+      "PB2": "10-7/8\" (pedestal B2)"
+    }
+  },
+
+  "ar_models": [
+    {
+      "id": "JDVA-7",
+      "depth_label": "A",
+      "depth_in": "4-3/8",
+      "height_in": 7,
+      "style": "slip_jointed",
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "16GA": 46.55, "14GA": 50.85 },
+      "weights_per_ft": { "16GA": 3.0, "14GA": 3.7 },
+      "finish_adders_per_ft": { "baked_metallic": 1.75 },
+      "dampers": null,
+      "accessories": {
+        "end_caps": {
+          "4in": { "list_price": 30.35, "weight_lb": 1.7 },
+          "8_3_8in_with_door": { "list_price": 59.40, "weight_lb": 2.9 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 17.60, "weight_lb": 1.2 },
+          "6in": { "list_price": 19.85, "weight_lb": 1.8 },
+          "8_3_8in": { "list_price": 21.35, "weight_lb": 2.2 },
+          "8_3_8in_with_door": { "list_price": 45.50, "weight_lb": 2.8 },
+          "support": { "list_price": 9.15, "weight_lb": 0.3 }
+        },
+        "corners": {
+          "inside_90": { "list_price": 73.15, "weight_lb": 4.0 },
+          "inside_135": { "list_price": 96.15, "weight_lb": 4.4 },
+          "outside_90": { "list_price": 66.60, "weight_lb": 5.0 },
+          "outside_135": { "list_price": 96.20, "weight_lb": 5.4 }
+        },
+        "valve_compartments": {
+          "12in_16GA": { "list_price": 71.10, "weight_lb": 3.0, "bracket_required": true },
+          "12in_14GA": { "list_price": 72.55, "weight_lb": 4.3, "bracket_required": true },
+          "18in_16GA": { "list_price": 90.60, "weight_lb": 4.5, "bracket_required": true },
+          "18in_14GA": { "list_price": 96.40, "weight_lb": 6.4, "bracket_required": true }
+        }
+      }
+    },
+    {
+      "id": "JDVA-14",
+      "depth_label": "A",
+      "depth_in": "4-3/8",
+      "height_in": 14,
+      "style": "slip_jointed",
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "16GA": 57.65, "14GA": 63.80 },
+      "weights_per_ft": { "16GA": 4.5, "14GA": 5.7 },
+      "finish_adders_per_ft": { "baked_metallic": 2.55 },
+      "dampers": null,
+      "accessories": {
+        "end_caps": {
+          "4in": { "list_price": 35.25, "weight_lb": 2.8 },
+          "8_3_8in_with_door": { "list_price": 66.05, "weight_lb": 4.0 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 21.60, "weight_lb": 2.0 },
+          "6in": { "list_price": 24.30, "weight_lb": 2.3 },
+          "8_3_8in": { "list_price": 27.55, "weight_lb": 2.9 },
+          "8_3_8in_with_door": { "list_price": 54.15, "weight_lb": 3.1 },
+          "support": { "list_price": 9.55, "weight_lb": 0.5 }
+        },
+        "corners": {
+          "inside_90": { "list_price": 86.95, "weight_lb": 6.5 },
+          "inside_135": { "list_price": 111.25, "weight_lb": 7.0 },
+          "outside_90": { "list_price": 82.35, "weight_lb": 7.0 },
+          "outside_135": { "list_price": 104.70, "weight_lb": 7.5 }
+        },
+        "valve_compartments": {
+          "12in_16GA": { "list_price": 87.10, "weight_lb": 5.1, "bracket_required": true },
+          "12in_14GA": { "list_price": 90.90, "weight_lb": 6.3, "bracket_required": true },
+          "18in_16GA": { "list_price": 114.20, "weight_lb": 7.7, "bracket_required": true },
+          "18in_14GA": { "list_price": 119.10, "weight_lb": 9.5, "bracket_required": true }
+        }
+      }
+    },
+    {
+      "id": "JDVA-20",
+      "depth_label": "A",
+      "depth_in": "4-3/8",
+      "height_in": 20,
+      "style": "slip_jointed",
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "16GA": 63.45, "14GA": 69.75 },
+      "weights_per_ft": { "16GA": 6.1, "14GA": 7.5 },
+      "finish_adders_per_ft": { "baked_metallic": 2.70 },
+      "dampers": null,
+      "accessories": {
+        "end_caps": {
+          "4in": { "list_price": 41.15, "weight_lb": 3.9 },
+          "8_3_8in_with_door": { "list_price": 73.00, "weight_lb": 5.1 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 27.05, "weight_lb": 2.3 },
+          "6in": { "list_price": 29.85, "weight_lb": 2.9 },
+          "8_3_8in": { "list_price": 33.30, "weight_lb": 3.5 },
+          "8_3_8in_with_door": { "list_price": 60.35, "weight_lb": 3.8 },
+          "support": { "list_price": 11.25, "weight_lb": 0.6 }
+        },
+        "corners": {
+          "inside_90": { "list_price": 110.65, "weight_lb": 6.9 },
+          "inside_135": { "list_price": 134.15, "weight_lb": 7.5 },
+          "outside_90": { "list_price": 98.90, "weight_lb": 7.5 },
+          "outside_135": { "list_price": 122.25, "weight_lb": 8.0 }
+        },
+        "valve_compartments": {
+          "12in_16GA": { "list_price": 107.20, "weight_lb": 6.7, "bracket_required": true },
+          "12in_14GA": { "list_price": 115.35, "weight_lb": 8.1, "bracket_required": true },
+          "18in_16GA": { "list_price": 125.60, "weight_lb": 10.1, "bracket_required": true },
+          "18in_14GA": { "list_price": 132.65, "weight_lb": 12.2, "bracket_required": true }
+        }
+      }
+    },
+    {
+      "id": "JDVA-24",
+      "depth_label": "A",
+      "depth_in": "4-3/8",
+      "height_in": 24,
+      "style": "slip_jointed",
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "16GA": 74.75, "14GA": 82.20 },
+      "weights_per_ft": { "16GA": 7.5, "14GA": 8.6 },
+      "finish_adders_per_ft": { "baked_metallic": 3.15 },
+      "dampers": null,
+      "accessories": {
+        "end_caps": {
+          "4in": { "list_price": 44.20, "weight_lb": 4.5 },
+          "8_3_8in_with_door": { "list_price": 75.85, "weight_lb": 5.7 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 29.35, "weight_lb": 2.9 },
+          "6in": { "list_price": 33.30, "weight_lb": 3.4 },
+          "8_3_8in": { "list_price": 37.55, "weight_lb": 4.0 },
+          "8_3_8in_with_door": { "list_price": 65.50, "weight_lb": 4.2 },
+          "support": { "list_price": 12.40, "weight_lb": 0.7 }
+        },
+        "corners": {
+          "inside_90": { "list_price": 127.35, "weight_lb": 8.4 },
+          "inside_135": { "list_price": 154.80, "weight_lb": 9.0 },
+          "outside_90": { "list_price": 122.10, "weight_lb": 9.0 },
+          "outside_135": { "list_price": 155.25, "weight_lb": 9.5 }
+        },
+        "valve_compartments": {
+          "12in_16GA": { "list_price": 118.80, "weight_lb": 8.1, "bracket_required": true },
+          "12in_14GA": { "list_price": 125.95, "weight_lb": 9.2, "bracket_required": true },
+          "18in_16GA": { "list_price": 134.15, "weight_lb": 12.2, "bracket_required": true },
+          "18in_14GA": { "list_price": 142.65, "weight_lb": 13.8, "bracket_required": true }
+        }
+      }
+    },
+    {
+      "id": "JDVB-7",
+      "depth_label": "B",
+      "depth_in": "5-5/16",
+      "height_in": 7,
+      "style": "slip_jointed",
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "16GA": 48.25, "14GA": 52.75 },
+      "weights_per_ft": { "16GA": 3.1, "14GA": 3.8 },
+      "finish_adders_per_ft": { "baked_metallic": 1.75 },
+      "dampers": null,
+      "accessories": {
+        "end_caps": {
+          "4in": { "list_price": 31.70, "weight_lb": 1.8 },
+          "8_3_8in_with_door": { "list_price": 61.45, "weight_lb": 3.0 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 18.60, "weight_lb": 1.3 },
+          "6in": { "list_price": 21.40, "weight_lb": 1.9 },
+          "8_3_8in": { "list_price": 23.35, "weight_lb": 2.3 },
+          "8_3_8in_with_door": { "list_price": 47.40, "weight_lb": 2.5 },
+          "support": { "list_price": 9.95, "weight_lb": 0.3 }
+        },
+        "corners": {
+          "inside_90": { "list_price": 75.05, "weight_lb": 4.1 },
+          "inside_135": { "list_price": 98.80, "weight_lb": 4.5 },
+          "outside_90": { "list_price": 68.50, "weight_lb": 5.1 },
+          "outside_135": { "list_price": 99.90, "weight_lb": 5.5 }
+        },
+        "valve_compartments": {
+          "12in_16GA": { "list_price": 73.15, "weight_lb": 3.1, "bracket_required": true },
+          "12in_14GA": { "list_price": 75.45, "weight_lb": 3.3, "bracket_required": true },
+          "18in_16GA": { "list_price": 94.55, "weight_lb": 4.6, "bracket_required": true },
+          "18in_14GA": { "list_price": 100.25, "weight_lb": 5.0, "bracket_required": true }
+        }
+      }
+    },
+    {
+      "id": "JDVB-14",
+      "depth_label": "B",
+      "depth_in": "5-5/16",
+      "height_in": 14,
+      "style": "slip_jointed",
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "16GA": 59.20, "14GA": 65.70 },
+      "weights_per_ft": { "16GA": 4.5, "14GA": 5.7 },
+      "finish_adders_per_ft": { "baked_metallic": 2.55 },
+      "dampers": null,
+      "accessories": {
+        "end_caps": {
+          "4in": { "list_price": 36.75, "weight_lb": 2.8 },
+          "8_3_8in_with_door": { "list_price": 67.85, "weight_lb": 4.0 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 22.05, "weight_lb": 2.0 },
+          "6in": { "list_price": 25.10, "weight_lb": 2.3 },
+          "8_3_8in": { "list_price": 28.30, "weight_lb": 2.9 },
+          "8_3_8in_with_door": { "list_price": 54.60, "weight_lb": 3.1 },
+          "support": { "list_price": 9.85, "weight_lb": 0.5 }
+        },
+        "corners": {
+          "inside_90": { "list_price": 89.70, "weight_lb": 6.5 },
+          "inside_135": { "list_price": 113.60, "weight_lb": 7.0 },
+          "outside_90": { "list_price": 84.75, "weight_lb": 7.0 },
+          "outside_135": { "list_price": 107.80, "weight_lb": 7.5 }
+        },
+        "valve_compartments": {
+          "12in_16GA": { "list_price": 90.95, "weight_lb": 5.1, "bracket_required": true },
+          "12in_14GA": { "list_price": 93.10, "weight_lb": 6.3, "bracket_required": true },
+          "18in_16GA": { "list_price": 117.85, "weight_lb": 8.0, "bracket_required": true },
+          "18in_14GA": { "list_price": 123.00, "weight_lb": 9.8, "bracket_required": true }
+        }
+      }
+    },
+    {
+      "id": "JDVB-20",
+      "depth_label": "B",
+      "depth_in": "5-5/16",
+      "height_in": 20,
+      "style": "slip_jointed",
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "16GA": 64.85, "14GA": 72.00 },
+      "weights_per_ft": { "16GA": 6.1, "14GA": 7.5 },
+      "finish_adders_per_ft": { "baked_metallic": 2.70 },
+      "dampers": null,
+      "accessories": {
+        "end_caps": {
+          "4in": { "list_price": 41.15, "weight_lb": 3.9 },
+          "8_3_8in_with_door": { "list_price": 73.00, "weight_lb": 5.1 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 27.05, "weight_lb": 2.3 },
+          "6in": { "list_price": 29.85, "weight_lb": 2.9 },
+          "8_3_8in": { "list_price": 33.30, "weight_lb": 3.5 },
+          "8_3_8in_with_door": { "list_price": 60.35, "weight_lb": 3.8 },
+          "support": { "list_price": 11.25, "weight_lb": 0.6 }
+        },
+        "corners": {
+          "inside_90": { "list_price": 111.25, "weight_lb": 6.9 },
+          "inside_135": { "list_price": 134.15, "weight_lb": 7.5 },
+          "outside_90": { "list_price": 98.90, "weight_lb": 7.5 },
+          "outside_135": { "list_price": 122.25, "weight_lb": 8.0 }
+        },
+        "valve_compartments": {
+          "12in_16GA": { "list_price": 107.20, "weight_lb": 6.7, "bracket_required": true },
+          "12in_14GA": { "list_price": 115.35, "weight_lb": 8.1, "bracket_required": true },
+          "18in_16GA": { "list_price": 129.00, "weight_lb": 10.4, "bracket_required": true },
+          "18in_14GA": { "list_price": 135.95, "weight_lb": 12.5, "bracket_required": true }
+        }
+      }
+    },
+    {
+      "id": "JDVB-24",
+      "depth_label": "B",
+      "depth_in": "5-5/16",
+      "height_in": 24,
+      "style": "slip_jointed",
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "16GA": 77.25, "14GA": 85.10 },
+      "weights_per_ft": { "16GA": 7.5, "14GA": 8.6 },
+      "finish_adders_per_ft": { "baked_metallic": 3.15 },
+      "dampers": null,
+      "accessories": {
+        "end_caps": {
+          "4in": { "list_price": 44.20, "weight_lb": 4.5 },
+          "8_3_8in_with_door": { "list_price": 76.40, "weight_lb": 5.7 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 29.35, "weight_lb": 2.9 },
+          "6in": { "list_price": 33.30, "weight_lb": 3.4 },
+          "8_3_8in": { "list_price": 37.55, "weight_lb": 4.0 },
+          "8_3_8in_with_door": { "list_price": 65.50, "weight_lb": 4.2 },
+          "support": { "list_price": 12.40, "weight_lb": 0.7 }
+        },
+        "corners": {
+          "inside_90": { "list_price": 127.35, "weight_lb": 8.4 },
+          "inside_135": { "list_price": 154.80, "weight_lb": 9.0 },
+          "outside_90": { "list_price": 122.10, "weight_lb": 9.0 },
+          "outside_135": { "list_price": 155.25, "weight_lb": 9.5 }
+        },
+        "valve_compartments": {
+          "12in_16GA": { "list_price": 118.80, "weight_lb": 8.1, "bracket_required": true },
+          "12in_14GA": { "list_price": 125.95, "weight_lb": 9.2, "bracket_required": true },
+          "18in_16GA": { "list_price": 140.90, "weight_lb": 12.5, "bracket_required": true },
+          "18in_14GA": { "list_price": 149.30, "weight_lb": 14.1, "bracket_required": true }
+        }
+      }
+    }
+  ],
+
+  "arli_models": [
+    {
+      "id": "JDVA-10LI",
+      "depth_label": "A_LI",
+      "depth_in": "4-5/8",
+      "height_in": 10,
+      "style": "slip_jointed",
+      "style_note": "Louvered inlet to the floor",
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "16GA": 51.60, "14GA": 55.90 },
+      "weights_per_ft": { "16GA": 3.5, "14GA": 4.3 },
+      "finish_adders_per_ft": { "baked_metallic": 2.10 },
+      "dampers": null,
+      "accessories": {
+        "end_caps": {
+          "4in": { "list_price": 33.15, "weight_lb": 2.2 },
+          "8_3_8in_with_door": { "list_price": 64.70, "weight_lb": 3.3 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 19.60, "weight_lb": 1.6 },
+          "6in": { "list_price": 22.05, "weight_lb": 2.2 },
+          "8_3_8in": { "list_price": 27.10, "weight_lb": 2.6 },
+          "8_3_8in_with_door": { "list_price": 50.70, "weight_lb": 2.8 },
+          "support": { "list_price": 10.20, "weight_lb": 0.6 }
+        },
+        "corners": {
+          "inside_90": { "list_price": 79.40, "weight_lb": 4.4 },
+          "inside_135": { "list_price": 100.20, "weight_lb": 4.8 },
+          "outside_90": { "list_price": 75.10, "weight_lb": 5.4 },
+          "outside_135": { "list_price": 96.00, "weight_lb": 5.8 }
+        },
+        "valve_compartments": {
+          "18in_16GA": { "list_price": 98.25, "weight_lb": 5.0, "bracket_required": true },
+          "18in_14GA": { "list_price": 102.75, "weight_lb": 5.3, "bracket_required": true }
+        }
+      },
+      "backplate_and_floor_angle": {
+        "DVFBP_10_unpainted_galv": {
+          "catalog_number": "DVFBP-10",
+          "list_price_per_ft": 11.50,
+          "weight_per_ft": 1.2
+        },
+        "DVFBP_10_painted_CRS": {
+          "catalog_number": "DVFBP-10",
+          "list_price_per_ft": 13.20,
+          "weight_per_ft": 1.2
+        },
+        "EAFA_unpainted": {
+          "catalog_number": "EAFA",
+          "list_price_per_ft": 8.85,
+          "weight_per_ft": 0.3,
+          "supplied_in": "8' lengths only"
+        },
+        "EAFA_baked_powder": {
+          "catalog_number": "EAFA",
+          "list_price_per_ft": 11.55,
+          "weight_per_ft": 0.3,
+          "supplied_in": "8' lengths only"
+        },
+        "EAFA_baked_metallic": {
+          "catalog_number": "EAFA",
+          "list_price_per_ft": 15.45,
+          "weight_per_ft": 0.3,
+          "supplied_in": "8' lengths only"
+        }
+      }
+    },
+    {
+      "id": "JDVB-10LI",
+      "depth_label": "B_LI",
+      "depth_in": "5-9/16",
+      "height_in": 10,
+      "style": "slip_jointed",
+      "style_note": "Louvered inlet to the floor",
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "16GA": 54.10, "14GA": 59.05 },
+      "weights_per_ft": { "16GA": 3.7, "14GA": 4.5 },
+      "finish_adders_per_ft": { "baked_metallic": 2.10 },
+      "dampers": null,
+      "accessories": {
+        "end_caps": {
+          "4in": { "list_price": 34.60, "weight_lb": 2.2 },
+          "8_3_8in_with_door": { "list_price": 66.30, "weight_lb": 3.5 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 21.10, "weight_lb": 1.8 },
+          "6in": { "list_price": 23.70, "weight_lb": 2.4 },
+          "8_3_8in": { "list_price": 28.25, "weight_lb": 2.8 },
+          "8_3_8in_with_door": { "list_price": 51.20, "weight_lb": 3.0 },
+          "support": { "list_price": 10.60, "weight_lb": 0.8 }
+        },
+        "corners": {
+          "inside_90": { "list_price": 82.45, "weight_lb": 4.5 },
+          "inside_135": { "list_price": 103.15, "weight_lb": 5.0 },
+          "outside_90": { "list_price": 78.30, "weight_lb": 5.5 },
+          "outside_135": { "list_price": 104.25, "weight_lb": 6.0 }
+        },
+        "valve_compartments": {
+          "18in_16GA": { "list_price": 99.35, "weight_lb": 5.2, "bracket_required": true },
+          "18in_14GA": { "list_price": 104.95, "weight_lb": 5.5, "bracket_required": true }
+        }
+      },
+      "backplate_and_floor_angle": {
+        "DVFBP_10_unpainted_galv": {
+          "catalog_number": "DVFBP-10",
+          "list_price_per_ft": 11.50,
+          "weight_per_ft": 1.2
+        },
+        "DVFBP_10_painted_CRS": {
+          "catalog_number": "DVFBP-10",
+          "list_price_per_ft": 13.20,
+          "weight_per_ft": 1.2
+        },
+        "EAFA_unpainted": {
+          "catalog_number": "EAFA",
+          "list_price_per_ft": 8.85,
+          "weight_per_ft": 0.3,
+          "supplied_in": "8' lengths only"
+        },
+        "EAFA_baked_powder": {
+          "catalog_number": "EAFA",
+          "list_price_per_ft": 11.55,
+          "weight_per_ft": 0.3,
+          "supplied_in": "8' lengths only"
+        },
+        "EAFA_baked_metallic": {
+          "catalog_number": "EAFA",
+          "list_price_per_ft": 15.45,
+          "weight_per_ft": 0.3,
+          "supplied_in": "8' lengths only"
+        }
+      }
+    }
+  ],
+
+  "arpm_models": [
+    {
+      "id": "JDVP-B1",
+      "depth_label": "PB1",
+      "depth_in": "5-1/2",
+      "enclosure_height_in": "6-3/4",
+      "rows": 1,
+      "style": "slip_jointed",
+      "style_note": "Pedestal B1 — 1 row free standing enclosure 6-3/4\" high",
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "16GA": 67.35, "14GA": 89.20 },
+      "weights_per_ft": { "16GA": 5.0, "14GA": 6.3 },
+      "finish_adders_per_ft": { "baked_metallic": 2.20 },
+      "dampers": null,
+      "accessories": {
+        "support_bracket_assembly": {
+          "description": "Support Bracket Assembly (Maximum 3' on center)",
+          "list_price": 37.65,
+          "weight_lb": 2.0,
+          "bracket_quantity_rules": {
+            "2ft_to_4ft": 2,
+            "4ft6in_to_8ft": 3
+          }
+        },
+        "end_caps": {
+          "3in": { "list_price": 49.45, "weight_lb": 2.0 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 28.15, "weight_lb": 1.9 },
+          "6in": { "list_price": 29.35, "weight_lb": 2.5 },
+          "8_3_8in": { "list_price": 30.95, "weight_lb": 3.0 },
+          "8_3_8in_with_door": { "list_price": 92.85, "weight_lb": 3.3 },
+          "support": { "list_price": 19.75, "weight_lb": 0.8 }
+        },
+        "corners": {
+          "inside_or_outside_90": { "list_price": 187.80, "weight_lb": 8.0 },
+          "inside_or_outside_135": { "list_price": 218.70, "weight_lb": 9.3 }
+        }
+      },
+      "consult_factory_note": "JDVP A1 (A depth pedestal, 1 row) — Consult Factory for pricing"
+    },
+    {
+      "id": "JDVP-B2",
+      "depth_label": "PB2",
+      "depth_in": "10-7/8",
+      "enclosure_height_in": "6-3/4",
+      "rows": 2,
+      "style": "slip_jointed",
+      "style_note": "Pedestal B2 — 2 row free standing enclosure 6-3/4\" high",
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft": { "16GA": 93.70, "14GA": 98.75 },
+      "weights_per_ft": { "16GA": 6.0, "14GA": 7.3 },
+      "finish_adders_per_ft": { "baked_metallic": 2.45 },
+      "dampers": null,
+      "accessories": {
+        "support_bracket_assembly": {
+          "description": "Support Bracket Assembly (Maximum 3' on center)",
+          "list_price": 60.50,
+          "weight_lb": 2.4,
+          "bracket_quantity_rules": {
+            "2ft_to_4ft": 2,
+            "4ft6in_to_8ft": 3
+          }
+        },
+        "end_caps": {
+          "3in": { "list_price": 122.85, "weight_lb": 3.0 }
+        },
+        "wall_sleeves": {
+          "4in": { "list_price": 68.75, "weight_lb": 2.8 },
+          "6in": { "list_price": 75.05, "weight_lb": 3.0 },
+          "8_3_8in": { "list_price": 78.85, "weight_lb": 3.5 },
+          "8_3_8in_with_door": null,
+          "support": { "list_price": 22.65, "weight_lb": 1.4 }
+        },
+        "corners": {
+          "inside_or_outside_90": { "list_price": 270.00, "weight_lb": 12.0 },
+          "inside_or_outside_135": { "list_price": 325.40, "weight_lb": 13.0 }
+        }
+      },
+      "consult_factory_note": "JDVP A2 (A depth pedestal, 2 row) — Consult Factory for pricing"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "_meta": {
+    "source": "Sterling Price Sheet C35R, Page 3",
+    "notes": [
+      "For SS, ARLI, DVLI, LB2, LCS10, and Guardian — see individual product pages for backplate pricing",
+      "Price Brackets & Ball Bearing Hangers: 2 with 2'–6' lengths, 3 with 7', 7'6\" & 8' lengths for 20\" & 24\" 2-tier",
+      "Standard brackets with bracket-mounted hangers typically used for steam jobs requiring pitch adjustment",
+      "Stand-Offs are to be used with 24\" WTRBRKT & BRKTs with 30\" & 36\" enclosures",
+      "Cradle 1, 2, or 3A included in bracket and ball bearing hanger price",
+      "K = 3-9/16\" enclosure depth | A = 4-3/8\" enclosure depth | B = 5-5/16\" enclosure depth"
+    ],
+    "bracket_quantity_rules": {
+      "water_brackets": {
+        "runs_2ft_to_6ft": 2,
+        "runs_6ft6in_to_8ft": 3,
+        "note": "Minimum 2 brackets per section of cover; 3 for cover over 6'"
+      },
+      "valve_compartment_rule": "All valve compartments require minimum 1 bracket",
+      "end_accessories_rule": "Minimum 1 hanger or wall sleeve support on end accessories not returned to wall",
+      "roll_pipe_hanger_rule": "Minimum 1 roll pipe hanger per 4' of supported return pipe",
+      "two_tier_rule": "In two-tier applications, same number of ball bearing hangers as original brackets; 20\" and 24\" brackets have slots for second-tier bracket-mounted hangers"
+    }
+  },
+
+  "full_backplates": {
+    "_meta": {
+      "title": "Full Backplates",
+      "pricing_unit": "per_foot",
+      "notes": [
+        "Backplate should extend to within 1\" of each end of runs",
+        "Backplate footage typically exceeds cover footage by ~6\"–12\" per run",
+        "Make sure backplate for valve compartments is included"
+      ]
+    },
+    "items": [
+      { "catalog_number": "FBP-7",  "height_in": 7,  "list_price_per_ft_unpainted_galv": 11.10, "list_price_per_ft_baked_powder_crs": 12.55, "weight_per_ft": 0.9 },
+      { "catalog_number": "FBP-8",  "height_in": 8,  "list_price_per_ft_unpainted_galv": 11.25, "list_price_per_ft_baked_powder_crs": 12.60, "weight_per_ft": 1.0 },
+      { "catalog_number": "FBP-11", "height_in": 11, "list_price_per_ft_unpainted_galv": 11.50, "list_price_per_ft_baked_powder_crs": 13.20, "weight_per_ft": 1.4 },
+      { "catalog_number": "FBP-14", "height_in": 14, "list_price_per_ft_unpainted_galv": 12.70, "list_price_per_ft_baked_powder_crs": 15.15, "weight_per_ft": 2.1 },
+      { "catalog_number": "FBP-20", "height_in": 20, "list_price_per_ft_unpainted_galv": 15.25, "list_price_per_ft_baked_powder_crs": 18.45, "weight_per_ft": 2.8 },
+      { "catalog_number": "FBP-24", "height_in": 24, "list_price_per_ft_unpainted_galv": 16.60, "list_price_per_ft_baked_powder_crs": 19.95, "weight_per_ft": 3.4 },
+      { "catalog_number": "FBP-30", "height_in": 30, "list_price_per_ft_unpainted_galv": 19.75, "list_price_per_ft_baked_powder_crs": 20.40, "weight_per_ft": 4.3 },
+      { "catalog_number": "FBP-36", "height_in": 36, "list_price_per_ft_unpainted_galv": 22.80, "list_price_per_ft_baked_powder_crs": 23.60, "weight_per_ft": 4.9 }
+    ]
+  },
+
+  "partial_backplate": {
+    "catalog_number": "PBP",
+    "description": "Partial Backplate",
+    "pricing_unit": "per_foot",
+    "supplied_in": "8' lengths only",
+    "list_price_per_ft": 4.00,
+    "weight_per_ft": 0.4,
+    "notes": [
+      { "type": "info", "text": "Comes in 8' lengths only — cut on job to required length.", "trigger": "always" },
+      { "type": "info", "text": "Order extra to cover small offcuts — partial lengths are discarded on site.", "trigger": "always" }
+    ]
+  },
+
+  "mounting_strip": {
+    "catalog_number": "B-610",
+    "description": "Mounting Strip",
+    "pricing_unit": "per_foot",
+    "supplied_in": "8' lengths only",
+    "list_price_per_ft": 4.30,
+    "weight_per_ft": 0.4,
+    "notes": [
+      { "type": "info", "text": "Supplied in 8' lengths only. Used with LCS-10 enclosures.", "trigger": "always" }
+    ]
+  },
+
+  "water_brackets": {
+    "_meta": {
+      "title": "Water Brackets",
+      "pricing_unit": "per_each",
+      "notes": [
+        "Typically specified for hot water jobs",
+        "Select bracket by offset (K, A, B) matching enclosure depth and by height matching enclosure height",
+        "A7 and B7 include Stand-Offs"
+      ]
+    },
+    "items": [
+      { "catalog_number": "WTRBRKT-A7",  "offset": "A", "height_in": 7,  "description": "Water Bracket w/Stand-Off \"A\" 7\"",  "list_price": 11.30, "weight_lb": 0.4 },
+      { "catalog_number": "WTRBRKT-B7",  "offset": "B", "height_in": 7,  "description": "Water Bracket w/Stand-Off \"B\" 7\"",  "list_price": 11.30, "weight_lb": 0.4 },
+      { "catalog_number": "WTRBRKT-K8",  "offset": "K", "height_in": 8,  "description": "Water Bracket \"K\" 8\"",              "list_price": 9.15,  "weight_lb": 0.4 },
+      { "catalog_number": "WTRBRKT-K11", "offset": "K", "height_in": 11, "description": "Water Bracket \"K\" 11\"",             "list_price": 9.85,  "weight_lb": 0.5 },
+      { "catalog_number": "WTRBRKT-K14", "offset": "K", "height_in": 14, "description": "Water Bracket \"K\" 14\"",             "list_price": 10.05, "weight_lb": 0.7 },
+      { "catalog_number": "WTRBRKT-A11", "offset": "A", "height_in": 11, "description": "Water Bracket \"A\" 11\"",             "list_price": 10.05, "weight_lb": 0.6 },
+      { "catalog_number": "WTRBRKT-A14", "offset": "A", "height_in": 14, "description": "Water Bracket \"A\" 14\"",             "list_price": 12.55, "weight_lb": 0.7 },
+      { "catalog_number": "WTRBRKT-A20", "offset": "A", "height_in": 20, "description": "Water Bracket \"A\" 20\"",             "list_price": 12.75, "weight_lb": 0.9 },
+      { "catalog_number": "WTRBRKT-A24", "offset": "A", "height_in": 24, "description": "Water Bracket \"A\" 24\"",             "list_price": 13.65, "weight_lb": 1.0 },
+      { "catalog_number": "WTRBRKT-B14", "offset": "B", "height_in": 14, "description": "Water Bracket \"B\" 14\"",             "list_price": 12.55, "weight_lb": 0.8 },
+      { "catalog_number": "WTRBRKT-B20", "offset": "B", "height_in": 20, "description": "Water Bracket \"B\" 20\"",             "list_price": 12.75, "weight_lb": 0.9 },
+      { "catalog_number": "WTRBRKT-B24", "offset": "B", "height_in": 24, "description": "Water Bracket \"B\" 24\"",             "list_price": 13.65, "weight_lb": 1.0 }
+    ]
+  },
+
+  "stand_offs": {
+    "_meta": {
+      "title": "Stand-Offs",
+      "pricing_unit": "per_each",
+      "notes": [
+        "Stand-Offs are to be used with 24\" WTRBRKT & BRKTs with 30\" & 36\" enclosures",
+        "P suffix = Stand off/gauging tool for PBP (partial backplate)",
+        "F suffix = Stand off for FBP (full backplate)"
+      ]
+    },
+    "items": [
+      { "catalog_number": "SO-30P", "description": "Stand off/gauging tool 30\" for PBP \"B\" 30\"", "enclosure_height_in": 30, "list_price": 3.65, "weight_lb": 0.2 },
+      { "catalog_number": "SO-30F", "description": "Stand off 30\" for FBP \"B\" 30\"",              "enclosure_height_in": 30, "list_price": 2.05, "weight_lb": 0.2 },
+      { "catalog_number": "SO-36P", "description": "Stand off/gauging tool 36\" for PBP \"B\" 36\"", "enclosure_height_in": 36, "list_price": 3.90, "weight_lb": 0.3 },
+      { "catalog_number": "SO-36F", "description": "Stand off 36\" for FBP \"B\" 36\"",              "enclosure_height_in": 36, "list_price": 2.45, "weight_lb": 0.3 }
+    ]
+  },
+
+  "steam_brackets": {
+    "_meta": {
+      "title": "Steam Brackets",
+      "pricing_unit": "per_each",
+      "notes": [
+        "Standard brackets with bracket-mounted hangers are typically used for steam jobs requiring pitch adjustment",
+        "Select by offset (K, A, B) and height matching enclosure"
+      ]
+    },
+    "items": [
+      { "catalog_number": "BRKT-K8",  "offset": "K", "height_in": 8,  "list_price": 9.05,  "weight_lb": 0.14 },
+      { "catalog_number": "BRKT-K11", "offset": "K", "height_in": 11, "list_price": 9.15,  "weight_lb": 0.22 },
+      { "catalog_number": "BRKT-K14", "offset": "K", "height_in": 14, "list_price": 9.55,  "weight_lb": 0.25 },
+      { "catalog_number": "BRKT-A11", "offset": "A", "height_in": 11, "list_price": 9.15,  "weight_lb": 0.5 },
+      { "catalog_number": "BRKT-A14", "offset": "A", "height_in": 14, "list_price": 9.55,  "weight_lb": 0.6 },
+      { "catalog_number": "BRKT-A20", "offset": "A", "height_in": 20, "list_price": 11.10, "weight_lb": 0.8 },
+      { "catalog_number": "BRKT-A24", "offset": "A", "height_in": 24, "list_price": 12.30, "weight_lb": 0.9 },
+      { "catalog_number": "BRKT-B14", "offset": "B", "height_in": 14, "list_price": 9.55,  "weight_lb": 0.7 },
+      { "catalog_number": "BRKT-B20", "offset": "B", "height_in": 20, "list_price": 11.10, "weight_lb": 0.8 },
+      { "catalog_number": "BRKT-B24", "offset": "B", "height_in": 24, "list_price": 12.30, "weight_lb": 0.9 }
+    ]
+  },
+
+  "ball_bearing_hangers": {
+    "_meta": {
+      "title": "Ball Bearing Hangers",
+      "pricing_unit": "per_each",
+      "list_price": 7.25,
+      "notes": [
+        "Cradle 1, 2, or 3A included in bracket and ball bearing hanger price",
+        "Bracket-mounted hangers (BRKT) used for 2-tier applications",
+        "Wall-mounted hangers (WALL) used when bracket clearance is insufficient"
+      ]
+    },
+    "items": [
+      { "catalog_number": "BB-HGR-BRKT-A", "mount_type": "bracket", "offset": "A", "description": "Ball Bearing Hanger - Bracket Mounted \"A\"", "list_price": 7.25, "weight_lb": 0.4 },
+      { "catalog_number": "BB-HGR-BRKT-B", "mount_type": "bracket", "offset": "B", "description": "Ball Bearing Hanger - Bracket Mounted \"B\"", "list_price": 7.25, "weight_lb": 0.5 },
+      { "catalog_number": "BB-HGR-WALL-K", "mount_type": "wall",    "offset": "K", "description": "Ball Bearing Hanger - Wall Mounted \"K\"",    "list_price": 7.25, "weight_lb": 0.4 },
+      { "catalog_number": "BB-HGR-WALL-A", "mount_type": "wall",    "offset": "A", "description": "Ball Bearing Hanger - Wall Mounted \"A\"",    "list_price": 7.25, "weight_lb": 0.4 },
+      { "catalog_number": "BB-HGR-WALL-B", "mount_type": "wall",    "offset": "B", "description": "Ball Bearing Hanger - Wall Mounted \"B\"",    "list_price": 7.25, "weight_lb": 0.4 }
+    ]
+  },
+
+  "roll_pipe_hangers": {
+    "_meta": {
+      "title": "Roll Pipe Hangers",
+      "pricing_unit": "per_each",
+      "auto_suggest_rule": "1 roll pipe hanger per 4' of supported return pipe"
+    },
+    "items": [
+      { "catalog_number": "RPH-K", "offset": "K", "list_price": 7.45, "weight_lb": 0.2 },
+      { "catalog_number": "RPH-A", "offset": "A", "list_price": 7.45, "weight_lb": 0.3 },
+      { "catalog_number": "RPH-B", "offset": "B", "list_price": 7.45, "weight_lb": 0.4 }
+    ]
+  },
+
+  "cradles": {
+    "_meta": {
+      "title": "Cradles",
+      "pricing_unit": "per_each",
+      "notes": [
+        "Cradles ship with element based on the number of brackets and hangers ordered",
+        "Cradle 1, 2, or 3A included in bracket and ball bearing hanger price — CR6A and CR10 are additional"
+      ]
+    },
+    "items": [
+      { "catalog_number": "CR6A", "description": "Cradle 6A", "list_price": 3.80, "weight_lb": 0.1 },
+      { "catalog_number": "CR10", "description": "Cradle 10", "list_price": 3.80, "weight_lb": 0.1 }
+    ]
+  },
+
+  "gaskets": {
+    "_meta": {
+      "title": "Urethane Gaskets",
+      "pricing_unit": "per_foot",
+      "auto_suggest": true,
+      "notes": [
+        "Urethane gasket is typically required behind hanger strip — factory installed or field installed",
+        "Default to factory installed (JV-UGFAC) unless otherwise specified"
+      ]
+    },
+    "items": [
+      { "catalog_number": "JV-UGFAC", "description": "Urethane Gasket - Factory Installed", "list_price_per_ft": 3.70, "weight_per_ft": 0.1 },
+      { "catalog_number": "JV-UGFLD", "description": "Urethane Gasket - Field Installed",   "list_price_per_ft": 2.80, "weight_per_ft": 0.1 }
+    ]
+  },
+
+  "touch_up_paint": {
+    "catalog_number": "TUP",
+    "description": "Spray Can Touch-Up Paint (1 Can)",
+    "pricing_unit": "per_each",
+    "list_price": 26.35,
+    "weight_lb": 1.0
+  }
+}

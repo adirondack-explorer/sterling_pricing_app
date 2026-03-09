@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "source": "Sterling Zone Locations PDF",
+    "product_line": "Finned Tube & Convectors",
+    "shipping_from": "Westfield, MA",
+    "notes": [
+      "Alaska and Hawaii: Consult with Customer Service",
+      "Zone surcharge is applied as a percentage of total list price on shipments meeting freight allowance threshold",
+      "Freight allowance requires minimum 2,000 lbs shipment weight"
+    ]
+  },
+  "finned_tube_convectors": {
+    "shipping_from": "Westfield, MA",
+    "freight_allowance_min_lbs": 2000,
+    "zones": {
+      "1": {
+        "surcharge_pct": 3,
+        "states_us": [
+          "CT", "DE", "DC", "IL", "IN", "IA", "KY", "ME", "MD", "MA",
+          "MI", "MN", "MO", "NH", "NJ", "NY", "NC", "OH", "PA", "RI",
+          "TN", "VT", "VA", "WV", "WI"
+        ],
+        "state_names_us": [
+          "Connecticut", "Delaware", "District of Columbia", "Illinois", "Indiana",
+          "Iowa", "Kentucky", "Maine", "Maryland", "Massachusetts", "Michigan",
+          "Minnesota", "Missouri", "New Hampshire", "New Jersey", "New York",
+          "North Carolina", "Ohio", "Pennsylvania", "Rhode Island", "Tennessee",
+          "Vermont", "Virginia", "West Virginia", "Wisconsin"
+        ],
+        "provinces_canada": ["Ontario", "Maritimes", "Quebec"]
+      },
+      "2": {
+        "surcharge_pct": 4,
+        "states_us": [
+          "AL", "AR", "CO", "FL", "GA", "KS", "LA", "MS", "NE", "NM",
+          "ND", "OK", "SC", "SD", "TX", "UT", "WY"
+        ],
+        "state_names_us": [
+          "Alabama", "Arkansas", "Colorado", "Florida", "Georgia", "Kansas",
+          "Louisiana", "Mississippi", "Nebraska", "New Mexico", "North Dakota",
+          "Oklahoma", "South Carolina", "South Dakota", "Texas", "Utah", "Wyoming"
+        ],
+        "provinces_canada": ["Manitoba", "Saskatchewan"]
+      },
+      "3": {
+        "surcharge_pct": 5,
+        "states_us": [
+          "AK", "AZ", "CA", "ID", "MT", "NV", "OR", "WA"
+        ],
+        "state_names_us": [
+          "Alaska", "Arizona", "California", "Idaho", "Montana",
+          "Nevada", "Oregon", "Washington"
+        ],
+        "provinces_canada": ["Alberta", "British Columbia"]
+      }
+    }
+  }
+}

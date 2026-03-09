@@ -1,0 +1,73 @@
+{
+  "_meta": {
+    "source": "Sterling Price Sheet C35R, Page 24",
+    "title": "Standard Enclosure Modifications",
+    "pricing_unit": "list_add_per_foot_of_enclosure",
+    "notes": [
+      "Does not apply to Standard Classic Enclosure with Underlapping Accessories",
+      "Does not apply to Dura-Vane Enclosure",
+      "Consult factory for use on JVK-S8 and AR7",
+      "Add to the base enclosure price per foot of enclosure ordered"
+    ]
+  },
+
+  "enclosure_modifications": [
+    {
+      "id": "RWLI",
+      "code": "RWLI",
+      "description": "Return to Wall, Louvered Inlet",
+      "pricing_unit": "list_add_per_foot",
+      "prices_per_ft_by_offset": {
+        "K": 10.60,
+        "A": 13.30,
+        "B": 14.00
+      },
+      "excludes": [
+        "Standard Classic enclosures with underlapping accessories (V-style)",
+        "Dura-Vane enclosures"
+      ],
+      "notes": [
+        { "type": "warning", "text": "Consult factory for use on JVK-S8 and JVA-AR7.", "trigger": "when_jvk_s8_or_ar7_selected" },
+        { "type": "info", "text": "Does not apply to Standard Classic (V-style) or Dura-Vane enclosures.", "trigger": "always" },
+        { "type": "info", "text": "Add this amount per foot to the base enclosure price.", "trigger": "always" }
+      ]
+    },
+    {
+      "id": "RWDB",
+      "code": "RWDB",
+      "description": "Return to Wall, No Inlet Louvers (Draft Barrier Style)",
+      "pricing_unit": "list_add_per_foot",
+      "prices_per_ft_by_offset": {
+        "K": 10.60,
+        "A": 13.30,
+        "B": 14.00
+      },
+      "excludes": [
+        "Standard Classic enclosures with underlapping accessories (V-style)",
+        "Dura-Vane enclosures"
+      ],
+      "notes": [
+        { "type": "warning", "text": "Consult factory for use on JVK-S8 and JVA-AR7.", "trigger": "when_jvk_s8_or_ar7_selected" },
+        { "type": "info", "text": "Does not apply to Standard Classic (V-style) or Dura-Vane enclosures.", "trigger": "always" },
+        { "type": "info", "text": "Add this amount per foot to the base enclosure price.", "trigger": "always" }
+      ]
+    }
+  ],
+
+  "finish_adders": {
+    "_meta": {
+      "notes": [
+        "Special colors require factory quote and additional lead time",
+        "No deduction allowed for prime coat on Classic/Dura-Vane/AR enclosures",
+        "Grille and enclosure can be painted same color at no extra charge (Classic AR and Dura-Vane)",
+        "Two-tone effect (aluminum grille in standard baked powder, enclosure different): add $3.80 List per ft"
+      ]
+    },
+    "two_tone_effect_adder_per_ft": 3.80,
+    "two_tone_note": "Extruded aluminum grille furnished in standard baked powder for two-tone effect — add $3.80 List per ft. Applies to Classic AR and Dura-Vane II enclosures.",
+    "special_color": {
+      "type": "consult_factory",
+      "note": "Special colors require factory quote and extended lead time."
+    }
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "_meta": {
+    "source": "Sterling Price Sheet C35R, Page 10",
+    "family": "Versa-Line Expanded Metal",
+    "standard_lengths": "2' through 8' in 6\" increments",
+    "pricing_unit": "list_price_per_foot (enclosure); list_price_each (accessories)",
+    "notes": [
+      "Enclosure prices do not include brackets, hangers or backplate",
+      "X-series uses Wall Mounted Ball Bearing Hangers, Pipe & Cover Supports, and Rigid Element Hangers — not standard water/steam brackets",
+      "XC (ceiling) series uses Ceiling Hangers instead",
+      "No valve compartment or damper options for expanded metal enclosures",
+      "Only 90° corners available — no 135° corners",
+      "For special colors consult factory",
+      "Available in Stainless Steel and Aluminum — Consult Factory"
+    ],
+    "depth_compatibility": {
+      "VA": { "depth_label": "A", "depth_in": "4-3/8", "max_element_fin_depth_in": 3.25 },
+      "VB": { "depth_label": "B", "depth_in": "5-5/16", "required_element_fin_depth_in": 4.25 }
+    }
+  },
+
+  "models": [
+
+    {
+      "id": "VA-X5",
+      "style": "expanded_metal",
+      "depth_label": "A",
+      "height_in": 5,
+      "prices_per_ft": { "list_price": 15.00 },
+      "weight_per_ft": 0.9,
+      "finish_adders_per_ft": {
+        "baked_powder": 3.25,
+        "baked_metallic": 4.80
+      },
+      "accessories": {
+        "wall_mounted_bb_hanger": { "list_price": 7.25, "weight_lb": 0.4 },
+        "pipe_and_cover_support": { "list_price": 8.25, "weight_lb": 0.3 },
+        "rigid_element_hanger": { "list_price": 4.65, "weight_lb": 0.3 },
+        "end_caps": {
+          "3in": { "list_price": 15.00, "weight_lb": 0.5 }
+        },
+        "corners": {
+          "inside_90": { "list_price": 30.35, "weight_lb": 0.9 },
+          "outside_90": { "list_price": 32.20, "weight_lb": 1.0 }
+        },
+        "splice_plate": {
+          "3in": { "list_price": 6.75, "weight_lb": 0.5 }
+        }
+      }
+    },
+
+    {
+      "id": "VA-X11",
+      "style": "expanded_metal",
+      "depth_label": "A",
+      "height_in": 11,
+      "prices_per_ft": { "list_price": 22.90 },
+      "weight_per_ft": 1.1,
+      "finish_adders_per_ft": {
+        "baked_powder": 4.60,
+        "baked_metallic": 6.75
+      },
+      "accessories": {
+        "wall_mounted_bb_hanger": { "list_price": 7.25, "weight_lb": 0.4 },
+        "pipe_and_cover_support": { "list_price": 8.25, "weight_lb": 0.3 },
+        "rigid_element_hanger": { "list_price": 4.65, "weight_lb": 0.3 },
+        "end_caps": {
+          "3in": { "list_price": 20.75, "weight_lb": 0.8 }
+        },
+        "corners": {
+          "inside_90": { "list_price": 33.30, "weight_lb": 1.3 },
+          "outside_90": { "list_price": 36.50, "weight_lb": 1.5 }
+        },
+        "splice_plate": {
+          "3in": { "list_price": 7.25, "weight_lb": 0.5 }
+        }
+      }
+    },
+
+    {
+      "id": "VA-X17",
+      "style": "expanded_metal",
+      "depth_label": "A",
+      "height_in": 17,
+      "prices_per_ft": { "list_price": 29.25 },
+      "weight_per_ft": 1.3,
+      "finish_adders_per_ft": {
+        "baked_powder": 6.80,
+        "baked_metallic": 10.20
+      },
+      "accessories": {
+        "wall_mounted_bb_hanger": { "list_price": 7.25, "weight_lb": 0.4 },
+        "pipe_and_cover_support": { "list_price": 8.25, "weight_lb": 0.3 },
+        "rigid_element_hanger": { "list_price": 4.65, "weight_lb": 0.3 },
+        "end_caps": {
+          "3in": { "list_price": 22.55, "weight_lb": 1.0 }
+        },
+        "corners": {
+          "inside_90": { "list_price": 37.95, "weight_lb": 1.9 },
+          "outside_90": { "list_price": 39.65, "weight_lb": 2.0 }
+        },
+        "splice_plate": {
+          "3in": { "list_price": 7.80, "weight_lb": 0.8 }
+        }
+      }
+    },
+
+    {
+      "id": "VA-X3C",
+      "style": "expanded_metal_ceiling",
+      "depth_label": "A",
+      "notes": [
+        "Ceiling mount expanded metal enclosure",
+        "Uses Ceiling Hanger — not wall-mounted BB hanger or standard brackets"
+      ],
+      "prices_per_ft": { "list_price": 27.55 },
+      "weight_per_ft": 1.0,
+      "finish_adders_per_ft": {
+        "baked_powder": 3.60,
+        "baked_metallic": 5.15
+      },
+      "accessories": {
+        "ceiling_hanger": { "list_price": 8.25, "weight_lb": 0.3 },
+        "end_caps": {
+          "3in": { "list_price": 20.25, "weight_lb": 2.3 }
+        }
+      }
+    },
+
+    {
+      "id": "VB-X6",
+      "style": "expanded_metal",
+      "depth_label": "B",
+      "height_in": 6,
+      "prices_per_ft": { "list_price": 15.40 },
+      "weight_per_ft": 0.9,
+      "finish_adders_per_ft": {
+        "baked_powder": 3.40,
+        "baked_metallic": 5.00
+      },
+      "accessories": {
+        "wall_mounted_bb_hanger": { "list_price": 7.25, "weight_lb": 0.4 },
+        "pipe_and_cover_support": { "list_price": 8.40, "weight_lb": 0.3 },
+        "rigid_element_hanger": { "list_price": 4.75, "weight_lb": 0.3 },
+        "end_caps": {
+          "3in": { "list_price": 15.40, "weight_lb": 0.5 }
+        },
+        "corners": {
+          "inside_90": { "list_price": 32.85, "weight_lb": 0.9 },
+          "outside_90": { "list_price": 33.20, "weight_lb": 1.0 }
+        },
+        "splice_plate": {
+          "3in": { "list_price": 7.25, "weight_lb": 0.3 }
+        }
+      }
+    },
+
+    {
+      "id": "VB-X12",
+      "style": "expanded_metal",
+      "depth_label": "B",
+      "height_in": 12,
+      "prices_per_ft": { "list_price": 23.55 },
+      "weight_per_ft": 1.1,
+      "finish_adders_per_ft": {
+        "baked_powder": 4.65,
+        "baked_metallic": 6.80
+      },
+      "accessories": {
+        "wall_mounted_bb_hanger": { "list_price": 7.25, "weight_lb": 0.4 },
+        "pipe_and_cover_support": { "list_price": 8.40, "weight_lb": 0.3 },
+        "rigid_element_hanger": { "list_price": 4.75, "weight_lb": 0.3 },
+        "end_caps": {
+          "3in": { "list_price": 21.40, "weight_lb": 0.8 }
+        },
+        "corners": {
+          "inside_90": { "list_price": 36.65, "weight_lb": 1.3 },
+          "outside_90": { "list_price": 37.40, "weight_lb": 1.5 }
+        },
+        "splice_plate": {
+          "3in": { "list_price": 7.50, "weight_lb": 0.5 }
+        }
+      }
+    },
+
+    {
+      "id": "VB-X18",
+      "style": "expanded_metal",
+      "depth_label": "B",
+      "height_in": 18,
+      "prices_per_ft": { "list_price": 30.05 },
+      "weight_per_ft": 1.3,
+      "finish_adders_per_ft": {
+        "baked_powder": 7.15,
+        "baked_metallic": 10.65
+      },
+      "accessories": {
+        "wall_mounted_bb_hanger": { "list_price": 7.25, "weight_lb": 0.4 },
+        "pipe_and_cover_support": { "list_price": 8.40, "weight_lb": 0.3 },
+        "rigid_element_hanger": { "list_price": 4.75, "weight_lb": 0.3 },
+        "end_caps": {
+          "3in": { "list_price": 23.50, "weight_lb": 1.0 }
+        },
+        "corners": {
+          "inside_90": { "list_price": 39.15, "weight_lb": 1.9 },
+          "outside_90": { "list_price": 40.95, "weight_lb": 2.0 }
+        },
+        "splice_plate": {
+          "3in": { "list_price": 8.00, "weight_lb": 0.8 }
+        }
+      }
+    },
+
+    {
+      "id": "VB-X4C",
+      "style": "expanded_metal_ceiling",
+      "depth_label": "B",
+      "notes": [
+        "Ceiling mount expanded metal enclosure",
+        "Uses Ceiling Hanger — not wall-mounted BB hanger or standard brackets"
+      ],
+      "prices_per_ft": { "list_price": 28.55 },
+      "weight_per_ft": 1.0,
+      "finish_adders_per_ft": {
+        "baked_powder": 3.70,
+        "baked_metallic": 5.40
+      },
+      "accessories": {
+        "ceiling_hanger": { "list_price": 8.25, "weight_lb": 0.3 },
+        "end_caps": {
+          "3in": { "list_price": 21.30, "weight_lb": 2.5 }
+        }
+      }
+    }
+
+  ]
+}

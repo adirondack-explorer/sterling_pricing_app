@@ -1,0 +1,276 @@
+{
+  "_meta": {
+    "source": "Sterling Price Sheet C35R, Page 4",
+    "family": "JVK",
+    "family_name": "Slimline Versa-Line",
+    "depth_code": "K",
+    "depth_fraction": "3-9/16\"",
+    "depth_decimal_in": 3.5625,
+    "standard_lengths_ft": [2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0],
+    "compatible_element_series": ["R"],
+    "compatible_element_note": "R-series elements only (R01–R16)",
+    "pricing_unit": "per_foot",
+    "global_notes": [
+      { "type": "info",    "text": "Enclosure prices do not include brackets, hangers, or backplate.", "trigger": "always" },
+      { "type": "info",    "text": "Standard enclosure lengths: 2' thru 8' in 6\" increments.", "trigger": "always" },
+      { "type": "info",    "text": "List add of 12% applies if tagging of individual cartons is required.", "trigger": "always" },
+      { "type": "consult_factory", "text": "Available in Stainless Steel and Aluminum — consult factory.", "trigger": "when_ss_or_alum" },
+      { "type": "consult_factory", "text": "Special colors require factory quote.", "trigger": "when_special_color" }
+    ]
+  },
+
+  "models": [
+    {
+      "id": "JVK-S8",
+      "style": "slope_top",
+      "style_code": "S",
+      "height_in": 8,
+      "available_gauges": ["18GA", "16GA", "14GA"],
+      "prices_per_ft":    { "18GA": 17.00, "16GA": 18.60, "14GA": 22.40 },
+      "weights_per_ft":   { "18GA": 2.5,   "16GA": 2.8,   "14GA": 3.7 },
+      "finish_adders_per_ft": { "baked_powder": 3.25, "baked_metallic": 4.80 },
+      "notes": [
+        { "type": "warning", "text": "Dampers on JVK-S8 only available with R01, R02, or R03 element.", "trigger": "when_damper_selected" },
+        { "type": "warning", "text": "RWLI/RWDB modification: consult factory for JVK-S8.", "trigger": "when_rwli_rwdb_selected" }
+      ],
+      "accessories": {
+        "dampers": {
+          "knob_damper":             { "catalog_number": "D",   "list_price": 9.10,  "weight_lb": 0.3, "restricted_to_elements": ["R01","R02","R03"] },
+          "tamper_resistant_damper": { "catalog_number": "TPD", "list_price": 12.75, "weight_lb": 0.3, "restricted_to_elements": ["R01","R02","R03"] }
+        },
+        "end_caps": {
+          "3in":                  { "list_price": 26.80, "weight_lb": 1.1 },
+          "8_3_8in_with_door":    { "list_price": 74.70, "weight_lb": 2.5, "door_size": "6W x 5H" }
+        },
+        "wall_sleeves": {
+          "4in":               { "list_price": 15.40, "weight_lb": 1.0 },
+          "6in":               { "list_price": 18.60, "weight_lb": 1.3 },
+          "8_3_8in":           { "list_price": 21.30, "weight_lb": 1.9 },
+          "8_3_8in_with_door": { "list_price": 41.20, "weight_lb": 2.0 }
+        },
+        "wall_sleeve_support":   { "list_price": 8.25, "weight_lb": 0.2 },
+        "corners": {
+          "inside_90":   { "list_price": 56.25, "weight_lb": 4.5 },
+          "inside_135":  { "list_price": 80.45, "weight_lb": 4.5 },
+          "outside_90":  { "list_price": 66.05, "weight_lb": 4.6 },
+          "outside_135": { "list_price": 92.65, "weight_lb": 4.6 }
+        },
+        "valve_compartments": {
+          "12in_18GA": { "list_price": 63.85, "weight_lb": 2.5, "bracket_required": true },
+          "12in_16GA": { "list_price": 66.35, "weight_lb": 2.8, "bracket_required": true },
+          "12in_14GA": { "list_price": 69.75, "weight_lb": 3.7, "bracket_required": true }
+        }
+      }
+    },
+    {
+      "id": "JVK-S11",
+      "style": "slope_top",
+      "style_code": "S",
+      "height_in": 11,
+      "available_gauges": ["18GA", "16GA", "14GA"],
+      "prices_per_ft":    { "18GA": 19.45, "16GA": 21.30, "14GA": 24.70 },
+      "weights_per_ft":   { "18GA": 2.8,   "16GA": 3.1,   "14GA": 4.0 },
+      "finish_adders_per_ft": { "baked_powder": 3.60, "baked_metallic": 5.15 },
+      "notes": [
+        { "type": "warning", "text": "Dampers on JVK-S11 available with all R-series elements.", "trigger": "when_damper_selected" }
+      ],
+      "accessories": {
+        "dampers": {
+          "knob_damper":             { "catalog_number": "D",   "list_price": 9.10,  "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "catalog_number": "TPD", "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in":               { "list_price": 29.05, "weight_lb": 1.4 },
+          "8_3_8in_with_door": { "list_price": 86.90, "weight_lb": 2.8, "door_size": "6W x 5H" }
+        },
+        "wall_sleeves": {
+          "4in":               { "list_price": 19.85, "weight_lb": 1.2 },
+          "6in":               { "list_price": 20.95, "weight_lb": 1.6 },
+          "8_3_8in":           { "list_price": 23.70, "weight_lb": 2.2 },
+          "8_3_8in_with_door": { "list_price": 41.85, "weight_lb": 2.3 }
+        },
+        "wall_sleeve_support":   { "list_price": 8.55, "weight_lb": 0.2 },
+        "corners": {
+          "inside_90":   { "list_price": 67.30, "weight_lb": 4.9 },
+          "inside_135":  { "list_price": 92.65, "weight_lb": 4.9 },
+          "outside_90":  { "list_price": 81.15, "weight_lb": 5.5 },
+          "outside_135": { "list_price": 107.05, "weight_lb": 5.5 }
+        },
+        "valve_compartments": {
+          "12in_18GA": { "list_price": 73.20, "weight_lb": 2.8, "bracket_required": true },
+          "12in_16GA": { "list_price": 75.85, "weight_lb": 3.1, "bracket_required": true },
+          "12in_14GA": { "list_price": 77.20, "weight_lb": 4.0, "bracket_required": true }
+        }
+      }
+    },
+    {
+      "id": "JVK-S14",
+      "style": "slope_top",
+      "style_code": "S",
+      "height_in": 14,
+      "available_gauges": ["18GA", "16GA", "14GA"],
+      "prices_per_ft":    { "18GA": 20.25, "16GA": 22.90, "14GA": 25.70 },
+      "weights_per_ft":   { "18GA": 3.6,   "16GA": 4.2,   "14GA": 5.0 },
+      "finish_adders_per_ft": { "baked_powder": 3.95, "baked_metallic": 5.95 },
+      "notes": [],
+      "accessories": {
+        "dampers": {
+          "knob_damper":             { "catalog_number": "D",   "list_price": 9.10,  "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "catalog_number": "TPD", "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in":               { "list_price": 31.45, "weight_lb": 2.0 },
+          "8_3_8in_with_door": { "list_price": 102.70, "weight_lb": 3.5, "door_size": "6W x 5H" }
+        },
+        "wall_sleeves": {
+          "4in":               { "list_price": 20.65, "weight_lb": 1.5 },
+          "6in":               { "list_price": 21.60, "weight_lb": 2.3 },
+          "8_3_8in":           { "list_price": 24.10, "weight_lb": 3.0 },
+          "8_3_8in_with_door": { "list_price": 42.55, "weight_lb": 3.0 }
+        },
+        "wall_sleeve_support":   { "list_price": 10.20, "weight_lb": 0.3 },
+        "corners": {
+          "inside_90":   { "list_price": 73.15,  "weight_lb": 6.5 },
+          "inside_135":  { "list_price": 107.05, "weight_lb": 6.5 },
+          "outside_90":  { "list_price": 95.55,  "weight_lb": 7.0 },
+          "outside_135": { "list_price": 121.80, "weight_lb": 7.0 }
+        },
+        "valve_compartments": {
+          "12in_18GA": { "list_price": 76.80, "weight_lb": 3.6, "bracket_required": true },
+          "12in_16GA": { "list_price": 81.90, "weight_lb": 4.2, "bracket_required": true },
+          "12in_14GA": { "list_price": 81.90, "weight_lb": 5.0, "bracket_required": true }
+        }
+      }
+    },
+    {
+      "id": "JVK-T8",
+      "style": "flat_top",
+      "style_code": "T",
+      "height_in": 8,
+      "also_applies_to": "JVK-RD8",
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft":    { "18GA": null, "16GA": 19.45, "14GA": 22.65 },
+      "weights_per_ft":   { "18GA": null, "16GA": 4.0,   "14GA": 5.5 },
+      "finish_adders_per_ft": { "baked_powder": 3.40, "baked_metallic": 5.00 },
+      "notes": [
+        { "type": "warning", "text": "18 GA not available for JVK-T/RD flat top enclosures.", "trigger": "always" },
+        { "type": "warning", "text": "Dampers on JVK-T8 only available with R01, R02, or R03 element.", "trigger": "when_damper_selected" },
+        { "type": "warning", "text": "RD style only available in 16 GA.", "trigger": "when_rd_style" }
+      ],
+      "accessories": {
+        "dampers": {
+          "knob_damper":             { "catalog_number": "D",   "list_price": 9.10,  "weight_lb": 0.3, "restricted_to_elements": ["R01","R02","R03"] },
+          "tamper_resistant_damper": { "catalog_number": "TPD", "list_price": 12.75, "weight_lb": 0.3, "restricted_to_elements": ["R01","R02","R03"] }
+        },
+        "end_caps": {
+          "3in":               { "list_price": 22.85, "weight_lb": 1.5 },
+          "8_3_8in_with_door": { "list_price": 73.80, "weight_lb": 2.9, "door_size": "6W x 5H" }
+        },
+        "wall_sleeves": {
+          "4in":               { "list_price": 13.90, "weight_lb": 0.8 },
+          "6in":               { "list_price": 17.00, "weight_lb": 1.5 },
+          "8_3_8in":           { "list_price": 18.15, "weight_lb": 2.2 },
+          "8_3_8in_with_door": { "list_price": 37.20, "weight_lb": 2.4 }
+        },
+        "wall_sleeve_support":   { "list_price": 11.25, "weight_lb": 0.2 },
+        "corners": {
+          "inside_90":   { "list_price": 61.10, "weight_lb": 4.8 },
+          "inside_135":  { "list_price": 75.85, "weight_lb": 4.8 },
+          "outside_90":  { "list_price": 68.15, "weight_lb": 5.6 },
+          "outside_135": { "list_price": 92.65, "weight_lb": 5.6 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 74.40, "weight_lb": 4.0, "bracket_required": true },
+          "12in_14GA": { "list_price": 77.35, "weight_lb": 5.5, "bracket_required": true }
+        }
+      }
+    },
+    {
+      "id": "JVK-T11",
+      "style": "flat_top",
+      "style_code": "T",
+      "height_in": 11,
+      "also_applies_to": "JVK-RD11",
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft":    { "18GA": null, "16GA": 21.60, "14GA": 26.00 },
+      "weights_per_ft":   { "18GA": null, "16GA": 4.4,   "14GA": 5.9 },
+      "finish_adders_per_ft": { "baked_powder": 3.95, "baked_metallic": 5.95 },
+      "notes": [
+        { "type": "warning", "text": "18 GA not available for JVK-T/RD flat top enclosures.", "trigger": "always" },
+        { "type": "warning", "text": "RD style only available in 16 GA.", "trigger": "when_rd_style" }
+      ],
+      "accessories": {
+        "dampers": {
+          "knob_damper":             { "list_price": 9.10,  "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in":               { "list_price": 28.30, "weight_lb": 1.9 },
+          "8_3_8in_with_door": { "list_price": 89.70, "weight_lb": 3.2, "door_size": "6W x 5H" }
+        },
+        "wall_sleeves": {
+          "4in":               { "list_price": 19.85, "weight_lb": 1.0 },
+          "6in":               { "list_price": 20.65, "weight_lb": 1.8 },
+          "8_3_8in":           { "list_price": 23.00, "weight_lb": 2.7 },
+          "8_3_8in_with_door": { "list_price": 37.95, "weight_lb": 2.7 }
+        },
+        "wall_sleeve_support":   { "list_price": 11.75, "weight_lb": 0.3 },
+        "corners": {
+          "inside_90":   { "list_price": 67.50,  "weight_lb": 5.4 },
+          "inside_135":  { "list_price": 92.70,  "weight_lb": 5.4 },
+          "outside_90":  { "list_price": 81.20,  "weight_lb": 6.6 },
+          "outside_135": { "list_price": 107.05, "weight_lb": 6.6 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 82.45, "weight_lb": 4.4, "bracket_required": true },
+          "12in_14GA": { "list_price": 82.90, "weight_lb": 5.9, "bracket_required": true }
+        }
+      }
+    },
+    {
+      "id": "JVK-T14",
+      "style": "flat_top",
+      "style_code": "T",
+      "height_in": 14,
+      "also_applies_to": "JVK-RD14",
+      "available_gauges": ["16GA", "14GA"],
+      "prices_per_ft":    { "18GA": null, "16GA": 22.85, "14GA": 29.05 },
+      "weights_per_ft":   { "18GA": null, "16GA": 5.0,   "14GA": 6.5 },
+      "finish_adders_per_ft": { "baked_powder": 4.65, "baked_metallic": 6.80 },
+      "notes": [
+        { "type": "warning", "text": "18 GA not available for JVK-T/RD flat top enclosures.", "trigger": "always" },
+        { "type": "warning", "text": "RD style only available in 16 GA.", "trigger": "when_rd_style" }
+      ],
+      "accessories": {
+        "dampers": {
+          "knob_damper":             { "list_price": 9.10,  "weight_lb": 0.3 },
+          "tamper_resistant_damper": { "list_price": 12.75, "weight_lb": 0.3 }
+        },
+        "end_caps": {
+          "3in":               { "list_price": 31.45, "weight_lb": 2.3 },
+          "8_3_8in_with_door": { "list_price": 105.40, "weight_lb": 3.5, "door_size": "6W x 9H" }
+        },
+        "wall_sleeves": {
+          "4in":               { "list_price": 20.65, "weight_lb": 1.3 },
+          "6in":               { "list_price": 20.95, "weight_lb": 2.1 },
+          "8_3_8in":           { "list_price": 23.70, "weight_lb": 3.0 },
+          "8_3_8in_with_door": { "list_price": 40.45, "weight_lb": 3.0 }
+        },
+        "wall_sleeve_support":   { "list_price": 12.05, "weight_lb": 0.4 },
+        "corners": {
+          "inside_90":   { "list_price": 73.15,  "weight_lb": 6.5 },
+          "inside_135":  { "list_price": 107.05, "weight_lb": 6.5 },
+          "outside_90":  { "list_price": 95.55,  "weight_lb": 8.0 },
+          "outside_135": { "list_price": 117.40, "weight_lb": 8.0 }
+        },
+        "valve_compartments": {
+          "12in_18GA": null,
+          "12in_16GA": { "list_price": 87.60, "weight_lb": 5.0, "bracket_required": true },
+          "12in_14GA": { "list_price": 98.40, "weight_lb": 6.5, "bracket_required": true }
+        }
+      }
+    }
+  ]
+}

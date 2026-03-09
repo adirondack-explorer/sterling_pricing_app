@@ -1,0 +1,489 @@
+{
+  "_meta": {
+    "source": "Sterling Price Sheet C35R, Pages 2-3",
+    "price_sheet": "C35R",
+    "revised": "2025-04-14",
+    "pricing_unit": "per_foot",
+    "shorter_length_surcharge_pct": 9,
+    "shorter_length_threshold_ft": 3.0,
+    "shorter_length_note": "Shorter lengths available — Add 9% List per ft.",
+    "tagging_note": "List add of 12% of total list price for tagging individual cartons with room numbers, floor, building, etc.",
+    "enclosure_depth_compatibility": {
+      "note": "fin_depth_in is the critical dimension for enclosure compatibility",
+      "K_depth_max_fin_depth": 2.75,
+      "A_depth_max_fin_depth": 3.25,
+      "B_depth_required_fin_depth": 4.25
+    }
+  },
+
+  "r_series": {
+    "_meta": {
+      "title": "Copper-Aluminum & Steel Elements for JVK, LB-2 & LCS-10 Enclosures",
+      "compatible_enclosures": ["JVK", "LB-2", "LCS-10"],
+      "notes": [
+        "R01 thru R05 furnished in 3', 4', 5', 6', 7' & 8' lengths only — Consult factory for cost of special lengths",
+        "R06 thru R10 furnished in 3' to 12'6\" in 1\" increments",
+        "R11 thru R16 furnished in 3' to 12' in 1\" increments",
+        "Shorter lengths available — Add 9% List per ft",
+        "See catalog for guaranteed working pressures",
+        "List add 12% of total list price for tagging individual cartons"
+      ]
+    },
+    "elements": [
+      {
+        "catalog_number": "R01",
+        "tube_size": "3/4\" Cu.",
+        "fin_size": "2-1/2\" x 2-1/4\" Alum.",
+        "fin_height_in": 2.5,
+        "fin_depth_in": 2.25,
+        "fin_material": "Aluminum",
+        "fin_gauge": 0.011,
+        "fins_per_foot": 50,
+        "list_price_per_ft": 11.85,
+        "weight_per_ft": 0.8,
+        "length_rule": {
+          "type": "fixed_lengths",
+          "available_lengths_ft": [3, 4, 5, 6, 7, 8],
+          "special_lengths": "consult_factory"
+        },
+        "notes": [
+          { "type": "info", "text": "Available in 3', 4', 5', 6', 7' & 8' lengths only.", "trigger": "always" },
+          { "type": "consult_factory", "text": "Special lengths outside 3'–8' require factory quote.", "trigger": "when_special_length" },
+          { "type": "warning", "text": "Compatible with JVK-S8 & JVK-T8 dampers.", "trigger": "always" }
+        ]
+      },
+      {
+        "catalog_number": "R02",
+        "tube_size": "3/4\" Cu.",
+        "fin_size": "2-1/2\" x 2-3/4\" Alum.",
+        "fin_height_in": 2.5,
+        "fin_depth_in": 2.75,
+        "fin_material": "Aluminum",
+        "fin_gauge": 0.010,
+        "fins_per_foot": 60,
+        "list_price_per_ft": 13.90,
+        "weight_per_ft": 0.8,
+        "length_rule": {
+          "type": "fixed_lengths",
+          "available_lengths_ft": [3, 4, 5, 6, 7, 8],
+          "special_lengths": "consult_factory"
+        },
+        "notes": [
+          { "type": "info", "text": "Available in 3', 4', 5', 6', 7' & 8' lengths only.", "trigger": "always" },
+          { "type": "consult_factory", "text": "Special lengths outside 3'–8' require factory quote.", "trigger": "when_special_length" },
+          { "type": "warning", "text": "Compatible with JVK-S8 & JVK-T8 dampers.", "trigger": "always" }
+        ]
+      },
+      {
+        "catalog_number": "R03",
+        "tube_size": "1\" Cu.",
+        "fin_size": "2-1/2\" x 2-3/4\" Alum.",
+        "fin_height_in": 2.5,
+        "fin_depth_in": 2.75,
+        "fin_material": "Aluminum",
+        "fin_gauge": 0.011,
+        "fins_per_foot": 55,
+        "list_price_per_ft": 17.45,
+        "weight_per_ft": 0.8,
+        "length_rule": {
+          "type": "fixed_lengths",
+          "available_lengths_ft": [3, 4, 5, 6, 7, 8],
+          "special_lengths": "consult_factory"
+        },
+        "notes": [
+          { "type": "info", "text": "Available in 3', 4', 5', 6', 7' & 8' lengths only.", "trigger": "always" },
+          { "type": "consult_factory", "text": "Special lengths outside 3'–8' require factory quote.", "trigger": "when_special_length" },
+          { "type": "warning", "text": "Compatible with JVK-S8 & JVK-T8 dampers.", "trigger": "always" }
+        ]
+      },
+      {
+        "catalog_number": "R04",
+        "tube_size": "3/4\" Cu.",
+        "fin_size": "3-3/4\" x 2-3/4\" Alum.",
+        "fin_height_in": 3.75,
+        "fin_depth_in": 2.75,
+        "fin_material": "Aluminum",
+        "fin_gauge": 0.0135,
+        "fins_per_foot": 50,
+        "list_price_per_ft": 17.45,
+        "weight_per_ft": 0.8,
+        "length_rule": {
+          "type": "fixed_lengths",
+          "available_lengths_ft": [3, 4, 5, 6, 7, 8],
+          "special_lengths": "consult_factory"
+        },
+        "notes": [
+          { "type": "info", "text": "Available in 3', 4', 5', 6', 7' & 8' lengths only.", "trigger": "always" },
+          { "type": "consult_factory", "text": "Special lengths outside 3'–8' require factory quote.", "trigger": "when_special_length" }
+        ]
+      },
+      {
+        "catalog_number": "R05",
+        "tube_size": "1\" Cu.",
+        "fin_size": "3-3/4\" x 2-3/4\" Alum.",
+        "fin_height_in": 3.75,
+        "fin_depth_in": 2.75,
+        "fin_material": "Aluminum",
+        "fin_gauge": 0.0135,
+        "fins_per_foot": 50,
+        "list_price_per_ft": 20.20,
+        "weight_per_ft": 0.8,
+        "length_rule": {
+          "type": "fixed_lengths",
+          "available_lengths_ft": [3, 4, 5, 6, 7, 8],
+          "special_lengths": "consult_factory"
+        },
+        "notes": [
+          { "type": "info", "text": "Available in 3', 4', 5', 6', 7' & 8' lengths only.", "trigger": "always" },
+          { "type": "consult_factory", "text": "Special lengths outside 3'–8' require factory quote.", "trigger": "when_special_length" }
+        ]
+      },
+      {
+        "catalog_number": "R06",
+        "tube_size": "1\" Cu.",
+        "fin_size": "5\" x 2-3/4\" Alum.",
+        "fin_height_in": 5.0,
+        "fin_depth_in": 2.75,
+        "fin_material": "Aluminum",
+        "fin_gauge": 0.020,
+        "fins_per_foot": 40,
+        "list_price_per_ft": 33.30,
+        "weight_per_ft": 1.1,
+        "length_rule": {
+          "type": "incremental",
+          "min_ft": 3.0,
+          "max_ft": 12.5,
+          "increment_in": 1
+        },
+        "notes": [
+          { "type": "info", "text": "Available in 3' to 12'6\" in 1\" increments.", "trigger": "always" },
+          { "type": "info", "text": "Shorter lengths (under 3') available — 9% list surcharge per foot applies.", "trigger": "when_short_length" }
+        ]
+      },
+      {
+        "catalog_number": "R07",
+        "tube_size": "1\" Cu.",
+        "fin_size": "5\" x 2-3/4\" Alum.",
+        "fin_height_in": 5.0,
+        "fin_depth_in": 2.75,
+        "fin_material": "Aluminum",
+        "fin_gauge": 0.020,
+        "fins_per_foot": 50,
+        "list_price_per_ft": 37.45,
+        "weight_per_ft": 1.5,
+        "length_rule": {
+          "type": "incremental",
+          "min_ft": 3.0,
+          "max_ft": 12.5,
+          "increment_in": 1
+        },
+        "notes": [
+          { "type": "info", "text": "Available in 3' to 12'6\" in 1\" increments.", "trigger": "always" },
+          { "type": "info", "text": "Shorter lengths (under 3') available — 9% list surcharge per foot applies.", "trigger": "when_short_length" }
+        ]
+      },
+      {
+        "catalog_number": "R08",
+        "tube_size": "1-1/4\" Cu.",
+        "fin_size": "3-3/4\" x 2-3/4\" Alum.",
+        "fin_height_in": 3.75,
+        "fin_depth_in": 2.75,
+        "fin_material": "Aluminum",
+        "fin_gauge": 0.020,
+        "fins_per_foot": 50,
+        "list_price_per_ft": 36.85,
+        "weight_per_ft": 1.0,
+        "length_rule": {
+          "type": "incremental",
+          "min_ft": 3.0,
+          "max_ft": 12.5,
+          "increment_in": 1
+        },
+        "notes": [
+          { "type": "info", "text": "Available in 3' to 12'6\" in 1\" increments.", "trigger": "always" },
+          { "type": "info", "text": "Shorter lengths (under 3') available — 9% list surcharge per foot applies.", "trigger": "when_short_length" }
+        ]
+      },
+      {
+        "catalog_number": "R09",
+        "tube_size": "1-1/4\" Cu.",
+        "fin_size": "5\" x 2-3/4\" Alum.",
+        "fin_height_in": 5.0,
+        "fin_depth_in": 2.75,
+        "fin_material": "Aluminum",
+        "fin_gauge": 0.020,
+        "fins_per_foot": 40,
+        "list_price_per_ft": 37.45,
+        "weight_per_ft": 1.4,
+        "length_rule": {
+          "type": "incremental",
+          "min_ft": 3.0,
+          "max_ft": 12.5,
+          "increment_in": 1
+        },
+        "notes": [
+          { "type": "info", "text": "Available in 3' to 12'6\" in 1\" increments.", "trigger": "always" },
+          { "type": "info", "text": "Shorter lengths (under 3') available — 9% list surcharge per foot applies.", "trigger": "when_short_length" }
+        ]
+      },
+      {
+        "catalog_number": "R10",
+        "tube_size": "1-1/4\" Cu.",
+        "fin_size": "5\" x 2-3/4\" Alum.",
+        "fin_height_in": 5.0,
+        "fin_depth_in": 2.75,
+        "fin_material": "Aluminum",
+        "fin_gauge": 0.020,
+        "fins_per_foot": 50,
+        "list_price_per_ft": 42.35,
+        "weight_per_ft": 1.6,
+        "length_rule": {
+          "type": "incremental",
+          "min_ft": 3.0,
+          "max_ft": 12.5,
+          "increment_in": 1
+        },
+        "notes": [
+          { "type": "info", "text": "Available in 3' to 12'6\" in 1\" increments.", "trigger": "always" },
+          { "type": "info", "text": "Shorter lengths (under 3') available — 9% list surcharge per foot applies.", "trigger": "when_short_length" }
+        ]
+      },
+      {
+        "catalog_number": "R11",
+        "tube_size": "1\" IPS",
+        "fin_size": "3-3/4\" x 2-3/4\" Steel",
+        "fin_height_in": 3.75,
+        "fin_depth_in": 2.75,
+        "fin_material": "Steel",
+        "fin_gauge": 0.024,
+        "fins_per_foot": 40,
+        "list_price_per_ft": 41.50,
+        "weight_per_ft": 4.6,
+        "length_rule": {
+          "type": "incremental",
+          "min_ft": 3.0,
+          "max_ft": 12.0,
+          "increment_in": 1
+        },
+        "notes": [
+          { "type": "info", "text": "Available in 3' to 12' in 1\" increments.", "trigger": "always" },
+          { "type": "info", "text": "Shorter lengths (under 3') available — 9% list surcharge per foot applies.", "trigger": "when_short_length" }
+        ]
+      },
+      {
+        "catalog_number": "R12",
+        "tube_size": "1\" IPS",
+        "fin_size": "5\" x 2-3/4\" Steel",
+        "fin_height_in": 5.0,
+        "fin_depth_in": 2.75,
+        "fin_material": "Steel",
+        "fin_gauge": 0.024,
+        "fins_per_foot": 40,
+        "list_price_per_ft": 44.40,
+        "weight_per_ft": 4.9,
+        "length_rule": {
+          "type": "incremental",
+          "min_ft": 3.0,
+          "max_ft": 12.0,
+          "increment_in": 1
+        },
+        "notes": [
+          { "type": "info", "text": "Available in 3' to 12' in 1\" increments.", "trigger": "always" },
+          { "type": "info", "text": "Shorter lengths (under 3') available — 9% list surcharge per foot applies.", "trigger": "when_short_length" }
+        ]
+      },
+      {
+        "catalog_number": "R13",
+        "tube_size": "1-1/4\" IPS",
+        "fin_size": "5\" x 2-3/4\" Steel",
+        "fin_height_in": 5.0,
+        "fin_depth_in": 2.75,
+        "fin_material": "Steel",
+        "fin_gauge": 0.024,
+        "fins_per_foot": 40,
+        "list_price_per_ft": 44.40,
+        "weight_per_ft": 5.0,
+        "length_rule": {
+          "type": "incremental",
+          "min_ft": 3.0,
+          "max_ft": 12.0,
+          "increment_in": 1
+        },
+        "notes": [
+          { "type": "info", "text": "Available in 3' to 12' in 1\" increments.", "trigger": "always" },
+          { "type": "info", "text": "Shorter lengths (under 3') available — 9% list surcharge per foot applies.", "trigger": "when_short_length" }
+        ]
+      },
+      {
+        "catalog_number": "R14",
+        "tube_size": "1-1/4\" IPS",
+        "fin_size": "3-3/4\" x 2-3/4\" Steel",
+        "fin_height_in": 3.75,
+        "fin_depth_in": 2.75,
+        "fin_material": "Steel",
+        "fin_gauge": 0.024,
+        "fins_per_foot": 40,
+        "list_price_per_ft": 41.50,
+        "weight_per_ft": 4.8,
+        "length_rule": {
+          "type": "incremental",
+          "min_ft": 3.0,
+          "max_ft": 12.0,
+          "increment_in": 1
+        },
+        "notes": [
+          { "type": "info", "text": "Available in 3' to 12' in 1\" increments.", "trigger": "always" },
+          { "type": "info", "text": "Shorter lengths (under 3') available — 9% list surcharge per foot applies.", "trigger": "when_short_length" }
+        ]
+      },
+      {
+        "catalog_number": "R15",
+        "tube_size": "1\" IPS",
+        "fin_size": "5\" x 2-3/4\" Steel",
+        "fin_height_in": 5.0,
+        "fin_depth_in": 2.75,
+        "fin_material": "Steel",
+        "fin_gauge": 0.024,
+        "fins_per_foot": 50,
+        "list_price_per_ft": 50.40,
+        "weight_per_ft": 5.5,
+        "length_rule": {
+          "type": "incremental",
+          "min_ft": 3.0,
+          "max_ft": 12.0,
+          "increment_in": 1
+        },
+        "notes": [
+          { "type": "info", "text": "Available in 3' to 12' in 1\" increments.", "trigger": "always" },
+          { "type": "info", "text": "Shorter lengths (under 3') available — 9% list surcharge per foot applies.", "trigger": "when_short_length" }
+        ]
+      },
+      {
+        "catalog_number": "R16",
+        "tube_size": "1-1/4\" IPS",
+        "fin_size": "5\" x 2-3/4\" Steel",
+        "fin_height_in": 5.0,
+        "fin_depth_in": 2.75,
+        "fin_material": "Steel",
+        "fin_gauge": 0.024,
+        "fins_per_foot": 50,
+        "list_price_per_ft": 51.10,
+        "weight_per_ft": 5.7,
+        "length_rule": {
+          "type": "incremental",
+          "min_ft": 3.0,
+          "max_ft": 12.0,
+          "increment_in": 1
+        },
+        "notes": [
+          { "type": "info", "text": "Available in 3' to 12' in 1\" increments.", "trigger": "always" },
+          { "type": "info", "text": "Shorter lengths (under 3') available — 9% list surcharge per foot applies.", "trigger": "when_short_length" }
+        ]
+      }
+    ]
+  },
+
+  "standard_commercial_cu_al": {
+    "_meta": {
+      "title": "Standard Commercial Copper-Aluminum Elements",
+      "fin_gauge": 0.020,
+      "compatible_enclosure_depths": ["A", "B"],
+      "length_rule": {
+        "type": "incremental",
+        "min_ft": 3.0,
+        "max_ft": 12.5,
+        "increment_in": 1,
+        "exception": "3/4\" Cu elements maximum 8'0\""
+      },
+      "shorter_length_surcharge_pct": 9,
+      "notes": [
+        "Standard elements available in lengths from 3'0\" to 12'6\" in 1\" increments",
+        "3/4\" Cu elements 8'0\" max length",
+        "Shorter lengths available — Add 9% List per ft",
+        "List add 12% of total list price for tagging individual cartons",
+        "fin_depth_in is the key dimension for enclosure compatibility"
+      ]
+    },
+    "elements": [
+      { "catalog_number": "C3/4-33", "tube_size": "3/4\" Cu.", "fin_size": "3-1/4\" x 3-1/4\" Alum.", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 32, "list_price_per_ft": 20.20, "weight_per_ft": 1.1, "max_length_ft": 8.0 },
+      { "catalog_number": "C3/4-34", "tube_size": "3/4\" Cu.", "fin_size": "3-1/4\" x 3-1/4\" Alum.", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 40, "list_price_per_ft": 22.95, "weight_per_ft": 1.2, "max_length_ft": 8.0 },
+      { "catalog_number": "C3/4-35", "tube_size": "3/4\" Cu.", "fin_size": "3-1/4\" x 3-1/4\" Alum.", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 50, "list_price_per_ft": 25.70, "weight_per_ft": 1.4, "max_length_ft": 8.0 },
+      { "catalog_number": "C3/4-43", "tube_size": "3/4\" Cu.", "fin_size": "4-1/4\" x 4-1/4\" Alum.", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 32, "list_price_per_ft": 27.10, "weight_per_ft": 1.4, "max_length_ft": 8.0 },
+      { "catalog_number": "C3/4-44", "tube_size": "3/4\" Cu.", "fin_size": "4-1/4\" x 4-1/4\" Alum.", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 40, "list_price_per_ft": 30.55, "weight_per_ft": 1.6, "max_length_ft": 8.0 },
+      { "catalog_number": "C3/4-45", "tube_size": "3/4\" Cu.", "fin_size": "4-1/4\" x 4-1/4\" Alum.", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 50, "list_price_per_ft": 35.40, "weight_per_ft": 1.8, "max_length_ft": 8.0 },
+      { "catalog_number": "C3/4-433", "tube_size": "3/4\" Cu.", "fin_size": "3-5/8\" x 4-1/4\" Alum.", "fin_height_in": 3.625, "fin_depth_in": 4.25, "fins_per_foot": 32, "list_price_per_ft": 24.30, "weight_per_ft": 1.3, "max_length_ft": 8.0 },
+      { "catalog_number": "C3/4-434", "tube_size": "3/4\" Cu.", "fin_size": "3-5/8\" x 4-1/4\" Alum.", "fin_height_in": 3.625, "fin_depth_in": 4.25, "fins_per_foot": 40, "list_price_per_ft": 27.75, "weight_per_ft": 1.5, "max_length_ft": 8.0 },
+      { "catalog_number": "C3/4-435", "tube_size": "3/4\" Cu.", "fin_size": "3-5/8\" x 4-1/4\" Alum.", "fin_height_in": 3.625, "fin_depth_in": 4.25, "fins_per_foot": 50, "list_price_per_ft": 32.00, "weight_per_ft": 1.7, "max_length_ft": 8.0 },
+      { "catalog_number": "C33",    "tube_size": "1\" Cu.",    "fin_size": "3-1/4\" x 3-1/4\" Alum.", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 32, "list_price_per_ft": 22.95, "weight_per_ft": 1.3, "max_length_ft": 12.5 },
+      { "catalog_number": "C34",    "tube_size": "1\" Cu.",    "fin_size": "3-1/4\" x 3-1/4\" Alum.", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 40, "list_price_per_ft": 25.70, "weight_per_ft": 1.4, "max_length_ft": 12.5 },
+      { "catalog_number": "C35",    "tube_size": "1\" Cu.",    "fin_size": "3-1/4\" x 3-1/4\" Alum.", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 50, "list_price_per_ft": 27.75, "weight_per_ft": 1.5, "max_length_ft": 12.5 },
+      { "catalog_number": "C43",    "tube_size": "1\" Cu.",    "fin_size": "4-1/4\" x 4-1/4\" Alum.", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 32, "list_price_per_ft": 29.15, "weight_per_ft": 1.6, "max_length_ft": 12.5 },
+      { "catalog_number": "C44",    "tube_size": "1\" Cu.",    "fin_size": "4-1/4\" x 4-1/4\" Alum.", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 40, "list_price_per_ft": 33.30, "weight_per_ft": 1.8, "max_length_ft": 12.5 },
+      { "catalog_number": "C45",    "tube_size": "1\" Cu.",    "fin_size": "4-1/4\" x 4-1/4\" Alum.", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 50, "list_price_per_ft": 38.15, "weight_per_ft": 2.0, "max_length_ft": 12.5 },
+      { "catalog_number": "C433",   "tube_size": "1\" Cu.",    "fin_size": "3-5/8\" x 4-1/4\" Alum.", "fin_height_in": 3.625, "fin_depth_in": 4.25, "fins_per_foot": 32, "list_price_per_ft": 27.10, "weight_per_ft": 1.5, "max_length_ft": 12.5 },
+      { "catalog_number": "C434",   "tube_size": "1\" Cu.",    "fin_size": "3-5/8\" x 4-1/4\" Alum.", "fin_height_in": 3.625, "fin_depth_in": 4.25, "fins_per_foot": 40, "list_price_per_ft": 30.55, "weight_per_ft": 1.7, "max_length_ft": 12.5 },
+      { "catalog_number": "C435",   "tube_size": "1\" Cu.",    "fin_size": "3-5/8\" x 4-1/4\" Alum.", "fin_height_in": 3.625, "fin_depth_in": 4.25, "fins_per_foot": 50, "list_price_per_ft": 34.00, "weight_per_ft": 1.9, "max_length_ft": 12.5 },
+      { "catalog_number": "C133",   "tube_size": "1-1/4\" Cu.", "fin_size": "3-1/4\" x 3-1/4\" Alum.", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 32, "list_price_per_ft": 27.10, "weight_per_ft": 1.4, "max_length_ft": 12.5 },
+      { "catalog_number": "C134",   "tube_size": "1-1/4\" Cu.", "fin_size": "3-1/4\" x 3-1/4\" Alum.", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 40, "list_price_per_ft": 29.15, "weight_per_ft": 1.5, "max_length_ft": 12.5 },
+      { "catalog_number": "C135",   "tube_size": "1-1/4\" Cu.", "fin_size": "3-1/4\" x 3-1/4\" Alum.", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 50, "list_price_per_ft": 32.00, "weight_per_ft": 1.8, "max_length_ft": 12.5 },
+      { "catalog_number": "C143",   "tube_size": "1-1/4\" Cu.", "fin_size": "4-1/4\" x 4-1/4\" Alum.", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 32, "list_price_per_ft": 33.30, "weight_per_ft": 1.8, "max_length_ft": 12.5 },
+      { "catalog_number": "C144",   "tube_size": "1-1/4\" Cu.", "fin_size": "4-1/4\" x 4-1/4\" Alum.", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 40, "list_price_per_ft": 36.85, "weight_per_ft": 2.0, "max_length_ft": 12.5 },
+      { "catalog_number": "C145",   "tube_size": "1-1/4\" Cu.", "fin_size": "4-1/4\" x 4-1/4\" Alum.", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 50, "list_price_per_ft": 41.60, "weight_per_ft": 2.5, "max_length_ft": 12.5 },
+      { "catalog_number": "C1433",  "tube_size": "1-1/4\" Cu.", "fin_size": "3-5/8\" x 4-1/4\" Alum.", "fin_height_in": 3.625, "fin_depth_in": 4.25, "fins_per_foot": 32, "list_price_per_ft": 30.55, "weight_per_ft": 1.6, "max_length_ft": 12.5 },
+      { "catalog_number": "C1434",  "tube_size": "1-1/4\" Cu.", "fin_size": "3-5/8\" x 4-1/4\" Alum.", "fin_height_in": 3.625, "fin_depth_in": 4.25, "fins_per_foot": 40, "list_price_per_ft": 34.00, "weight_per_ft": 1.8, "max_length_ft": 12.5 },
+      { "catalog_number": "C1435",  "tube_size": "1-1/4\" Cu.", "fin_size": "3-5/8\" x 4-1/4\" Alum.", "fin_height_in": 3.625, "fin_depth_in": 4.25, "fins_per_foot": 50, "list_price_per_ft": 38.15, "weight_per_ft": 2.0, "max_length_ft": 12.5 }
+    ]
+  },
+
+  "standard_commercial_steel": {
+    "_meta": {
+      "title": "Standard Commercial Steel Elements",
+      "compatible_enclosure_depths": ["A", "B"],
+      "length_rule": {
+        "type": "incremental",
+        "min_ft": 3.0,
+        "max_ft": 12.5,
+        "increment_in": 1
+      },
+      "shorter_length_surcharge_pct": 9,
+      "wall_thickness_note": "Suffix -024 = 0.024\" wall, -032 = 0.032\" wall",
+      "notes": [
+        "Elements manufactured in lengths from 3'0\" to 12'6\" in 1\" increments",
+        "Shorter lengths available — add 9% List per ft",
+        "List add 12% of total list price for tagging individual cartons"
+      ]
+    },
+    "elements": [
+      { "catalog_number": "S33-024", "pipe_size": "1\" IPS",    "fin_size": "3-1/4\" x 3-1/4\" Steel", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 32, "wall_thickness": "0.024", "list_price_per_ft": 32.55, "weight_per_ft": 4.2 },
+      { "catalog_number": "S33-032", "pipe_size": "1\" IPS",    "fin_size": "3-1/4\" x 3-1/4\" Steel", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 32, "wall_thickness": "0.032", "list_price_per_ft": 34.85, "weight_per_ft": 4.8 },
+      { "catalog_number": "S34-024", "pipe_size": "1\" IPS",    "fin_size": "3-1/4\" x 3-1/4\" Steel", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 40, "wall_thickness": "0.024", "list_price_per_ft": 35.30, "weight_per_ft": 4.8 },
+      { "catalog_number": "S34-032", "pipe_size": "1\" IPS",    "fin_size": "3-1/4\" x 3-1/4\" Steel", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 40, "wall_thickness": "0.032", "list_price_per_ft": 38.05, "weight_per_ft": 5.5 },
+      { "catalog_number": "S35-024", "pipe_size": "1\" IPS",    "fin_size": "3-1/4\" x 3-1/4\" Steel", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 50, "wall_thickness": "0.024", "list_price_per_ft": 40.70, "weight_per_ft": 5.5 },
+      { "catalog_number": "S35-032", "pipe_size": "1\" IPS",    "fin_size": "3-1/4\" x 3-1/4\" Steel", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 50, "wall_thickness": "0.032", "list_price_per_ft": 43.40, "weight_per_ft": 6.5 },
+      { "catalog_number": "S43-024", "pipe_size": "1\" IPS",    "fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 32, "wall_thickness": "0.024", "list_price_per_ft": 39.25, "weight_per_ft": 5.9 },
+      { "catalog_number": "S43-032", "pipe_size": "1\" IPS",    "fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 32, "wall_thickness": "0.032", "list_price_per_ft": 42.70, "weight_per_ft": 6.9 },
+      { "catalog_number": "S44-024", "pipe_size": "1\" IPS",    "fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 40, "wall_thickness": "0.024", "list_price_per_ft": 44.75, "weight_per_ft": 6.9 },
+      { "catalog_number": "S44-032", "pipe_size": "1\" IPS",    "fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 40, "wall_thickness": "0.032", "list_price_per_ft": 48.05, "weight_per_ft": 8.2 },
+      { "catalog_number": "S45-024", "pipe_size": "1\" IPS",    "fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 50, "wall_thickness": "0.024", "list_price_per_ft": 51.65, "weight_per_ft": 9.1 },
+      { "catalog_number": "S45-032", "pipe_size": "1\" IPS",    "fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 50, "wall_thickness": "0.032", "list_price_per_ft": 54.90, "weight_per_ft": 9.8 },
+      { "catalog_number": "S133-024","pipe_size": "1-1/4\" IPS","fin_size": "3-1/4\" x 3-1/4\" Steel", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 32, "wall_thickness": "0.024", "list_price_per_ft": 32.55, "weight_per_ft": 4.6 },
+      { "catalog_number": "S133-032","pipe_size": "1-1/4\" IPS","fin_size": "3-1/4\" x 3-1/4\" Steel", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 32, "wall_thickness": "0.032", "list_price_per_ft": 34.85, "weight_per_ft": 5.2 },
+      { "catalog_number": "S134-024","pipe_size": "1-1/4\" IPS","fin_size": "3-1/4\" x 3-1/4\" Steel", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 40, "wall_thickness": "0.024", "list_price_per_ft": 35.30, "weight_per_ft": 5.2 },
+      { "catalog_number": "S134-032","pipe_size": "1-1/4\" IPS","fin_size": "3-1/4\" x 3-1/4\" Steel", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 40, "wall_thickness": "0.032", "list_price_per_ft": 38.05, "weight_per_ft": 5.9 },
+      { "catalog_number": "S135-024","pipe_size": "1-1/4\" IPS","fin_size": "3-1/4\" x 3-1/4\" Steel", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 50, "wall_thickness": "0.024", "list_price_per_ft": 40.70, "weight_per_ft": 5.9 },
+      { "catalog_number": "S135-032","pipe_size": "1-1/4\" IPS","fin_size": "3-1/4\" x 3-1/4\" Steel", "fin_height_in": 3.25, "fin_depth_in": 3.25, "fins_per_foot": 50, "wall_thickness": "0.032", "list_price_per_ft": 43.40, "weight_per_ft": 6.9 },
+      { "catalog_number": "S143-024","pipe_size": "1-1/4\" IPS","fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 32, "wall_thickness": "0.024", "list_price_per_ft": 39.25, "weight_per_ft": 6.3 },
+      { "catalog_number": "S143-032","pipe_size": "1-1/4\" IPS","fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 32, "wall_thickness": "0.032", "list_price_per_ft": 42.70, "weight_per_ft": 7.3 },
+      { "catalog_number": "S144-024","pipe_size": "1-1/4\" IPS","fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 40, "wall_thickness": "0.024", "list_price_per_ft": 44.75, "weight_per_ft": 7.3 },
+      { "catalog_number": "S144-032","pipe_size": "1-1/4\" IPS","fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 40, "wall_thickness": "0.032", "list_price_per_ft": 48.05, "weight_per_ft": 8.6 },
+      { "catalog_number": "S145-024","pipe_size": "1-1/4\" IPS","fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 50, "wall_thickness": "0.024", "list_price_per_ft": 51.65, "weight_per_ft": 8.5 },
+      { "catalog_number": "S145-032","pipe_size": "1-1/4\" IPS","fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 50, "wall_thickness": "0.032", "list_price_per_ft": 54.90, "weight_per_ft": 10.2 },
+      { "catalog_number": "S242-024","pipe_size": "2\" IPS",    "fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 25, "wall_thickness": "0.024", "list_price_per_ft": 43.45, "weight_per_ft": 6.5 },
+      { "catalog_number": "S242-032","pipe_size": "2\" IPS",    "fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 25, "wall_thickness": "0.032", "list_price_per_ft": 45.80, "weight_per_ft": 7.4 },
+      { "catalog_number": "S243-024","pipe_size": "2\" IPS",    "fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 32, "wall_thickness": "0.024", "list_price_per_ft": 45.50, "weight_per_ft": 7.4 },
+      { "catalog_number": "S243-032","pipe_size": "2\" IPS",    "fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 32, "wall_thickness": "0.032", "list_price_per_ft": 48.70, "weight_per_ft": 8.4 },
+      { "catalog_number": "S244-024","pipe_size": "2\" IPS",    "fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 40, "wall_thickness": "0.024", "list_price_per_ft": 49.75, "weight_per_ft": 8.4 },
+      { "catalog_number": "S244-032","pipe_size": "2\" IPS",    "fin_size": "4-1/4\" x 4-1/4\" Steel", "fin_height_in": 4.25, "fin_depth_in": 4.25, "fins_per_foot": 40, "wall_thickness": "0.032", "list_price_per_ft": 54.05, "weight_per_ft": 9.7 }
+    ]
+  }
+}

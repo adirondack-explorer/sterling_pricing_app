@@ -1,0 +1,204 @@
+{
+  "_meta": {
+    "source": "Sterling Price Sheet C35R, Page 23",
+    "family": "Guardian",
+    "style_description": "Security enclosures — perforated steel, slope top (S) and flat top (F)",
+    "standard_lengths": "2' through 8' in 6\" increments",
+    "notes": [
+      "All Guardian enclosure assemblies require standard wall mounted 'B' ball bearing hangers",
+      "Enclosure prices do not include brackets, hangers, or backplate",
+      "14 GA. full perforation enclosures — Consult Factory",
+      "12 GA. full perforation enclosures — Consult Factory",
+      "12 GA. partial perforation: for orders 25 feet or less, Consult Factory for pricing",
+      "2\" intermediate joiner piece required at enclosure joints with full perforation; optional with partial perforation",
+      "Consult factory for type, availability and price of tamper resistant fasteners and drive tools (not included in pricing)",
+      "For Torx-Pin security stainless steel fasteners to secure accessories, consult factory",
+      "An offset of 4-3/8\" available by quote — Consult Factory (standard offset is B=5-5/16\")",
+      "Available in Stainless Steel — Consult Factory",
+      "No two-tone adder; no dampers listed for Guardian"
+    ],
+    "depth_codes": {
+      "B": "5-5/16\"",
+      "A_by_quote": "4-3/8\" (Consult Factory)"
+    },
+    "model_codes": {
+      "GS": "Guardian Security",
+      "B": "B offset (5-5/16\" depth)",
+      "S": "Slope top",
+      "F": "Flat top",
+      "12": "12\" height",
+      "18": "18\" height"
+    }
+  },
+
+  "models": [
+    {
+      "id": "GSBS-12",
+      "depth_label": "B",
+      "depth_in": "5-5/16",
+      "height_in": 12,
+      "top_style": "slope",
+      "available_gauges": ["14GA", "12GA"],
+      "prices_per_ft": {
+        "14GA_partial_perf": 79.45,
+        "14GA_full_perf": null,
+        "12GA_partial_perf": 94.05,
+        "12GA_full_perf": null
+      },
+      "weights_per_ft": {
+        "14GA_partial_perf": 5.1,
+        "12GA_partial_perf": 7.1
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 5.15,
+        "baked_metallic": 7.75
+      },
+      "accessories": {
+        "backplates": {
+          "partial_14GA_8ft_lengths": { "list_price_per_ft": 9.45, "weight_per_ft": 0.5 },
+          "full_14GA": { "list_price_per_ft": 25.10, "weight_per_ft": 3.1 }
+        },
+        "end_caps": {
+          "3in_14GA": { "list_price": 75.05, "weight_lb": 3.1 },
+          "2in_intermediate_joiner": { "list_price": 44.10, "weight_lb": 1.2, "note": "Required at joints with full perforation; optional with partial perforation" }
+        },
+        "wall_sleeves": {
+          "4in_14GA": { "list_price": 51.20, "weight_lb": 2.1, "note": "LH or RH" },
+          "6in_14GA": { "list_price": 55.15, "weight_lb": 3.1, "note": "LH or RH" },
+          "8_3_8in_14GA": { "list_price": 62.80, "weight_lb": 4.3, "note": "LH or RH" },
+          "support": { "list_price": 19.80, "weight_lb": 1.1, "note": "LH or RH" }
+        },
+        "corners": {
+          "inside_90_14GA": { "list_price": 156.45, "weight_lb": 10.2 },
+          "outside_90_14GA": { "list_price": 159.50, "weight_lb": 10.9 }
+        }
+      }
+    },
+    {
+      "id": "GSBS-18",
+      "depth_label": "B",
+      "depth_in": "5-5/16",
+      "height_in": 18,
+      "top_style": "slope",
+      "available_gauges": ["14GA", "12GA"],
+      "prices_per_ft": {
+        "14GA_partial_perf": 97.75,
+        "14GA_full_perf": null,
+        "12GA_partial_perf": 119.70,
+        "12GA_full_perf": null
+      },
+      "weights_per_ft": {
+        "14GA_partial_perf": 7.7,
+        "12GA_partial_perf": 10.8
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 5.35,
+        "baked_metallic": 7.95
+      },
+      "accessories": {
+        "backplates": {
+          "partial_14GA_8ft_lengths": { "list_price_per_ft": 9.45, "weight_per_ft": 0.5 },
+          "full_14GA": { "list_price_per_ft": 32.05, "weight_per_ft": 4.7 }
+        },
+        "end_caps": {
+          "3in_14GA": { "list_price": 81.20, "weight_lb": 4.1 },
+          "2in_intermediate_joiner": { "list_price": 51.20, "weight_lb": 1.9, "note": "Required at joints with full perforation; optional with partial perforation" }
+        },
+        "wall_sleeves": {
+          "4in_14GA": { "list_price": 58.45, "weight_lb": 2.7, "note": "LH or RH" },
+          "6in_14GA": { "list_price": 62.50, "weight_lb": 4.1, "note": "LH or RH" },
+          "8_3_8in_14GA": { "list_price": 71.35, "weight_lb": 6.5, "note": "LH or RH" },
+          "support": { "list_price": 20.95, "weight_lb": 1.3, "note": "LH or RH" }
+        },
+        "corners": {
+          "inside_90_14GA": { "list_price": 180.00, "weight_lb": 11.5 },
+          "outside_90_14GA": { "list_price": 185.40, "weight_lb": 12.5 }
+        }
+      }
+    },
+    {
+      "id": "GSBF-12",
+      "depth_label": "B",
+      "depth_in": "5-5/16",
+      "height_in": 12,
+      "top_style": "flat",
+      "available_gauges": ["14GA", "12GA"],
+      "prices_per_ft": {
+        "14GA_partial_perf": 79.45,
+        "14GA_full_perf": null,
+        "12GA_partial_perf": 94.05,
+        "12GA_full_perf": null
+      },
+      "weights_per_ft": {
+        "14GA_partial_perf": 5.2,
+        "12GA_partial_perf": 7.2
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 5.15,
+        "baked_metallic": 7.75
+      },
+      "accessories": {
+        "backplates": {
+          "partial_14GA_8ft_lengths": { "list_price_per_ft": 9.45, "weight_per_ft": 0.5 },
+          "full_14GA": { "list_price_per_ft": 25.10, "weight_per_ft": 3.1 }
+        },
+        "end_caps": {
+          "3in_14GA": { "list_price": 72.65, "weight_lb": 3.2 },
+          "2in_intermediate_joiner": { "list_price": 44.10, "weight_lb": 1.6, "note": "Required at joints with full perforation; optional with partial perforation" }
+        },
+        "wall_sleeves": {
+          "4in_14GA": { "list_price": 51.20, "weight_lb": 3.0, "note": "LH or RH" },
+          "6in_14GA": { "list_price": 55.15, "weight_lb": 3.2, "note": "LH or RH" },
+          "8_3_8in_14GA": { "list_price": 62.80, "weight_lb": 4.5, "note": "LH or RH" },
+          "support": { "list_price": 19.80, "weight_lb": 1.2, "note": "LH or RH" }
+        },
+        "corners": {
+          "inside_90_14GA": { "list_price": 156.45, "weight_lb": 10.4 },
+          "outside_90_14GA": { "list_price": 159.50, "weight_lb": 11.1 }
+        }
+      }
+    },
+    {
+      "id": "GSBF-18",
+      "depth_label": "B",
+      "depth_in": "5-5/16",
+      "height_in": 18,
+      "top_style": "flat",
+      "available_gauges": ["14GA", "12GA"],
+      "prices_per_ft": {
+        "14GA_partial_perf": 97.75,
+        "14GA_full_perf": null,
+        "12GA_partial_perf": 119.70,
+        "12GA_full_perf": null
+      },
+      "weights_per_ft": {
+        "14GA_partial_perf": 7.8,
+        "12GA_partial_perf": 10.0
+      },
+      "finish_adders_per_ft": {
+        "baked_powder": 5.35,
+        "baked_metallic": 7.95
+      },
+      "accessories": {
+        "backplates": {
+          "partial_14GA_8ft_lengths": { "list_price_per_ft": 9.45, "weight_per_ft": 0.5 },
+          "full_14GA": { "list_price_per_ft": 32.05, "weight_per_ft": 4.7 }
+        },
+        "end_caps": {
+          "3in_14GA": { "list_price": 81.20, "weight_lb": 4.2 },
+          "2in_intermediate_joiner": { "list_price": 51.20, "weight_lb": 2.1, "note": "Required at joints with full perforation; optional with partial perforation" }
+        },
+        "wall_sleeves": {
+          "4in_14GA": { "list_price": 58.45, "weight_lb": 4.0, "note": "LH or RH" },
+          "6in_14GA": { "list_price": 62.50, "weight_lb": 4.2, "note": "LH or RH" },
+          "8_3_8in_14GA": { "list_price": 71.35, "weight_lb": 6.7, "note": "LH or RH" },
+          "support": { "list_price": 20.95, "weight_lb": 1.5, "note": "LH or RH" }
+        },
+        "corners": {
+          "inside_90_14GA": { "list_price": 180.00, "weight_lb": 11.7 },
+          "outside_90_14GA": { "list_price": 185.55, "weight_lb": 12.7 }
+        }
+      }
+    }
+  ]
+}
